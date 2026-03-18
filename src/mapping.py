@@ -229,6 +229,7 @@ unm49_mapping = {
     "Kingdom of the Netherlands": "Western Europe",
     "Luxembourg": "Western Europe",
     "Monaco": "Western Europe",
+    "Austria": "Western Europe",
 
     # Southern Europe
     "Spain": "Southern Europe",
@@ -385,4 +386,10 @@ unm49_mapping = {
     "Enoch Cree Nation #440": "Others",
     "British Overseas Territories citizen": "Others",
     "": "Others"
+}
+
+gender_mapping = {
+    "female": "Female", "male": "Male", "trans woman": "GenderQueer", "genderfluid": "GenderQueer", "non-binary": "GenderQueer",
+    "intersex woman": "GenderQueer", "trans man": "GenderQueer", "demiboy": "GenderQueer", "bigender": "GenderQueer",
+    "transgender": "GenderQueer", "kathoey": "GenderQueer", "intersex": "GenderQueer","third gender": "GenderQueer"
 }
