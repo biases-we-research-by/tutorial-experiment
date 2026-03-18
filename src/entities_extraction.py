@@ -13,15 +13,15 @@ OUTPUT_FILE = "../entities/directors.jsonl"
 BATCH_SIZE = 50
 MAX_RETRIES = 5
 DELAY_BETWEEN_BATCHES = 0.2  # seconds
-
+Qid = 'Q3455803'
 # -----------------------------
 # STEP 1 — Get 20k director QIDs
 # -----------------------------
 print("Querying SPARQL for 20,000 directors...")
-query = """
-SELECT ?person WHERE {
-  ?person wdt:P106 wd:Q3455803 .
-}
+query = f"""
+SELECT ?person WHERE {{
+  ?person wdt:P106 wd:{Qid} .
+}}
 LIMIT 20000
 """
 response = requests.get(SPARQL_ENDPOINT, params={"query": query}, headers=HEADERS, timeout=60)
