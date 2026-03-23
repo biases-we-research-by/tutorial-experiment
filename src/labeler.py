@@ -5,7 +5,7 @@ from collections import Counter
 
 
 
-class Pareto:
+class Labeler:
     def __init__(self):
         pass
 

@@ -3,7 +3,8 @@ import json
 import time
 import os
 from typing import Dict,List
-
+import pandas as pd
+from tqdm import tqdm
 import logging as log
 
 log.basicConfig(
@@ -29,17 +30,26 @@ class WikidataExtractor:
             }
 
         self.api_headers = {
-            "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            "User-Agent":"MyApp/1.0 (marcoantonio.stranisci@unito.it)"
             }
         
 
-    def extract_entities(self, prop:str, cl:str,limit=20_000,offset=0):
-        query = f"""
-            SELECT ?entity WHERE {{
-            ?entity wdt:{prop} wd:{cl} .
-            }}
-            LIMIT {limit} OFFSET {offset}
-            """
+    def extract_entities(self, prop:str, cl:str,limit=None,offset=0):
+        if limit:
+            query = f"""
+                SELECT ?entity WHERE {{
+                ?entity wdt:{prop} wd:{cl} .
+                }}
+                LIMIT {limit} OFFSET {offset}
+                """
+        else:
+            query = f"""
+                SELECT ?entity WHERE {{
+                ?entity wdt:{prop} wd:{cl} .
+                }}
+                
+                """
+
         try:
             response = requests.get(self.sprql, params={"query": query}, headers=self.sparql_headers, timeout=60)
             response.raise_for_status()
@@ -52,22 +62,40 @@ class WikidataExtractor:
             log.info(e)
             return None
     
-    def _find_claims(self,entities:List[str]):
-        
-        wd_params =  {
-            'format':'json',
-            'action':'wbgetentities',
-            'ids':'{}'.format('|'.join(entities)),
-            'props':'claims|labels|sitelinks'}
-        
-        response = requests.get(self.wdapi,params=wd_params,headers=self.api_headers,timeout=30)
 
-        try:
-            result = response.json()
-            return result
-        except Exception as e:
-            log.info("Error: {e}. Returning None")
-            return None
+    def _find_claims(self, entities: List[str], retries: int = 3, backoff: float = 1.5):
+        
+        wd_params = {
+            'format': 'json',
+            'action': 'wbgetentities',
+            'ids': '|'.join(entities),
+            'props': 'claims|labels|sitelinks'
+        }
+
+        attempt = 0
+        while attempt < retries:
+            try:
+                response = requests.get(
+                    self.wdapi,
+                    params=wd_params,
+                    headers=self.api_headers,
+                    timeout=30
+                )
+
+                response.raise_for_status()  # catches HTTP errors (4xx, 5xx)
+
+                return response.json()
+
+            except (requests.RequestException, ValueError) as e:
+                attempt += 1
+
+                if attempt >= retries:
+                    log.info(f"{getattr(response, 'status_code', 'N/A')}. Error: {e}. Returning None")
+                    return None
+
+                sleep_time = backoff ** attempt
+                log.warning(f"Attempt {attempt} failed: {e}. Retrying in {sleep_time:.1f}s...")
+                time.sleep(sleep_time)
     
     def _count_claims(self,entity_claims):
         i = 0
@@ -93,13 +121,15 @@ class WikidataExtractor:
         for p in target_prop:
             props = list()
             for cl in entity_claims[p]:
-                claim = cl['mainsnak']['datavalue']['value']
-                if 'id' in claim:
-                    props.append(claim['id'])
-                elif 'time' in claim:
-                    props.append(claim['time'])
-                else:
-                    props.append(claim.keys())
+                try:
+                    claim = cl['mainsnak']['datavalue']['value']
+                    if 'id' in claim:
+                        props.append(claim['id'])
+                    elif 'time' in claim:
+                        props.append(claim['time'])
+                    else:
+                        props.append(claim)
+                except Exception as e: log.info(f"Error: {e}")
             claims[p] = props
         
         return claims
@@ -107,58 +137,80 @@ class WikidataExtractor:
     def _get_labels(self,entity_claims:Dict,langs:List[str]):
         labels = list()
         for lang in langs:
-            if lang in entity_claims['labels']:
-                labels.append(entity_claims['labels'][lang])
-            else:
-                labels.append({"language":lang,"value":None})
+            try:
+                if lang in entity_claims['labels']:
+                    labels.append(entity_claims['labels'][lang])
+                else:
+                    labels.append({"language":lang,"value":None})
+            except Exception as e:
+                log.info(f"Error: {e}")
         
         return labels
     
     def _get_wpages(self,entity_claims:Dict,editions:List[str]):
         sites = list()
-        print(entity_claims.keys())
         for ed in editions:
-            if ed in entity_claims['sitelinks']:
-                sites.append({'site': ed, 'title': entity_claims['sitelinks'][ed]['title']})
-                
-            else:
-                sites.append({'site':ed,"title":None})
+            try:
+                if ed in entity_claims['sitelinks']:
+                    sites.append({'site': ed, 'title': entity_claims['sitelinks'][ed]['title']})
+                    
+                else:
+                    sites.append({'site':ed,"title":None})
+            except Exception as e:
+                log.info(f"Error: {e}")
         
         return sites
     
+    def save_file(self,data,path,format):
+        if format == 'json':
+            with open(path,'w') as f:
+                json.dump(data,f)
+        elif format == 'csv':
+            pd.DataFrame(data).to_csv(path,index=False)
+    
     
 
-    def get_claims(self,ents:List[str],target_claims:List[str],langs:List[str]=['en'],editions:List[str]=['enwiki']):
-
-        my_entities = list()
-        entities = self._find_claims(ents)
-        print(entities.keys())
-        if entities is not None:
-            log.info(f"processing {len(entities['entities'])} entities")
-            for ent in entities['entities']:
-                d = dict()
-                d['entity'] = ent
-                all_claims = entities['entities'][ent]['claims']
-                tot,ext = self._count_claims(all_claims)
-                ent_claims = self._get_claims(all_claims,target_claims)
-
-                labels = self._get_labels(entities['entities'][ent],langs)
-                sites = self._get_wpages(entities['entities'][ent],editions)
-                
-                d['total_claims'] = tot
-                d['external_ids'] = ext
-                d['entity_claims'] = ent_claims
-                d['labels'] = labels
-                d['wpages'] = sites
-
-                log.info(f"finished processing entity {ent}. Appending...")
-                
-                my_entities.append(d)
-                
-
+    def extract_all_entities(self,
+                             ents:List[str],
+                             target_claims:List[str],
+                             langs:List[str]=['en'],
+                             editions:List[str]=['enwiki'],
+                             format:str=None,
+                             path:str=None):
         
+        size = 50
+        entities = [ents[i:i + size] for i in range(0, len(ents), size)]
+        extracted_entities = list()
+        for ent_batch in tqdm(entities):
+            tmp = list()
+            ents = self._find_claims(ent_batch)
+            if ents is not None:
+                log.info(f"processing {len(ents['entities'])} entities")
+                for ent in ents['entities']:
+                    d = dict()
+                    d['entity'] = ent
+                    all_claims = ents['entities'][ent]['claims']
+                    tot,ext = self._count_claims(all_claims)
+                    ent_claims = self._get_claims(all_claims,target_claims)
 
-        return my_entities
+                    labels = self._get_labels(ents['entities'][ent],langs)
+                    sites = self._get_wpages(ents['entities'][ent],editions)
+                    
+                    d['total_claims'] = tot
+                    d['external_ids'] = ext
+                    d['entity_claims'] = ent_claims
+                    d['labels'] = labels
+                    d['wpages'] = sites
+
+                    log.info(f"finished processing entity {ent}. Appending...")
+                    
+                    tmp.append(d)
+            extracted_entities.extend(tmp)
+
+        if path:
+            self.save_file(extracted_entities,path,format)
+                
+        return extracted_entities
 
 
 
