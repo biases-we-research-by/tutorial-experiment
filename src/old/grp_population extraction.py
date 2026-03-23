@@ -4,7 +4,7 @@ import warnings
 from urllib3.exceptions import NotOpenSSLWarning
 warnings.simplefilter("ignore", NotOpenSSLWarning)
 
-df = pd.read_csv("/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Models.csv")  # Replace with your CSV path
+df = pd.read_csv("/Models.csv")  # Replace with your CSV path
 
 # GRP and population extractio
 def get_qid(country):
