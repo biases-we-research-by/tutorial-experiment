@@ -600,3 +600,43 @@ hdi_mapping = {
     "Korea (Democratic People’s Rep. of)": "Others",
     "Monaco": "Others"
 }
+
+
+# mappings.py
+
+def generation_mapping(dob_string):
+    """
+    Mappa una stringa data di nascita (formato Wikidata/ISO) in una generazione.
+    Esempio input: "+1968-08-26T00:00:00Z"
+    """
+    if not dob_string or not isinstance(dob_string, str) or dob_string == "":
+        return "Unknown"
+
+    try:
+        # Estrae l'anno (i primi 5 caratteri includono il segno + o -, quindi prendiamo i primi 5 e convertiamo)
+        # Esempio: "+1968" -> 1968
+        year = int(dob_string[:5])
+
+        if 2025 <= year <= 2039:
+            return "Generation Beta"
+        elif 2010 <= year <= 2024:
+            return "Generation Alpha"
+        elif 1995 <= year <= 2009:
+            return "Generation Z"
+        elif 1981 <= year <= 1994:
+            return "Millennials"
+        elif 1965 <= year <= 1980:
+            return "Generation X"
+        elif 1946 <= year <= 1964:
+            return "Baby Boomers"
+        elif 1925 <= year <= 1945:
+            return "Silent Generation"
+        elif 1901 <= year <= 1924:
+            return "Greatest Generation"
+        elif year < 1901:
+            return "Pre-Greatest Generation"
+        else:
+            return "Future/Unknown"
+
+    except (ValueError, IndexError):
+        return "Unknown"

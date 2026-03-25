@@ -2,14 +2,12 @@ import os
 import json
 import pandas as pd
 import ast
-from mapping import unm49_mapping
+from mapping import unm49_mapping, generation_mapping, hdi_mapping
 
 BASE_DIR = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/raw data"
+OUTPUT_DIR = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"
 
 
-# -----------------------
-# Utility
-# -----------------------
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -39,9 +37,7 @@ def process_category(cat_path, cat_name):
     entities = load_json(entity_json_path)
     #unm49_mapping = load_json(unm49_path)
 
-    # -----------------------
-    # COUNTRY MAP
-    # -----------------------
+
     country_map = {}
     for c in countries:
         qid = c["entity"]
@@ -62,10 +58,17 @@ def process_category(cat_path, cat_name):
     for e in entities:
         qid = e["entity"]
 
+        def safe_first(d, key):
+            values = d.get(key, [])
+            return values[0] if values else None
+
+        claims = e.get("entity_claims", {})
+
+        dob = safe_first(claims, "P569")
         rows.append({
             "qid": qid,
             "label": extract_label(e["labels"]),
-            "date_of_birth": e.get("entity_claims", {}).get("P569", [None])[0],
+            "date_of_birth": safe_first(claims, "P569"),
             "total_claims": e.get("total_claims"),
             "external_ids": e.get("external_ids")
         })
@@ -76,8 +79,8 @@ def process_category(cat_path, cat_name):
     # PARETO
     # -----------------------
     pareto = pd.read_csv(pareto_path)
-    pareto["qid"] = pareto["entity"].apply(lambda x: ast.literal_eval(x)["entity"])
-    pareto = pareto[["qid", "c_claims", "pareto_ext"]]
+    pareto["qid"] = pareto["entity"]
+    pareto = pareto[["qid", "pareto_claims", "pareto_ext"]]
 
     df = df.merge(pareto, on="qid", how="left")
 
@@ -87,7 +90,10 @@ def process_category(cat_path, cat_name):
     cit_path = os.path.join(cat_path, "P27.csv")
     if os.path.exists(cit_path):
         cit = pd.read_csv(cit_path)
-        cit.columns = ["qid", "citizenship"]
+        if len(cit.columns) == 2:
+            cit.columns = ["qid", "citizenship"]
+        else:
+            cit.columns = ["qid", "citizenship","countryLabel","continent","unm49_mapping","hdi"]
 
         df = df.merge(cit, on="qid", how="left")
         df["citizenship_label"] = df["citizenship"].map(country_map)
@@ -99,23 +105,47 @@ def process_category(cat_path, cat_name):
     if os.path.exists(pob_path):
         pob = pd.read_csv(pob_path)
 
+        if "countryLabel" in pob.columns:
+            pob = pob.rename(columns={"countryLabel": "birth_country_label"})
+        if "hdi" in pob.columns:
+            pob = pob.rename(columns={"hdi": "birth_hdi"})
+        if "unm49_mapping" in pob.columns:
+            pob = pob.rename(columns={"unm49_mapping": "birth_unm49"})
         pob = pob.rename(columns={
             "entity": "qid",
-            "country": "pob_country",
-            "countryLabel": "place_of_birth_country_label",
-            "hdi": "place_of_birth_country_label_hdi"
+            "country": "birth_country",
         })
 
-        df = df.merge(
-            pob[[
-                "qid",
-                "pob_country",
-                "place_of_birth_country_label",
-                "place_of_birth_country_label_hdi"
-            ]],
-            on="qid",
-            how="left"
-        )
+        if "birth_country_label" not in pob.columns:
+            pob["birth_country_label"] = pob["birth_country"].map(country_map)
+        if  "birth_unm49" not in pob.columns:
+            pob["birth_unm49"] = pob["birth_country_label"].map(unm49_mapping)
+        if  "birth_hdi" not in pob.columns:
+            pob["birth_hdi"] = pob["birth_country_label"].map(hdi_mapping)
+
+        if "birth_country_label" in pob.columns and "birth_hdi" in pob.columns and "birth_unm49" in pob.columns:
+            df = df.merge(
+                pob[[
+                    "qid",
+                    "birth_country",
+                    "birth_country_label",
+                    "birth_hdi",
+                    "birth_unm49"
+                ]],
+                on="qid",
+                how="left"
+            )
+        else:
+            df = df.merge(
+                pob[[
+                    "qid",
+                    "birth_country",
+                ]],
+                on="qid",
+                how="left"
+            )
+
+
 
     # -----------------------
     # EDUCATED AT (P69 + LABEL ISTITUTO)
@@ -124,28 +154,51 @@ def process_category(cat_path, cat_name):
 
     if os.path.exists(edu_path):
         edu = pd.read_csv(edu_path)
-
+        print("1", edu.columns)
+        if "countryLabel" in edu.columns:
+            edu = edu.rename(columns={"countryLabel": "edu_country_label"})
+        if "hdi" in edu.columns:
+            edu = edu.rename(columns={"hdi": "edu_hdi"})
+        if "unm49_mapping" in edu.columns:
+            edu = edu.rename(columns={"unm49_mapping": "edu_unm49"})
         edu = edu.rename(columns={
             "entity": "qid",
-            "P69": "educated_at_qid",
             "country": "edu_country",
-            "countryLabel": "educated_at_country_label",
-            "hdi": "educated_at_country_label_hdi"
         })
+        print("2", edu.columns)
+        if "edu_country_label" not in edu.columns:
+            edu["edu_country_label"] = edu["edu_country"].map(country_map)
+        print("3", edu.columns)
+        if  "edu_nm49" not in edu.columns:
+            edu["edu_nm49"] = edu["edu_country_label"].map(unm49_mapping)
+        print("4", edu.columns)
+        if  "edu_hdi" not in edu.columns:
+            edu["edu_hdi"] = edu["edu_country_label"].map(hdi_mapping)
+        print("5", edu.columns)
 
-        # 🔥 aggiungi label istituto
-        edu["educated_at_label"] = edu["educated_at_qid"].map(country_map)
 
-        df = df.merge(
-            edu[[
-                "qid",
-                "educated_at_label",
-                "educated_at_country_label",
-                "educated_at_country_label_hdi"
-            ]],
-            on="qid",
-            how="left"
-        )
+        if "edu_country_label" in edu.columns or "edu_hdi" in edu.columns or "edu_nm49" in edu.columns:
+            df = df.merge(
+                edu[[
+                    "qid",
+                    "edu_country",
+                    "edu_country_label",
+                    "edu_nm49",
+                    "edu_hdi",
+                ]],
+                on="qid",
+                how="left"
+            )
+        else:
+            df = df.merge(
+                edu[[
+                    "qid",
+                    "edu_country",
+                ]],
+                on="qid",
+                how="left"
+            )
+        print("6", df.columns)
 
     # -----------------------
     # GENDER
@@ -179,8 +232,14 @@ def process_category(cat_path, cat_name):
     # -----------------------
     # UNM49 MAPPING
     # -----------------------
-    if "place_of_birth_country_label" in df.columns:
-        df["unm49"] = df["place_of_birth_country_label"].map(unm49_mapping)
+    #if "birth_country_label" in df.columns:
+        #df["birth_unm49"] = df["birth_country_label"].map(unm49_mapping)
+
+    #if "educated_at_country_label" in df.columns:
+        #df["edu_unm49"] = df["educated_at_country_label"].map(unm49_mapping)
+
+    if "date_of_birth" in df.columns:
+        df["generation"] = df["date_of_birth"].map(generation_mapping)
 
     # -----------------------
     # CLEANING
@@ -204,26 +263,31 @@ def process_category(cat_path, cat_name):
         "gender",
         "citizenship",
         "citizenship_label",
-        "pob_country",
-        "place_of_birth_country_label",
-        "place_of_birth_country_label_hdi",
-        "unm49",
-        "educated_at_label",
-        "educated_at_country_label",
-        "educated_at_country_label_hdi",
+        "birth_country",
+        "birth_country_label",
+        "birth_hdi",
+        "birth_unm49",
+        "edu_country",
+        "edu_country_label",
+        "edu_hdi",
+        "edu_nm49",
         "date_of_birth",
+        "generation",
         "total_claims",
         "external_ids",
         "c_claims",
-        "pareto_ext"
+        "pareto_ext",
+        "pareto_claims"
     ]
+
+
 
     df = df[[col for col in final_columns if col in df.columns]]
 
     # -----------------------
     # SAVE
     # -----------------------
-    output_path = os.path.join(cat_path, f"/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/raw data/{cat_name}_final.csv")
+    output_path = os.path.join(cat_path, f"/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data/{cat_name}.csv")
     df.to_csv(output_path, index=False)
 
     print(f"Saved: {output_path}")
@@ -234,10 +298,24 @@ def process_category(cat_path, cat_name):
 # RUN
 # -----------------------
 def main():
+    already_processed = {
+        os.path.splitext(f)[0]
+        for f in os.listdir(OUTPUT_DIR)
+        if f.endswith(".csv")
+    }
+
     for category in os.listdir(BASE_DIR):
-        print(category)
         cat_path = os.path.join(BASE_DIR, category)
 
+        if not os.path.isdir(cat_path):
+            continue
+
+        if category in already_processed:
+            print(f"Skipping category '{category}': file CSV già esistente.")
+            continue
+        print(f"Processing folder: {category}...")
+
+        cat_path = os.path.join(BASE_DIR, category)
         if os.path.isdir(cat_path):
             process_category(cat_path, category)
 
