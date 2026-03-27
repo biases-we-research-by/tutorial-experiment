@@ -613,8 +613,6 @@ def generation_mapping(dob_string):
         return "Unknown"
 
     try:
-        # Estrae l'anno (i primi 5 caratteri includono il segno + o -, quindi prendiamo i primi 5 e convertiamo)
-        # Esempio: "+1968" -> 1968
         year = int(dob_string[:5])
 
         if 2025 <= year <= 2039:
@@ -636,7 +634,48 @@ def generation_mapping(dob_string):
         elif year < 1901:
             return "Pre-Greatest Generation"
         else:
-            return "Future/Unknown"
+            return "Unknown"
 
     except (ValueError, IndexError):
         return "Unknown"
+
+
+label_maps = {
+    "birth_hdi": {
+        "Very high human development": "Very high HDI",
+        "High human development": "High HDI",
+        "Medium human development": "Medium HDI",
+        "Low human development": "Low HDI"
+    },
+    "birth_unm49": {
+        "Northern America": "N. America",
+        "Northern Europe": "N. Europe",
+        "Western Europe": "W. Europe",
+        "Eastern Europe": "E. Europe",
+        "South Europe": "S. Europe",
+        "Latin America and the Caribbean": "LatAm & Caribbean",
+        "Sub-Saharan Africa": "Sub-Saharan Africa",
+        "Northern Africa": "N. Africa",
+        "Middle Africa": "Mid. Africa",
+        "Western Africa": "W. Africa",
+        "Southern Africa": "S. Africa",
+        "Eastern Africa": "E. Africa",
+        "Southern Europe": "S. Europe",
+        "Europe and Northern America": "Europe & N. America",
+        "Eastern and South-Eastern Asia": "E. & SE Asia",
+        "South-eastern Asia": "SE Asia",
+        "Central and Southern Asia": "Central & S. Asia",
+        "Western Asia": "W. Asia",
+        "Southern Asia": "S. Asia",
+        "Australia and New Zealand": "Australia & NZ",
+    },
+    "generation": {
+        "Generation Beta": "gen. Beta",
+        "Generation Alpha": "gen. Alpha",
+        "Generation Z": "gen. Z",
+        "Generation X": "gen. X",
+        "Silent Generation": "Silent gen.",
+        "Greatest Generation": "Greatest gen.",
+        "Pre-Greatest Generation": "Pre-Greatest gen."
+    }
+}

@@ -217,11 +217,11 @@ def process_category(cat_path, cat_name):
         gender_map = {
             "Q6581097": "male",
             "Q6581072": "female",
-            "Q48270": "other",
-            "Q121307094": "other",
-            "Q2449503": "other",
-            "Q1052281": "other",
-            "Q189125": "other"
+            "Q48270": "genderQueer",
+            "Q121307094": "genderQueer",
+            "Q2449503": "genderQueer",
+            "Q1052281": "genderQueer",
+            "Q189125": "genderQueer"
         }
 
         gender["gender"] = gender["gender_qid"].map(gender_map)

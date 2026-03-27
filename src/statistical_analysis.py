@@ -10,10 +10,10 @@ input_folder = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/
 output_folder = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/statistical results"
 
 variables = [
-    "birth_unm49",
-    "generation",
+    #"birth_unm49",
+    #"generation",
     "gender",
-    "birth_hdi"
+    #"birth_hdi"
 ]
 
 def kruskal_effect_size(H, n, k):
@@ -100,13 +100,13 @@ for file in os.listdir(input_folder):
                 "Latin America and the Caribbean": "LatAm & Caribbean",
                 "Sub-Saharan Africa": "Sub-Saharan Africa",
                 "Middle Africa": "Mid. Africa",
-                "Western Africa": "West Africa",
+                "Western Africa": "W. Africa",
                 "Southern Europe": "South Europe",
                 "Europe and Northern America": "Europe & N. America",
-                "Eastern and South-Eastern Asia": "E & SE Asia",
+                "Eastern and South-Eastern Asia": "E. & SE Asia",
                 "South-eastern Asia": "SE Asia",
                 "Central and Southern Asia": "Central & S. Asia",
-                "Western Asia": "West Asia",
+                "Western Asia": "W. Asia",
                 "Australia and New Zealand": "Australia & NZ",
                 # aggiungi quelli che ti servono
             }
@@ -127,14 +127,21 @@ for file in os.listdir(input_folder):
 
         fig, axes = plt.subplots(1, 3, figsize=(22, 5))
 
-        # 1. Log boxplot
+        # Compute counts
+        counts = data[var].value_counts()
+
+        # Create new labels with counts
+        new_labels = [f"{cat}\n(n={counts[cat]})" for cat in order]
+
         sns.boxplot(
             data=data, x=var, y="log_claims",
             order=order, hue=var,
-            palette=palette, legend=False,
+            palette=palette,
             showfliers=False,
             ax=axes[0]
         )
+
+        axes[0].set_xticklabels(new_labels)
         axes[0].set_title("Log distribution")
 
         # 2. Mean + CI
