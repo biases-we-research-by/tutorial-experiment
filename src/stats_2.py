@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import statsmodels.formula.api as smf
 from mapping import label_maps
 
-# === CONFIG ===
 input_folder = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"
 output_folder = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/statistical results2"
 
@@ -26,7 +25,6 @@ label_maps = label_maps
 for var in variables:
     os.makedirs(os.path.join(output_folder, var), exist_ok=True)
 
-# === LOOP FILE ===
 for file in os.listdir(input_folder):
     if not file.endswith(".csv"):
         continue
@@ -37,12 +35,10 @@ for file in os.listdir(input_folder):
 
     print(f"Processing {dataset_name}")
 
-    # === LOOP VARIABILI ===
     for var in variables:
         if var not in df.columns:
             continue
 
-        # === PREP DATA ===
         cols = [var, "total_claims"]
         if "pareto_claims" in df.columns:
             cols.append("pareto_claims")
@@ -55,9 +51,8 @@ for file in os.listdir(input_folder):
         if var in label_maps:
             data[var] = data[var].map(label_maps[var]).fillna(data[var])
 
-        # ===============================
-        # KRUSKAL
-        # ===============================
+# KRUSKAL sulle medie
+
         groups = [g["total_claims"].values for _, g in data.groupby(var) if len(g) > 1]
         if len(groups) < 2:
             continue
@@ -67,26 +62,19 @@ for file in os.listdir(input_folder):
         k = len(groups)
         eta2 = kruskal_effect_size(H, n, k)
 
-        # ===============================
-        # BINARIZZAZIONE HEAD
-        # ===============================
+# Chi-square tra head and tail (pareto claims)
         has_pareto = "pareto_claims" in data.columns
 
         if has_pareto:
             data["is_head"] = (data["pareto_claims"] == "head").astype(int)
 
-        # ===============================
-        # CHI-SQUARE
-        # ===============================
         chi2_p = None
         if has_pareto:
             contingency = pd.crosstab(data[var], data["pareto_claims"])
             if contingency.shape[0] > 1 and contingency.shape[1] > 1:
                 chi2, chi2_p, _, _ = chi2_contingency(contingency)
 
-        # ===============================
-        # LOGISTIC REGRESSION
-        # ===============================
+# logistic regression su head and claim
         if has_pareto:
             try:
                 # Remove rare categories
@@ -104,9 +92,6 @@ for file in os.listdir(input_folder):
                 print(f"Logit failed for {var} in {dataset_name}: {e}")
                 odds_ratios = None
 
-        # ===============================
-        # TABELLA AGGREGATA
-        # ===============================
         if has_pareto:
             summary = data.groupby(var).agg(
                 mean_claims=("total_claims", "mean"),
@@ -121,13 +106,10 @@ for file in os.listdir(input_folder):
                 count=("total_claims", "size")
             ).reset_index()
 
-        # ===============================
-        # DISTRIBUZIONE HEAD vs LONG
-        # ===============================
+# Distribuzione head vs claim
         if has_pareto:
             # Crea crosstab
             dist_plot = pd.crosstab(data[var], data["pareto_claims"])
-            # Ordina per numero di head decrescente
             dist_plot = dist_plot.sort_values(by="head", ascending=False)
 
             # Plot stacked bar con conteggi assoluti
@@ -169,9 +151,7 @@ for file in os.listdir(input_folder):
         else:
             result_row.to_csv(summary_global_path, index=False)
 
-        # ===============================
-        # PREP PLOT BOX + SCATTER
-        # ===============================
+# PLOTS
         data["log_claims"] = np.log1p(data["total_claims"])
         data = data[data[var].map(data[var].value_counts()) >= 10]
         if data.empty:
@@ -185,13 +165,11 @@ for file in os.listdir(input_folder):
         )
         palette = sns.color_palette("Set2", n_colors=len(order))
 
-        # PLOT BOX + SCATTER
         fig, axes = plt.subplots(1, 2, figsize=(16, 5))
 
         counts = data[var].value_counts()
         new_labels = [f"{cat}\n(n={counts[cat]})" for cat in order]
 
-        # BOXPLOT
         sns.boxplot(
             data=data, x=var, y="log_claims",
             order=order, hue=var,
@@ -204,7 +182,6 @@ for file in os.listdir(input_folder):
         axes[0].set_xticklabels(new_labels)
         axes[0].set_title("Log distribution")
 
-        # SCATTER
         if has_pareto:
             sns.scatterplot(
                 data=summary,
@@ -231,7 +208,6 @@ for file in os.listdir(input_folder):
         for ax in axes:
             ax.tick_params(axis='x', rotation=90)
 
-        # SAVE BOX + SCATTER
         plot_path = os.path.join(output_folder, var, f"{dataset_name}.png")
         plt.tight_layout()
         plt.savefig(plot_path)
