@@ -2,7 +2,7 @@ import os
 import json
 import pandas as pd
 import ast
-from mapping import unm49_mapping, generation_mapping, hdi_mapping
+from mapping import unm49_mapping, generation_mapping, hdi_mapping, gender_mapping
 
 BASE_DIR = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/raw data"
 OUTPUT_DIR = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"
@@ -221,7 +221,8 @@ def process_category(cat_path, cat_name):
             "Q121307094": "genderQueer",
             "Q2449503": "genderQueer",
             "Q1052281": "genderQueer",
-            "Q189125": "genderQueer"
+            "Q189125": "genderQueer",
+            "Q138806924": "genderQueer"
         }
 
         gender["gender"] = gender["gender_qid"].map(gender_map)

@@ -31,6 +31,23 @@ for file in os.listdir(input_folder):
 
     filepath = os.path.join(input_folder, file)
     df = pd.read_csv(filepath)
+
+    # -----------------------------
+    # FILTER: date_of_birth > 1808
+    # -----------------------------
+    if "date_of_birth" in df.columns:
+        # Rimuove il "+" iniziale (formato Wikidata)
+        df["date_of_birth"] = df["date_of_birth"].astype(str).str.replace("+", "", regex=False)
+
+        # Parsing esplicito (molto più veloce e sicuro)
+        df["date_of_birth"] = pd.to_datetime(
+            df["date_of_birth"],
+            format="%Y-%m-%dT%H:%M:%SZ",
+            errors="coerce"
+        )
+        print(df["date_of_birth"].head())
+        df = df[df["date_of_birth"].dt.year > 1808]
+
     dataset_name = file.replace(".csv", "")
 
     print(f"Processing {dataset_name}")
@@ -39,12 +56,14 @@ for file in os.listdir(input_folder):
         if var not in df.columns:
             continue
 
-        cols = [var, "total_claims"]
+        required_cols = [var, "total_claims"]
+
         if "pareto_claims" in df.columns:
-            cols.append("pareto_claims")
+            required_cols.append("pareto_claims")
 
-        data = df[cols].dropna()
+        data = df[required_cols].dropna(subset=required_cols).copy()
 
+        data = data[data[var].str.strip().str.lower() != "others"]
         if data.empty:
             continue
 

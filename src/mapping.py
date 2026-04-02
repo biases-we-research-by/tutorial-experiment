@@ -391,7 +391,7 @@ unm49_mapping = {
 gender_mapping = {
     "female": "Female", "male": "Male", "trans woman": "GenderQueer", "genderfluid": "GenderQueer", "non-binary": "GenderQueer",
     "intersex woman": "GenderQueer", "trans man": "GenderQueer", "demiboy": "GenderQueer", "bigender": "GenderQueer",
-    "transgender": "GenderQueer", "kathoey": "GenderQueer", "intersex": "GenderQueer","third gender": "GenderQueer"
+    "transgender": "GenderQueer", "kathoey": "GenderQueer", "intersex": "GenderQueer","third gender": "GenderQueer", "intersex trans man": "GenderQueer"
 }
 
 hdi_mapping = {
@@ -470,6 +470,8 @@ hdi_mapping = {
     "Trinidad and Tobago": "Very high human development",
     "Mauritius": "Very high human development",
     "Bosnia and Herzegovina": "Very high human development",
+    "Korea (Democratic People’s Rep. of)": "Very high human development",
+    "Monaco": "Very high human development",
 
     # High human development
     "Iran (Islamic Republic of)": "High human development",
@@ -594,11 +596,8 @@ hdi_mapping = {
     "Chad": "Low human development",
     "Central African Republic": "Low human development",
     "Somalia": "Low human development",
-    "South Sudan": "Low human development",
+    "South Sudan": "Low human development"
 
-    # Others
-    "Korea (Democratic People’s Rep. of)": "Others",
-    "Monaco": "Others"
 }
 
 
@@ -610,7 +609,7 @@ def generation_mapping(dob_string):
     Esempio input: "+1968-08-26T00:00:00Z"
     """
     if not dob_string or not isinstance(dob_string, str) or dob_string == "":
-        return "Unknown"
+        return ""
 
     try:
         year = int(dob_string[:5])
@@ -634,10 +633,10 @@ def generation_mapping(dob_string):
         elif year < 1901:
             return "Pre-Greatest Generation"
         else:
-            return "Unknown"
+            return ""
 
     except (ValueError, IndexError):
-        return "Unknown"
+        return ""
 
 
 label_maps = {
@@ -649,6 +648,7 @@ label_maps = {
     },
     "birth_unm49": {
         "Northern America": "N. America",
+        "South America": "S. America",
         "Northern Europe": "N. Europe",
         "Western Europe": "W. Europe",
         "Eastern Europe": "E. Europe",

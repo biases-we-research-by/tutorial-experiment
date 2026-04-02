@@ -10,7 +10,7 @@ from sklearn.linear_model import LogisticRegression
 INPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"
 
 # Cartella output
-OUTPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/statistical results/Logistic Regression results"
+OUTPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Logistic Regression results"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # Variabili da usare
@@ -27,6 +27,19 @@ def analyze_file(file_path):
     df = df[cols_needed]
 
     df = df.dropna()
+
+    if "date_of_birth" in df.columns:
+        # Rimuove il "+" iniziale (formato Wikidata)
+        df["date_of_birth"] = df["date_of_birth"].astype(str).str.replace("+", "", regex=False)
+
+        # Parsing esplicito (molto più veloce e sicuro)
+        df["date_of_birth"] = pd.to_datetime(
+            df["date_of_birth"],
+            format="%Y-%m-%dT%H:%M:%SZ",
+            errors="coerce"
+        )
+        print(df["date_of_birth"].head())
+        df = df[df["date_of_birth"].dt.year > 1808]
 
     # Target binario: head=1, long=0
     df["pareto_claims"] = df["pareto_claims"].map({
@@ -54,7 +67,12 @@ def analyze_file(file_path):
     # 6. MODELLO LOGISTICO
     # ============================
 
-    model = LogisticRegression(max_iter=1000)
+    model = LogisticRegression(
+        max_iter=1000,
+        penalty="l1",
+        solver="liblinear",
+        C=0.1
+    )
     model.fit(X, y)
 
     # ============================
@@ -68,6 +86,12 @@ def analyze_file(file_path):
 
     # Ordina per importanza
     coefficients = coefficients.sort_values(by="Coefficient")
+
+    THRESHOLD = 0.05  # puoi regolarlo
+
+    coefficients = coefficients[
+        coefficients["Coefficient"].abs() > THRESHOLD
+        ]
 
 
     file_name = os.path.basename(file_path).replace(".csv", "")
