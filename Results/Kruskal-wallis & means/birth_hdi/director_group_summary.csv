@@ -1,0 +1,5 @@
+birth_hdi,mean_claims,median_claims,head_ratio,count
+High HDI,61.76923076923077,42.0,0.7692307692307693,13
+Low HDI,22.0,22.0,0.0,2
+Medium HDI,48.8,64.0,0.6,5
+Very high HDI,89.98039215686275,71.0,0.8921568627450981,102
