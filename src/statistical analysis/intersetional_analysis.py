@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 
 INPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"
-OUTPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Intersectional Logistic Regression"
+OUTPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Results/Intersectional Logistic Regression"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # --- Variabili intersezionali ---
@@ -34,6 +34,36 @@ def intersectional_logistic(file_path):
             errors="coerce"
         )
         df = df[df["date_of_birth"].dt.year > 1808]
+
+    # 5. Crea variabile intersezionale (UNA SOLA VOLTA, qui)
+    df["intersection"] = df[CATEGORICAL_VARS].astype(str).agg("_".join, axis=1)
+
+    # 6. Conteggi
+    counts = df["intersection"].value_counts()
+
+    # --- Quartile robusto ---
+    import numpy as np
+
+    q1_threshold = np.percentile(counts.values, 25)
+    q1_threshold = int(np.floor(q1_threshold))  # evita problemi float
+
+    print(f"\nQuartile 1 (Q1) soglia (arrotondata): {q1_threshold}")
+
+    # --- Filtro ---
+    valid_intersections = counts[counts > q1_threshold].index
+    df = df[df["intersection"].isin(valid_intersections)]
+
+    print(f"Intersezioni totali: {len(counts)}")
+    print(f"Intersezioni mantenute (>Q1): {len(valid_intersections)}")
+
+    # Check sicurezza
+    if df.empty:
+        print("Nessuna intersezione valida")
+        return
+
+    if df["intersection"].nunique() < 2:
+        print("⚠️ Una sola intersezione dopo filtro → skip categoria")
+        return
 
     # 4. Target binario: head=1, long=0
     df["pareto_claims"] = df["pareto_claims"].map({
@@ -76,56 +106,86 @@ def intersectional_logistic(file_path):
         "Count": [counts.get(x, 0) for x in X.columns.str.replace("intersection_", "")]
     })
 
+    # 10. Selezione top intersezioni (senza threshold fisso)
 
-    # 10. Selezione intersezioni rilevanti secondo threshold
-    THRESHOLD = 0.5  # log-odds minimo da mostrare
-    coefficients_filtered = coefficients[coefficients["Coefficient"].abs() >= THRESHOLD]
+    TOP_K = 10  # puoi cambiarlo
 
+    # Ordina coefficienti
+    coefficients_sorted = coefficients.sort_values(by="Coefficient")
 
-    # Controllo se ci sono dati da mostrare
-    if coefficients_filtered.empty:
-        print("⚠️ Nessuna intersezione supera il threshold, salto plot per questo file.")
+    # Top negativi (LONG)
+    top_long = coefficients_sorted.head(TOP_K)
+
+    # Top positivi (HEAD)
+    top_head = coefficients_sorted.tail(TOP_K)
+
+    # Combina
+    coefficients_plot = pd.concat([top_long, top_head])
+
+    # Se per qualche motivo è vuoto
+    if coefficients_plot.empty:
+        print("⚠️ Nessuna intersezione disponibile per il plot")
         return
 
-    coefficients_filtered = coefficients_filtered.sort_values(by="Coefficient", ascending=True)
+    # --------------------------
+    # Estrai intersezioni polarizzate per CSV
+    # --------------------------
+    polarized_intersections = coefficients_plot["Intersection"].tolist()
 
-    # --- Seleziona le due intersezioni più polarizzate ---
-    top_head_intersections = coefficients_filtered.sort_values(by="Coefficient", ascending=False)["Intersection"].head(
-        1).tolist()
-    top_long_intersections = coefficients_filtered.sort_values(by="Coefficient", ascending=True)["Intersection"].head(
-        1).tolist()
-
-    # Combina tutte le intersezioni da estrarre
-    polarized_intersections = top_head_intersections + top_long_intersections
-
-    # Filtra DF originale (quello con valori pieni e date > 1808)
-    df_polarized = df[df["intersection"].isin(polarized_intersections)]
+    df_polarized = df[df["intersection"].isin(polarized_intersections)].copy()
 
     # Seleziona solo colonne richieste
-    df_polarized = df_polarized[["qid", "label", "total_claims", "pareto_claims"]]
+    cols = ["qid", "label", "total_claims", "pareto_claims", "intersection"]
+    cols = [c for c in cols if c in df_polarized.columns]
+
+    df_polarized = df_polarized[cols]
 
     # Salva CSV
-    output_csv_polarized = os.path.join(OUTPUT_FOLDER, f"{file_name}_polarized_entities.csv")
+    output_csv_polarized = os.path.join(
+        OUTPUT_FOLDER, f"{file_name}_polarized_entities.csv"
+    )
     df_polarized.to_csv(output_csv_polarized, index=False)
+
     print(f"✔ CSV polarizzate salvato in: {output_csv_polarized}")
 
-    # 11. Salva CSV
-    output_csv = os.path.join(OUTPUT_FOLDER, f"{file_name}_intersectional_coefficients.csv")
-    coefficients_filtered.to_csv(output_csv, index=False)
+    # --------------------------
+    # Salva coefficienti COMPLETI (non filtrati!)
+    # --------------------------
+    output_csv = os.path.join(
+        OUTPUT_FOLDER, f"{file_name}_intersectional_coefficients.csv"
+    )
+    coefficients.to_csv(output_csv, index=False)
+
     print(f"✔ Coefficienti salvati in: {output_csv}")
 
+    # --------------------------
+    # Plot
+    # --------------------------
+    plt.figure(figsize=(10, max(6, len(coefficients_plot) * 0.5)))
 
-    # 12. Plot
-    plt.figure(figsize=(10, max(6, len(coefficients_filtered) * 0.5)))
-    plt.barh(coefficients_filtered["Intersection"], coefficients_filtered["Coefficient"], color="skyblue")
+    # Ordina per visualizzazione
+    coefficients_plot = coefficients_plot.sort_values(by="Coefficient")
+
+    # Label con count (molto utile!)
+    labels = [
+        f"{i} (n={c})"
+        for i, c in zip(coefficients_plot["Intersection"], coefficients_plot["Count"])
+    ]
+
+    plt.barh(labels, coefficients_plot["Coefficient"])
     plt.axvline(x=0, color="black", linewidth=0.8)
-    plt.xlabel("Effetto log-odds sulla probabilità di essere HEAD")
-    plt.title(f"Intersectional Logistic Regression - {file_name}")
+
+    plt.xlabel("Log-odds (HEAD)")
+    plt.title(f"Top Intersection Effects - {file_name}")
+
     plt.tight_layout()
 
-    plot_path = os.path.join(OUTPUT_FOLDER, f"{file_name}_intersectional_plot.png")
+    plot_path = os.path.join(
+        OUTPUT_FOLDER, f"{file_name}_intersectional_plot.png"
+    )
     plt.savefig(plot_path)
     plt.close()
+
     print(f"✔ Plot salvato in: {plot_path}")
 
 # --------------------------

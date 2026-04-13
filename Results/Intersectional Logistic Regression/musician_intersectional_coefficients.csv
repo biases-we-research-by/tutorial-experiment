@@ -1,0 +1,187 @@
+Intersection,Coefficient,Count
+Australia and New Zealand_female_Millennials,0.0,14
+Australia and New Zealand_male_Baby Boomers,0.20092342345840575,60
+Australia and New Zealand_male_Generation X,0.0,43
+Australia and New Zealand_male_Generation Z,0.0,11
+Australia and New Zealand_male_Millennials,0.0,32
+Australia and New Zealand_male_Silent Generation,0.0,15
+Caribbean_male_Baby Boomers,0.0,66
+Caribbean_male_Generation X,0.0,42
+Caribbean_male_Generation Z,0.0,10
+Caribbean_male_Greatest Generation,0.0,15
+Caribbean_male_Millennials,0.0,18
+Caribbean_male_Pre-Greatest Generation,0.0,9
+Caribbean_male_Silent Generation,0.0,38
+Central America_male_Baby Boomers,0.0,42
+Central America_male_Generation X,0.0,35
+Central America_male_Generation Z,0.0,8
+Central America_male_Greatest Generation,0.0,17
+Central America_male_Millennials,0.0,16
+Central America_male_Pre-Greatest Generation,0.0,7
+Central America_male_Silent Generation,0.0,28
+Central Asia_female_Generation X,0.0,10
+Central Asia_male_Baby Boomers,0.0,17
+Central Asia_male_Generation X,0.0,16
+Central Asia_male_Millennials,0.0,17
+Central Asia_male_Silent Generation,0.0,17
+Eastern Africa_female_Generation Z,0.0,10
+Eastern Africa_female_Millennials,0.0,8
+Eastern Africa_male_Millennials,0.0,23
+Eastern Asia_female_Baby Boomers,0.0,25
+Eastern Asia_female_Generation X,0.0,33
+Eastern Asia_female_Generation Z,0.0,14
+Eastern Asia_female_Millennials,0.0,44
+Eastern Asia_female_Silent Generation,0.0,8
+Eastern Asia_male_Baby Boomers,0.30597043275635655,186
+Eastern Asia_male_Generation X,0.3158595952675782,239
+Eastern Asia_male_Generation Z,0.0,29
+Eastern Asia_male_Greatest Generation,0.0,21
+Eastern Asia_male_Millennials,0.0,85
+Eastern Asia_male_Pre-Greatest Generation,0.0,8
+Eastern Asia_male_Silent Generation,0.0,38
+Eastern Europe_female_Baby Boomers,-0.5681576579427281,111
+Eastern Europe_female_Generation X,-0.295609554278097,81
+Eastern Europe_female_Generation Z,0.0,24
+Eastern Europe_female_Greatest Generation,0.0,38
+Eastern Europe_female_Millennials,0.0,92
+Eastern Europe_female_Pre-Greatest Generation,0.0,51
+Eastern Europe_female_Silent Generation,-0.0606738717780869,60
+Eastern Europe_male_Baby Boomers,-0.48202109632359896,782
+Eastern Europe_male_Generation X,-0.4698668500002719,737
+Eastern Europe_male_Generation Z,0.0,72
+Eastern Europe_male_Greatest Generation,-0.2539370360097427,327
+Eastern Europe_male_Millennials,-0.5596650378970649,355
+Eastern Europe_male_Pre-Greatest Generation,0.0,320
+Eastern Europe_male_Silent Generation,-0.4038814995772679,517
+Middle Africa_male_Baby Boomers,0.0,13
+Middle Africa_male_Millennials,0.0,8
+Northern Africa_male_Baby Boomers,0.0,48
+Northern Africa_male_Generation X,0.0,15
+Northern Africa_male_Greatest Generation,0.0,22
+Northern Africa_male_Millennials,0.0,7
+Northern Africa_male_Pre-Greatest Generation,0.0,8
+Northern Africa_male_Silent Generation,0.0,25
+Northern America_female_Baby Boomers,0.7950345647408398,146
+Northern America_female_Generation X,0.0,158
+Northern America_female_Generation Z,0.0,58
+Northern America_female_Greatest Generation,0.0,86
+Northern America_female_Millennials,0.0,100
+Northern America_female_Pre-Greatest Generation,0.0,63
+Northern America_female_Silent Generation,0.2781908686492884,91
+Northern America_male_Baby Boomers,1.390525843165475,1215
+Northern America_male_Generation X,0.8623569770391744,1024
+Northern America_male_Generation Z,0.021060055046937132,191
+Northern America_male_Greatest Generation,1.4513954402072349,474
+Northern America_male_Millennials,0.5938175353265224,487
+Northern America_male_Pre-Greatest Generation,0.3285447547948907,213
+Northern America_male_Silent Generation,1.6459913927319014,971
+Northern Europe_female_Baby Boomers,0.0,63
+Northern Europe_female_Generation X,0.0,102
+Northern Europe_female_Generation Z,0.0,25
+Northern Europe_female_Greatest Generation,0.0,30
+Northern Europe_female_Millennials,0.0,102
+Northern Europe_female_Pre-Greatest Generation,0.0,42
+Northern Europe_female_Silent Generation,0.0,26
+Northern Europe_male_Baby Boomers,0.5161333424276695,853
+Northern Europe_male_Generation X,0.41252541724733616,754
+Northern Europe_male_Generation Z,0.0,62
+Northern Europe_male_Greatest Generation,0.0,158
+Northern Europe_male_Millennials,0.0,292
+Northern Europe_male_Pre-Greatest Generation,0.0,257
+Northern Europe_male_Silent Generation,0.5986214574962864,324
+Others_female_Baby Boomers,0.0,9
+Others_female_Generation X,0.0,16
+Others_female_Millennials,0.0,7
+Others_female_Pre-Greatest Generation,0.0,7
+Others_female_Silent Generation,0.0,9
+Others_male_Baby Boomers,-0.24835666942754997,96
+Others_male_Generation X,0.0,61
+Others_male_Generation Z,0.0,10
+Others_male_Greatest Generation,0.0,15
+Others_male_Millennials,0.0,47
+Others_male_Pre-Greatest Generation,0.0,31
+Others_male_Silent Generation,0.0,33
+South America_female_Baby Boomers,0.0,30
+South America_female_Generation X,0.0,35
+South America_female_Generation Z,0.0,8
+South America_female_Greatest Generation,0.0,10
+South America_female_Millennials,0.0,36
+South America_female_Silent Generation,0.0,11
+South America_male_Baby Boomers,-0.45610214063062426,392
+South America_male_Generation X,-0.5959998075532646,325
+South America_male_Generation Z,0.0,33
+South America_male_Greatest Generation,0.0,112
+South America_male_Millennials,-0.667455878925003,157
+South America_male_Pre-Greatest Generation,0.0,51
+South America_male_Silent Generation,-0.12972120801273285,205
+South-eastern Asia_female_Baby Boomers,0.0,11
+South-eastern Asia_female_Generation Z,0.0,7
+South-eastern Asia_female_Millennials,0.0,8
+South-eastern Asia_male_Baby Boomers,-0.3273582525926773,47
+South-eastern Asia_male_Generation X,-0.9213154540425049,89
+South-eastern Asia_male_Generation Z,0.0,16
+South-eastern Asia_male_Greatest Generation,0.0,12
+South-eastern Asia_male_Millennials,-0.7183703136755162,67
+South-eastern Asia_male_Silent Generation,0.0,34
+Southern Africa_female_Generation X,0.0,8
+Southern Africa_male_Baby Boomers,0.0,15
+Southern Africa_male_Generation X,-0.0949388588159396,31
+Southern Africa_male_Generation Z,0.0,9
+Southern Africa_male_Millennials,0.0,30
+Southern Africa_male_Silent Generation,0.0,10
+Southern Asia_male_Baby Boomers,0.0,47
+Southern Asia_male_Generation X,0.0,38
+Southern Asia_male_Generation Z,0.0,31
+Southern Asia_male_Greatest Generation,0.0,20
+Southern Asia_male_Millennials,0.0,43
+Southern Asia_male_Pre-Greatest Generation,0.0,7
+Southern Asia_male_Silent Generation,0.0,49
+Southern Europe_female_Baby Boomers,0.0,24
+Southern Europe_female_Generation X,0.0,33
+Southern Europe_female_Generation Z,0.0,19
+Southern Europe_female_Greatest Generation,0.0,20
+Southern Europe_female_Millennials,0.0,35
+Southern Europe_female_Pre-Greatest Generation,0.0,8
+Southern Europe_female_Silent Generation,0.0,10
+Southern Europe_male_Baby Boomers,0.0,371
+Southern Europe_male_Generation X,0.0,348
+Southern Europe_male_Generation Z,0.0,31
+Southern Europe_male_Greatest Generation,0.0,145
+Southern Europe_male_Millennials,-0.04127932447124561,136
+Southern Europe_male_Pre-Greatest Generation,0.0,217
+Southern Europe_male_Silent Generation,0.0,178
+Western Africa_female_Generation X,0.0,11
+Western Africa_female_Generation Z,0.0,10
+Western Africa_female_Millennials,0.0,9
+Western Africa_male_Baby Boomers,0.0,34
+Western Africa_male_Generation X,0.0,33
+Western Africa_male_Generation Z,0.0,41
+Western Africa_male_Millennials,0.0,52
+Western Africa_male_Silent Generation,0.0,20
+Western Asia_female_Baby Boomers,0.0,28
+Western Asia_female_Generation X,0.0,29
+Western Asia_female_Generation Z,0.0,9
+Western Asia_female_Greatest Generation,0.0,12
+Western Asia_female_Millennials,0.0,34
+Western Asia_female_Silent Generation,0.0,18
+Western Asia_male_Baby Boomers,-0.28479863817388007,139
+Western Asia_male_Generation X,0.0,190
+Western Asia_male_Generation Z,0.0,23
+Western Asia_male_Greatest Generation,0.0,42
+Western Asia_male_Millennials,0.0,118
+Western Asia_male_Pre-Greatest Generation,0.0,29
+Western Asia_male_Silent Generation,0.0,108
+Western Europe_female_Baby Boomers,0.4433471623131478,83
+Western Europe_female_Generation X,0.3195760830421397,94
+Western Europe_female_Generation Z,0.0,30
+Western Europe_female_Greatest Generation,0.04086268234311833,57
+Western Europe_female_Millennials,0.0,76
+Western Europe_female_Pre-Greatest Generation,0.0,72
+Western Europe_female_Silent Generation,0.0,46
+Western Europe_male_Baby Boomers,1.3276563597632862,880
+Western Europe_male_Generation X,0.8332839325044821,740
+Western Europe_male_Generation Z,0.0,60
+Western Europe_male_Greatest Generation,0.5673764922915508,287
+Western Europe_male_Millennials,0.07860111536859903,211
+Western Europe_male_Pre-Greatest Generation,0.3440242670990671,436
+Western Europe_male_Silent Generation,1.1822883369164168,420

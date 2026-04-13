@@ -1,0 +1,83 @@
+qid,label,total_claims,pareto_claims,intersection
+Q10306512,Jean-Claude Bernardet,62,1,Western Europe_male_Silent Generation
+Q1063855,Charles Burns,114,1,Northern America_male_Baby Boomers
+Q1064794,Charles Henri Ford,85,1,Northern America_male_Greatest Generation
+Q115754,José Giovanni,114,1,Western Europe_male_Greatest Generation
+Q117859364,Henri Roanne,26,0,Western Europe_male_Silent Generation
+Q1236131,Jean-Louis Fournier,72,1,Western Europe_male_Silent Generation
+Q12587853,Kim Su-yong,56,1,Eastern Asia_male_Silent Generation
+Q129851,Kenan Görgün,48,1,Western Europe_male_Generation X
+Q1325374,Yoshiyuki Tomino,92,1,Eastern Asia_male_Silent Generation
+Q1354247,Oscar Micheaux,102,1,Northern America_male_Pre-Greatest Generation
+Q1377923,Garson Kanin,133,1,Northern America_male_Greatest Generation
+Q1408040,Frank D. Gilroy,90,1,Northern America_male_Silent Generation
+Q15126096,Chris D.,60,1,Northern America_male_Baby Boomers
+Q157303,Georges Perec,205,1,Western Europe_male_Silent Generation
+Q16192627,Allison Burnett,56,1,Northern America_male_Baby Boomers
+Q16214602,Steven Craig Zahler,71,1,Northern America_male_Generation X
+Q1706840,Joseph Delmont,71,1,Western Europe_male_Pre-Greatest Generation
+Q1971984,Stephen Gaghan,90,1,Northern America_male_Generation X
+Q2055700,Pasquale Festa Campanile,106,1,Southern Europe_male_Silent Generation
+Q2058690,Paul Almond,70,1,Northern America_male_Silent Generation
+Q207676,Frank Miller,169,1,Northern America_male_Baby Boomers
+Q20945387,Anton Alexandrovič Utkin,31,1,Others_male_Generation X
+Q234621,Susanna Tamaro,150,1,Southern Europe_female_Baby Boomers
+Q2531955,Melvin Van Peebles,134,1,Northern America_male_Silent Generation
+Q262479,Samuel Fuller,167,1,Northern America_male_Greatest Generation
+Q2748268,Mário Peixoto,46,1,Western Europe_male_Greatest Generation
+Q27535449,luvan,39,1,Western Europe_female_Generation X
+Q2830623,Alan Zweibel,83,1,Northern America_male_Baby Boomers
+Q2840603,Alvin Rakoff,83,1,Northern America_male_Silent Generation
+Q2926486,Bruce Wagner,79,1,Northern America_male_Baby Boomers
+Q298025,Joss Whedon,217,1,Northern America_male_Baby Boomers
+Q301632,Aaron Allston,63,1,Northern America_male_Baby Boomers
+Q3107029,Nikos Nikolaidis,63,1,Southern Europe_male_Silent Generation
+Q312637,Curzio Malaparte,225,1,Southern Europe_male_Pre-Greatest Generation
+Q3139384,Holly Goldberg Sloan,73,1,Northern America_female_Baby Boomers
+Q3167155,Jean-Luc Gaget,47,1,Western Europe_male_Baby Boomers
+Q3189195,Julie Dash,86,1,Northern America_female_Baby Boomers
+Q3293710,Marisa Silver,53,1,Northern America_female_Baby Boomers
+Q330527,Abraham Polonsky,88,1,Northern America_male_Greatest Generation
+Q3310796,Michel Régnier,37,1,Western Europe_male_Silent Generation
+Q3345892,Noël Simsolo,78,1,Western Europe_male_Silent Generation
+Q335080,Makoto Shinkai,182,1,Eastern Asia_male_Generation X
+Q3426592,René Manzor,62,1,Western Europe_male_Baby Boomers
+Q3426783,René Pujol,70,1,Western Europe_male_Pre-Greatest Generation
+Q3554302,Valérie Mréjen,82,1,Western Europe_female_Generation X
+Q365682,Gordon Parks,234,1,Northern America_male_Greatest Generation
+Q36792018,William J. Cowen,23,0,Northern America_male_Pre-Greatest Generation
+Q40323983,François Gall,27,0,Western Europe_male_Greatest Generation
+Q449801,Cristina Comencini,113,1,Southern Europe_female_Baby Boomers
+Q4679649,Adam Rapp,63,1,Northern America_male_Generation X
+Q472734,Raymond Abrashkin,58,1,Northern America_male_Greatest Generation
+Q4993107,Thomas Dixon Jr.,111,1,Northern America_male_Pre-Greatest Generation
+Q505626,Jean-Jacques Beineix,130,1,Western Europe_male_Baby Boomers
+Q50713,Jean Renoir,247,1,Western Europe_male_Pre-Greatest Generation
+Q50764,Éric Rohmer,247,1,Western Europe_male_Greatest Generation
+Q5082435,Charles Sellier,54,1,Northern America_male_Silent Generation
+Q5208169,Daedalus Howell,20,0,Northern America_male_Generation X
+Q5213567,Dan Glaser,22,0,Northern America_male_Millennials
+Q540784,William Peter Blatty,161,1,Northern America_male_Silent Generation
+Q551772,Christophe Honoré,101,1,Western Europe_male_Generation X
+Q5544685,George Solomos,18,0,Northern America_male_Silent Generation
+Q5586626,Gorman Bechard,51,1,Northern America_male_Baby Boomers
+Q601527,Hassan Blasim,71,1,Western Asia_male_Generation X
+Q6106101,J. J. Lask,19,0,Northern America_male_Generation X
+Q6167893,Jayne Loader,41,1,Northern America_female_Baby Boomers
+Q6171522,Jean Smith,29,1,Northern America_female_Baby Boomers
+Q625721,Arambilet,38,1,Western Europe_male_Baby Boomers
+Q6285389,Joseph Matheny,22,0,Northern America_male_Baby Boomers
+Q632079,Arch Oboler,69,1,Northern America_male_Greatest Generation
+Q6801613,Sinan Antoon,66,1,Western Asia_male_Generation X
+Q706016,Quentin Lee,36,1,Eastern Asia_male_Generation X
+Q7328753,Richard Rossi,39,1,Northern America_male_Baby Boomers
+Q7364854,Ronald Fair,40,1,Northern America_male_Silent Generation
+Q7487831,Shan Serafin,22,0,Northern America_male_Millennials
+Q764105,Emilio Ghione,59,1,Southern Europe_male_Pre-Greatest Generation
+Q82276834,Raoul Vergez,27,0,Western Europe_male_Greatest Generation
+Q8312,Nicholas Meyer,140,1,Northern America_male_Silent Generation
+Q84011,David Bezmozgis,80,1,Others_male_Generation X
+Q87120,Peter Stephan Jungk,67,1,Northern America_male_Baby Boomers
+Q90929,Benjamin Heisenberg,83,1,Western Europe_male_Generation X
+Q981256,Alexandre Astruc,121,1,Western Europe_male_Greatest Generation
+Q991720,Bruce Manning,51,1,Northern America_male_Greatest Generation
