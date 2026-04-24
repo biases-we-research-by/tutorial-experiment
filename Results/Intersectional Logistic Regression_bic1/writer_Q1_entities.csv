@@ -1,0 +1,556 @@
+qid,label,intersection,head_intersection,pareto_claims,total_claims
+Q100258900,Ghaniyya Bouhouia,Northern Africa_female_Millennials,,0,14
+Q100748114,Tula Marina di Vista,Middle Africa_female_Pre-Greatest Generation,,1,29
+Q101087922,Dubai Abulhoul,Western Asia_female_Generation Z,,0,17
+Q101242250,Shurika Hansen,Eastern Africa_female_Millennials,,0,10
+Q101437886,Davina Itoo,Eastern Africa_female_Millennials,,1,22
+Q101478158,Irène Josianne Ngouhada,Middle Africa_female_Generation X,,1,22
+Q102073069,Rosebell Kagumire,Eastern Africa_female_Millennials,,1,26
+Q102078342,Saida Hagi-Dirie Herzi,Eastern Africa_female_Baby Boomers,,0,13
+Q102320873,Hamis Kiggundu,Eastern Africa_male_Millennials,,1,28
+Q10303796,Isabel Ferreira,Middle Africa_female_Baby Boomers,,0,18
+Q10323924,Manuel Alves Bastos Botelho da Costa,Middle Africa_male_Pre-Greatest Generation,,0,14
+Q103786614,Stuti Changle,Southern Asia_female_Generation Z,,0,9
+Q103817607,Chloe Gong,Eastern Asia_female_Generation Z,,1,53
+Q103838943,Sybille Claude,Caribbean_female_Millennials,,0,13
+Q103838944,Martine Fidèle,Caribbean_female_Millennials,,0,19
+Q103838945,René Noyau,Eastern Africa_male_Greatest Generation,,1,25
+Q10387078,Uanhenga Xitu,Middle Africa_male_Greatest Generation,,1,39
+Q104501343,Varsha Yaduvanshi,Southern Asia_female_Generation Z,,0,14
+Q104598122,Muhammadu Bello Kagara,Western Africa_male_Pre-Greatest Generation,,0,18
+Q104918190,Antonio Nugaz,Eastern Africa_male_Millennials,,1,22
+Q105725361,Aisha Salaudeen,Western Africa_female_Millennials,,1,21
+Q105839419,Mabel Burns McKinley,Caribbean_female_Pre-Greatest Generation,,1,31
+Q105882943,Najiba Al-Aasal,Northern Africa_female_Greatest Generation,,0,12
+Q106032830,Faridah Nabaggala,Eastern Africa_female_Generation X,,0,12
+Q106464296,Masande Ntshanga,Southern Africa_male_Millennials,,0,14
+Q106544711,Erico Lucas Kneubühler,South America_male_Generation Z,,0,12
+Q106604018,Olga Lishchuk,Central Asia_female_Generation X,,0,16
+Q106645162,Mouad Moutaoukil,Northern Africa_male_Generation Z,,1,28
+Q106677655,Noha Behman,Northern Africa_female_Millennials,,0,14
+Q106695596,Marie Lissouck,Middle Africa_female_Baby Boomers,,1,21
+Q106782652,Jennifer Padjemi,Western Africa_female_Millennials,,0,20
+Q106812102,Mohammed El-Kurd,Western Asia_male_Generation Z,,1,38
+Q107264144,Stacey Fru,Southern Africa_female_Generation Z,,0,12
+Q107313674,Kevin Jared Hosein,Caribbean_male_Millennials,,0,13
+Q107582515,Odette Habiyakare,Eastern Africa_female_Generation X,,0,16
+Q107638467,sara shehata,Northern Africa_female_Millennials,,0,14
+Q107653742,noura nagi,Northern Africa_female_Millennials,,0,16
+Q107861320,Divino B'Atista,South America_male_Generation Z,,1,122
+Q107915135,Suraj Sani,Western Africa_male_Generation Z,,1,26
+Q107972546,Douglas Izuchukwu Ozooigboanugo,Western Africa_male_Generation Z,,0,15
+Q108144608,Trina de Moya,Caribbean_female_Pre-Greatest Generation,,0,12
+Q108178477,Armaan Damani,Northern America_male_Generation Z,,0,11
+Q108409287,,Northern Africa_female_Millennials,,0,8
+Q108449328,Alfred Bonsergent,Eastern Africa_male_Pre-Greatest Generation,,0,19
+Q108486488,Mohamed hossam,Northern Africa_male_Generation Z,,0,11
+Q108516491,Fred Mfuranzima,Eastern Africa_male_Generation Z,,0,9
+Q108557979,Diary Sow,Western Africa_female_Generation Z,,1,22
+Q108653226,Khder Mahmoud,Western Asia_male_Generation Z,,0,12
+Q108890160,Alfonsina Mesa,South America_female_Generation Z,,0,17
+Q109303558,Laurent Maurice Lafontant,Caribbean_male_Millennials,,1,26
+Q109641208,Ihsan El-Kousy,Northern Africa_female_Pre-Greatest Generation,,0,7
+Q109777332,Werá Kunumi,South America_male_Generation Z,,0,9
+Q109784472,Fernanda Regina Ferreira dos Santos,South America_female_Generation Z,,1,155
+Q109785124,Barbara,South America_female_Generation Z,,0,8
+Q109982248,Hector Angelo,South America_male_Generation Z,,0,10
+Q110764024,Tamara Klink,South America_female_Generation Z,,1,28
+Q110929755,Mireille Vincendon,Northern Africa_female_Greatest Generation,,0,11
+Q111301494,Stella Engama,Middle Africa_female_Baby Boomers,,1,25
+Q111352310,Jessica Nazaire,Caribbean_female_Generation Z,,0,11
+Q111378870,Anacaona Moscoso Puello,Caribbean_female_Pre-Greatest Generation,,0,9
+Q111517476,Grace Bantebya Kyomuhendo,Eastern Africa_female_Baby Boomers,,1,39
+Q111940156,Julienne Zanga,Middle Africa_female_Generation X,,1,22
+Q112007047,Dilara Bilgiç,Western Asia_female_Generation Z,,1,27
+Q112299363,Laurence Camiglieri,Northern Africa_female_Greatest Generation,,0,13
+Q112544778,Michal Vlk,Others_male_Millennials,,0,18
+Q112668855,Rufaida Umar Ibrahim,Western Africa_female_Generation Z,,0,16
+Q112747832,Samuel Ojo,Western Africa_male_Generation Z,,0,14
+Q113103906,Mohammed Yahiya Azeez,Western Asia_male_Generation Z,,0,16
+Q113243491,Andrise Pierre,Caribbean_female_Millennials,,0,18
+Q113243498,Milady Auguste,Caribbean_female_Millennials,,0,14
+Q113243502,Katia D. Ulysse,Caribbean_female_Generation X,,0,14
+Q113243503,Négresse Colas,Caribbean_female_Generation Z,,0,10
+Q113243504,Jean Mino Paul,Caribbean_male_Millennials,,0,9
+Q113243507,Mirline Pierre,Caribbean_female_Millennials,,0,14
+Q113243511,Mehdi Chalmers,Caribbean_male_Millennials,,1,23
+Q113243517,Dieulermesson Petit Frère,Caribbean_male_Millennials,,0,19
+Q113243518,Wébert Charles,Caribbean_male_Millennials,,0,20
+Q113452721,Jéssica Macedo,South America_female_Generation Z,,0,11
+Q113559781,Prince Arnie Matoko,Middle Africa_male_Millennials,,0,16
+Q113954990,Benjamín Balbuena,Central America_male_Generation Z,,0,15
+Q114064719,,Central Asia_female_Millennials,,0,7
+Q114066820,Serkan Koçak,Western Asia_male_Generation Z,,0,13
+Q114099696,Diaf Bikryan,Middle Africa_male_Millennials,,0,13
+Q114510533,GUSTAVOEGATOTV,South America_male_Generation Z,,1,111
+Q114729346,Abimbola Olumuyiwa,Western Africa_female_Millennials,,0,14
+Q114773917,Abdulwahab Umar Bubayero,Western Africa_male_Generation Z,,0,14
+Q114832771,Arol Wright,South America_male_Generation Z,,1,35
+Q114915921,Carole Dingan Ndjambe,Middle Africa_female_Millennials,,0,12
+Q114917175,Marie-Félicité Ebokéa,Middle Africa_female_Baby Boomers,,1,30
+Q115099889,Aiko Adonia Pardika,South-eastern Asia_female_Generation Z,,1,28
+Q115107924,Muskaan Sofie,Southern Asia_female_Generation Z,,0,13
+Q115494621,Angeline Solange Bonono,Middle Africa_female_Generation X,,1,32
+Q115565424,Marie Claire Dati Sabze,Middle Africa_female_Baby Boomers,,1,23
+Q115595636,Novia Widyasari,South-eastern Asia_female_Generation Z,,0,14
+Q115598416,Camille Nkoa Atenga,Middle Africa_female_Silent Generation,,0,17
+Q115628112,Pulchérie Feupo,Middle Africa_female_Generation X,,0,18
+Q115628373,Lois Irène Nwaha,Middle Africa_female_Generation Z,,0,8
+Q115668879,Calissa Ikama,Middle Africa_female_Millennials,,0,16
+Q115681218,Eliah Thomas Chubiri,Eastern Africa_male_Generation Z,,0,14
+Q116196946,Charles Ndukauba,Western Africa_male_Generation Z,,1,21
+Q116687672,Güneş Tolon,Western Asia_male_Generation Z,,1,39
+Q116735027,Juan Viale Rigo,South America_male_Generation Z,,1,23
+Q116946129,Aliye Kendzhaliyeva,Central Asia_female_Millennials,,0,19
+Q117029056,Stéphana Dorval,Caribbean_female_Generation Z,,0,10
+Q117196888,Irène Fernande Ekouta,Middle Africa_female_Millennials,,0,10
+Q117196975,Armelle Touko,Middle Africa_female_Millennials,,0,15
+Q117210326,Melissa Beralus,Caribbean_female_Generation Z,,0,17
+Q117212756,,Western Africa_female_Millennials,,0,17
+Q117212815,Christiane Gbodui,Western Africa_female_Millennials,,0,9
+Q117218373,Danielle Eyango,Middle Africa_female_Millennials,,1,24
+Q117222261,Akiki Nyabongo,Eastern Africa_male_Greatest Generation,,0,15
+Q117274149,Sarah Rivens,Northern Africa_female_Generation Z,,1,25
+Q117383988,Élisabeth Yaoudam,Middle Africa_female_Millennials,,0,18
+Q117469867,Esther Bilounga,Middle Africa_female_Generation X,,0,16
+Q117470268,Jeannette Dounghagni-Momo,Middle Africa_female_Baby Boomers,,0,8
+Q118445306,Tomsuwa Assohame Winiga Elfried,Western Africa_female_Generation Z,,0,16
+Q118499671,Myriam Dahman,Northern Africa_female_Millennials,,1,53
+Q11888346,Pjotr Silajev,Others_male_Millennials,,0,16
+Q119068960,Thérèse Karoué-Atchall,Western Africa_female_Millennials,,0,16
+Q119084150,Jakub Stanjura,Others_male_Generation Z,,0,20
+Q119481199,Alexander Estis,Others_male_Millennials,,1,41
+Q119521962,Anna Dushime,Eastern Africa_female_Millennials,,0,15
+Q119922451,Chiwawa Sasaki,Eastern Asia_female_Generation Z,,1,23
+Q119991512,Lerato Nxumalo,Southern Africa_female_Generation Z,,0,11
+Q12217168,,Western Asia_female_Generation Z,,0,7
+Q122347171,Emrah Doğulu,Western Asia_male_Generation Z,,0,10
+Q122664805,César Mora Moreau,South America_male_Generation Z,,0,10
+Q123474555,Manar al-Sharif,Western Asia_female_Generation Z,,0,13
+Q123819047,Mike Appiah Danquah,Western Africa_male_Generation Z,,0,10
+Q123906730,Anita Patrício,Middle Africa_female_Pre-Greatest Generation,,0,19
+Q12393573,Montserrat Pena Presas,Southern Europe_female_Generation Alpha,,1,30
+Q123965021,,Central Asia_female_Greatest Generation,,0,8
+Q123965509,,Central Asia_female_Silent Generation,,0,6
+Q124035268,Ann Liang,Eastern Asia_female_Generation Z,,1,23
+Q124293644,Drashti Soni,Southern Asia_female_Generation Z,,0,11
+Q124339290,Saeed Awawdeh,Northern Europe_male_Generation Z,,0,12
+Q124366334,Alessandra Pacheco,South America_female_Generation Z,,0,15
+Q124632961,,Western Asia_male_Generation Z,,0,10
+Q124841347,Solange Rosenmark,Eastern Africa_female_Pre-Greatest Generation,,1,30
+Q125105385,Marzouka Oummou Hani,Middle Africa_female_Generation Z,,0,11
+Q125339995,Marthe Cécile Micca,Middle Africa_female_Millennials,,0,10
+Q125400901,Berthe-Virginie Tuedjo,Middle Africa_female_Baby Boomers,,0,18
+Q12545749,,Central Asia_male_Generation Z,,0,13
+Q12547127,,Central Asia_female_Generation X,,0,5
+Q125489978,Mary Adella Wolcott,Caribbean_female_Pre-Greatest Generation,,0,14
+Q125499570,,Others_male_Millennials,,0,12
+Q12550505,,Central Asia_female_Greatest Generation,,0,5
+Q12555790,,Central Asia_female_Silent Generation,,0,7
+Q12562505,,Central Asia_female_Silent Generation,,0,5
+Q12571004,,Central Asia_female_Silent Generation,,0,10
+Q125789955,Artem Serebrennikov,Others_male_Millennials,,1,34
+Q125810420,Maite Echartea,South America_female_Generation Z,,0,10
+Q125925023,Osiris Valdés López,Caribbean_female_Millennials,,0,15
+Q125949575,Markus Väin,Northern Europe_male_Generation Z,,0,13
+Q125957645,Abel Arcos,Caribbean_male_Millennials,,0,18
+Q126286161,Dazra Novak,Caribbean_female_Generation X,,0,13
+Q126393240,Aldo Gabriel García González,Central America_male_Generation Z,,0,8
+Q127010407,Isabel Ojeda,Central America_female_Generation Z,,0,13
+Q127176228,Frantzley Valbrun,Caribbean_male_Generation Z,,0,10
+Q12720229,Aleth Felix-Tchicaya,Middle Africa_female_Baby Boomers,,1,24
+Q127271698,,Central Asia_female_Pre-Greatest Generation,,0,12
+Q127415126,Anjo Pertierra,South-eastern Asia_male_Generation Z,,0,16
+Q127607128,Francesca Théosmy,Caribbean_female_Millennials,,0,11
+Q12818067,Anbar Otin,Central Asia_female_Pre-Greatest Generation,,0,17
+Q12829514,Oydin,Central Asia_female_Greatest Generation,,1,23
+Q12832681,Saida Zunnunova,Central Asia_female_Silent Generation,,0,19
+Q12890330,Elvire Maurouard,Caribbean_female_Generation X,,1,26
+Q12891979,Jessica Fièvre,Caribbean_female_Millennials,,1,21
+Q12897540,Suzanne Comhaire-Sylvain,Caribbean_female_Pre-Greatest Generation,,1,50
+Q130237222,Eve Guerra,Middle Africa_female_Millennials,,0,19
+Q130249157,Gio Canto,Central America_male_Generation Z,,1,49
+Q130302806,Pablo Alejos Flores,South America_male_Generation Z,,0,18
+Q13034259,Anna de Villiers,Southern Africa_female_Pre-Greatest Generation,,1,24
+Q13035379,Mabel Jansen,Southern Africa_female_Pre-Greatest Generation,,1,21
+Q130355702,Philippeson Juste,Caribbean_male_Generation Z,,1,34
+Q130415752,Shahd Wadi,Northern Africa_female_Millennials,,0,14
+Q130464577,Sebastian Himmelrick,Northern America_male_Generation Z,,0,10
+Q130468079,Daysy Arévalo Guillén,South America_female_Generation Z,,0,13
+Q130527523,Lua Acerenza,South America_female_Generation Z,,0,9
+Q130646701,Safae el Khannoussi,Northern Africa_female_Millennials,,0,17
+Q130754582,Nathaniel A. Bapela,Southern Africa_male_Generation Z,,1,26
+Q130772229,Tshepo Ramodisa,Southern Africa_male_Millennials,,1,28
+Q131005016,Jessica Reuss-Nliba,Middle Africa_female_Generation X,,1,29
+Q131189629,Elaine Vilar Madruga,Caribbean_female_Millennials,,0,16
+Q131313228,Aya Shoaib,Northern Africa_female_Millennials,,1,24
+Q131318919,Ricardo Auguste,Caribbean_male_Millennials,,0,13
+Q131323783,Nadia Mikail,South-eastern Asia_female_Generation Z,,0,11
+Q131387611,Emmanuel Louis-Jeune,Caribbean_male_Millennials,,0,10
+Q131430328,Itumeleng Lebese,Southern Africa_female_Generation Z,,0,10
+Q131607516,Giovanny Garcia Vargas,Northern America_male_Generation Z,,0,9
+Q131613550,Akbota Batyrbekkyzy Beibitbek,Central Asia_female_Millennials,,0,12
+Q131628736,Tobi Ogundiran,Western Africa_male_Generation Z,,1,24
+Q131742242,Witness Mdaka,Southern Africa_male_Millennials,,0,16
+Q131758265,,Middle Africa_male_Millennials,,0,6
+Q132471373,Prasa Prasetya,South-eastern Asia_male_Generation Z,,0,16
+Q132722334,,Central Asia_male_Millennials,,0,7
+Q132734665,Narghiza Ergashova,Central Asia_female_Generation X,,0,8
+Q1328011,Eleonora Hummel,Central Asia_female_Generation X,,1,33
+Q132858876,Zanan Ahmad,Northern Europe_male_Generation Z,,0,9
+Q133105249,,Central Asia_female_Generation X,,0,11
+Q133189621,Tiago Abreu,South America_male_Generation Z,,0,19
+Q133250443,Ralph Leonard,Northern Europe_male_Generation Z,,0,20
+Q133260491,Busayo Matuluko,Western Africa_female_Generation Z,,0,12
+Q133444704,Lydia Evoni,Middle Africa_female_Generation X,,0,9
+Q133459879,Lova Nyemb Bassong,Middle Africa_female_Generation X,,0,12
+Q133459948,,Middle Africa_female_Generation X,,0,13
+Q133459973,Jeanne Marie Rosette Abou'ou,Middle Africa_female_Generation X,,0,16
+Q133807646,,Others_male_Millennials,,0,9
+Q133897015,Josephine Abiola Kuyebi,Western Africa_female_Silent Generation,,0,20
+Q133934052,Imma Collins,Western Africa_female_Generation Z,,0,10
+Q134078098,İlhami Bülbül,Western Asia_male_Generation Z,,0,17
+Q134426828,Mengué Mi Ngué Ngué Martin,Middle Africa_male_Millennials,,0,9
+Q134488600,Mayra De Gracia,Central America_female_Generation Z,,0,8
+Q134587053,Lee Cohen,Western Asia_female_Generation Z,,1,21
+Q134609408,,Western Asia_female_Generation Z,,0,14
+Q134621027,LAMENU Tedjou,Middle Africa_male_Millennials,,0,9
+Q1349314,Erdmann Gottreich Christaller,Western Africa_male_Pre-Greatest Generation,,1,66
+Q135426576,,South-eastern Asia_male_Generation Z,,0,10
+Q135427180,,Southern Africa_male_Generation Z,,0,7
+Q135476359,Quelquefois et puis toujours,Caribbean_male_Millennials,,0,17
+Q135508417,,Western Asia_male_Generation Z,,0,16
+Q135509526,Sanjiu Yinyu,Eastern Asia_male_Generation Z,,1,36
+Q135515502,,South America_male_Generation Z,,0,13
+Q135855582,,Caribbean_male_Millennials,,0,9
+Q135895607,Rene Matić,Northern Europe_male_Generation Z,,0,17
+Q135988651,Petros Papadopoulos,Western Asia_male_Generation Z,,0,17
+Q136084512,Ahmad Zaki,Western Asia_male_Generation Alpha,,0,9
+Q136088965,Vladamir Abramov,Others_male_Millennials,,0,12
+Q1361261,Erol Yıldırım,Western Asia_male_Generation Z,,0,16
+Q136148891,Carter Talbot,Northern America_male_Generation Z,,0,12
+Q136305507,İlkim Su Derin,Western Asia_female_Generation Z,,1,24
+Q136345186,Daniel Cowers,Caribbean_male_Generation Z,,1,35
+Q136384085,,Southern Africa_female_Millennials,,0,13
+Q136419284,,Western Africa_female_Millennials,,0,7
+Q136762713,,Western Africa_female_Millennials,,0,8
+Q136804862,,Western Africa_male_Generation Z,,0,6
+Q136824679,Roland Fosso,Middle Africa_male_Millennials,,0,16
+Q137578893,Enes Köseler,Western Asia_male_Generation Z,,0,8
+Q137594815,Kaan Turhal,Western Asia_male_Generation Z,,0,8
+Q137709005,,Southern Africa_female_Millennials,,0,7
+Q137782549,Kaleb Dahlgren,Northern America_male_Generation Z,,1,28
+Q137797684,Keletso Mopai,Southern Africa_female_Millennials,,0,11
+Q137797893,Vitor Zindacta,South America_male_Generation Z,,0,17
+Q137821400,,Northern Africa_female_Generation Z,,0,8
+Q137926713,Xalsier Kitsune,Northern America_male_Generation Z,,1,26
+Q138009295,K. Komby,Others_female_Generation Z,,0,12
+Q138114021,,Caribbean_male_Millennials,,0,8
+Q138514454,Ümit Oklu,Western Asia_male_Generation Z,,0,17
+Q138609197,,Middle Africa_female_Millennials,,0,10
+Q14594726,María Luisa Dolz,Caribbean_female_Pre-Greatest Generation,,1,29
+Q1495384,Philip Orbanes,Northern America_male_Generation Z,,1,26
+Q15102503,Yahya Hassan,Northern Europe_male_Generation Z,,1,63
+Q15407207,Max Lobe,Middle Africa_male_Millennials,,1,35
+Q15450795,James Hayman,Northern America_male_Generation Z,,1,22
+Q15461134,Gertrude Rachel Levy,Southern Africa_female_Pre-Greatest Generation,,1,66
+Q15659549,Fanny Ghedini Bortolotti,Northern Africa_female_Pre-Greatest Generation,,1,29
+Q15781462,Adetoun Kueppers-Adebisi,Western Africa_female_Generation Z,,0,8
+Q1602330,Simone Kaya,Western Africa_female_Silent Generation,,1,24
+Q16203076,Anila Ali RANDI,Southern Asia_female_Generation Z,,0,9
+Q16203788,Ameer Idreis,Western Asia_male_Generation Z,,0,16
+Q16221868,Ash Lieb,Australia and New Zealand_male_Millennials,,0,14
+Q16234337,Jean Urruty,Eastern Africa_male_Greatest Generation,,0,13
+Q16431449,Aigul Kemelbayeva,Central Asia_female_Generation X,,0,7
+Q16432343,,Central Asia_female_Greatest Generation,,0,5
+Q16433935,Aqushtap Baqtygereeva,Central Asia_female_Silent Generation,,0,18
+Q16492064,Domitila García de Coronado,Caribbean_female_Pre-Greatest Generation,,0,19
+Q16495280,Augusto Roque Sapengo,Middle Africa_male_Millennials,,0,11
+Q16497871,Bento Mântua,Middle Africa_male_Pre-Greatest Generation,,0,19
+Q16534994,Aída Peláez de Villa Urrutia,Caribbean_female_Pre-Greatest Generation,,0,13
+Q1663420,Ingrid Trobisch,Eastern Africa_female_Silent Generation,,1,40
+Q1676344,J. L. Bourne,Northern America_male_Generation Z,,1,26
+Q1679925,James Emman Kwegyir Aggrey,Western Africa_male_Pre-Greatest Generation,,1,71
+Q16846821,Mulumba Ivan Matthias,Eastern Africa_male_Millennials,,0,11
+Q16946163,Erold Saint-Louis,Caribbean_male_Millennials,,0,8
+Q16946185,Farah-Martine Lhérisson,Caribbean_female_Generation X,,0,15
+Q1700863,John Llewellyn Rhys,Northern Europe_male_Generation Z,,1,38
+Q17198106,Dilma Dila,Eastern Africa_male_Generation X,,1,38
+Q17280060,Erminia Dell'Oro,Eastern Africa_female_Silent Generation,,1,27
+Q17496643,Lassy Mbouity,Middle Africa_male_Millennials,,0,20
+Q18117384,Aigerim Tazhi,Central Asia_male_Millennials,,0,14
+Q18120284,Blanche Bendahan,Northern Africa_female_Pre-Greatest Generation,,1,28
+Q18120331,Rachel Maccabi,Northern Africa_female_Greatest Generation,,1,26
+Q18191462,Berthe Bénichou-Aboulker,Northern Africa_female_Pre-Greatest Generation,,1,26
+Q18356826,Gabriela Antunes,Middle Africa_female_Silent Generation,,1,25
+Q18407196,,Central Asia_male_Millennials,,0,16
+Q18411090,Charles Witherspoon,Northern Europe_male_Generation Z,,0,8
+Q18529964,Jane Strachey,Southern Africa_female_Pre-Greatest Generation,,1,62
+Q18546400,Justin Brett,Northern Europe_male_Generation Z,,0,17
+Q18551858,Beaudelaine Pierre,Caribbean_female_Generation X,,0,11
+Q18641013,Ioanna Boukouvala-Anagnostou,Northern Africa_female_Greatest Generation,,1,28
+Q1887476,Malla Nunn,Southern Africa_female_Generation Z,,1,35
+Q19628727,Michel Tagne Foko,Middle Africa_male_Millennials,,0,17
+Q19662568,Marie Béatrice Umutesi,Eastern Africa_female_Baby Boomers,,1,25
+Q1982305,Neval Gültekin,Western Asia_female_Generation Z,,0,19
+Q19897847,Christopher Mwashinga,Eastern Africa_male_Generation X,,1,26
+Q19968750,Keegan Longueira,Southern Africa_male_Millennials,,0,13
+Q19971558,Martin Ford,Northern America_male_Generation Z,,1,58
+Q2027780,Afevork Ghevre Jesus,Eastern Africa_male_Pre-Greatest Generation,,1,39
+Q20534202,Alexandre Dáskalos,Middle Africa_male_Greatest Generation,,1,25
+Q20562381,Rakshitha Suma,Southern Asia_female_Generation Z,,0,13
+Q2057544,Patrick Dunne,Northern Europe_male_Generation Z,,1,21
+Q2059243,Paul Davenport,Northern America_male_Generation Z,,0,15
+Q2080913,Ena Lucía Portela,Caribbean_female_Generation X,,1,29
+Q20865144,Jenny Rogneby,Eastern Africa_female_Generation X,,1,33
+Q20895858,Jamila Medina Ríos,Caribbean_female_Millennials,,0,13
+Q20961729,Anys Mezzaour,Northern Africa_male_Generation Z,,0,12
+Q20965640,Ileana Álvarez,Caribbean_female_Generation X,,1,22
+Q2118355,Simon Kuper,Eastern Africa_male_Generation X,,1,69
+Q22665691,Deolinda Rodríguez de Almeida,Middle Africa_female_Silent Generation,,1,32
+Q22696653,Teresa Meniru,Western Africa_female_Silent Generation,,0,19
+Q2278246,Shereen Pandit,Southern Africa_female_Generation Z,,0,14
+Q23059518,Doris Rawak,South America_female_Generation Z,,1,22
+Q23062851,Owen White,Northern Europe_male_Generation Z,,1,24
+Q23309428,Simone Riccioni,Eastern Africa_male_Millennials,,0,10
+Q23816375,Elizabeth Ewombè-Moundo,Middle Africa_female_Baby Boomers,,1,25
+Q23892797,Lúcia Nereida do Carmo Morais,Middle Africa_female_Millennials,,0,9
+Q25227395,Kalliopē A. Sphaellou,Northern Africa_female_Greatest Generation,,1,28
+Q25346155,Ishita Katyal,Southern Asia_female_Generation Z,,0,13
+Q25495556,,Central Asia_female_Silent Generation,,0,14
+Q25614764,Regina Neser,Southern Africa_female_Pre-Greatest Generation,,0,10
+Q2576811,Willemijn Posthumus-van der Goot,Southern Africa_female_Pre-Greatest Generation,,1,47
+Q2601899,Karla Suárez,Caribbean_female_Generation X,,1,56
+Q26207488,Dimitri Semenikhin,Others_male_Generation Z,,0,17
+Q26235858,Denis Beznosov,Others_male_Millennials,,1,26
+Q26252591,Christie Ade Ajayi,Western Africa_female_Silent Generation,,0,15
+Q262651,Senait Mehari,Eastern Africa_female_Generation X,,1,39
+Q26436135,Tosin Ajibade,Western Africa_female_Millennials,,0,17
+Q26504700,Marthe Ekemeyong Moumié,Middle Africa_female_Silent Generation,,1,25
+Q26702462,Alexandra Chreiteh,Others_female_Generation Z,,0,18
+Q2690777,Yasmine Allas,Eastern Africa_female_Generation X,,1,30
+Q27031098,,Others_male_Millennials,,0,15
+Q27147612,Chó do Guri,Middle Africa_female_Baby Boomers,,0,19
+Q272605,Penelope Delta,Northern Africa_female_Pre-Greatest Generation,,1,82
+Q27447785,Rosária da Silva,Middle Africa_female_Baby Boomers,,0,15
+Q274587,Annette Mbaye d'Erneville,Western Africa_female_Silent Generation,,1,30
+Q27535371,Xavier Le Juge de Segrais,Eastern Africa_male_Pre-Greatest Generation,,0,15
+Q27638417,Khaoula Hosni,Northern Africa_female_Millennials,,1,24
+Q27734336,Nick Saul,Eastern Africa_male_Generation X,,0,9
+Q27734925,Ana-Maurine Lara,Caribbean_female_Generation X,,0,18
+Q27916810,Aura Xilonen,Central America_female_Generation Z,,1,23
+Q2798314,Ritu Menon,Southern Asia_female_Generation Z,,1,27
+Q28092288,Fedwa Misk,Northern Africa_female_Millennials,,1,22
+Q28341532,Jacob Cramer,Northern America_male_Generation Z,,0,13
+Q2840883,Amadou Mapaté Diagne,Western Africa_male_Pre-Greatest Generation,,1,21
+Q28470190,Léa Moukanas,Western Asia_female_Generation Z,,0,14
+Q28497368,,Others_male_Millennials,,0,11
+Q2876220,Ayesha Al-Taymuriyya,Northern Africa_female_Pre-Greatest Generation,,1,40
+Q28791118,Maria Cristina Fragas,Caribbean_female_Pre-Greatest Generation,,1,21
+Q28858662,Dawn Faith,Southern Africa_female_Millennials,,0,19
+Q28957204,Cynthia Stockley,Southern Africa_female_Pre-Greatest Generation,,1,32
+Q2899899,Aura Herzog,Northern Africa_female_Greatest Generation,,1,35
+Q29052593,Summer Edward,Caribbean_female_Millennials,,0,15
+Q29107316,Elsie Godwin,Western Africa_female_Millennials,,0,14
+Q2935110,Camille de Rauville,Eastern Africa_male_Greatest Generation,,0,17
+Q29514389,Mona Salama,Northern Africa_female_Millennials,,0,14
+Q297510,Calixthe Beyala,Middle Africa_female_Baby Boomers,,1,82
+Q30069874,Chidera Okolie,Western Africa_female_Millennials,,0,8
+Q30082438,Hala Al-Zaghandi,Northern Africa_female_Millennials,,0,12
+Q3034976,Dominique Barbéris,Middle Africa_female_Baby Boomers,,1,65
+Q3049420,Eileen Caddy,Northern Africa_female_Greatest Generation,,1,56
+Q3061371,Eveline Mankou,Middle Africa_female_Baby Boomers,,0,12
+Q3086821,Fred Edson Lafortune,Caribbean_male_Millennials,,0,11
+Q3092298,Félicien Mallefille,Eastern Africa_male_Pre-Greatest Generation,,1,73
+Q3092429,Félix Couchoro,Western Africa_male_Pre-Greatest Generation,,1,40
+Q30932284,João Paulo Guerra Barrera,South America_male_Generation Alpha,,0,10
+Q3104904,Ghislaine Sathoud,Middle Africa_female_Generation X,,1,27
+Q3105729,Gilbert Gatore,Eastern Africa_male_Millennials,,1,25
+Q3108449,Gladys Casely-Hayford,Western Africa_female_Greatest Generation,,1,40
+Q3147761,Ida Faubert,Caribbean_female_Pre-Greatest Generation,,1,37
+Q3170790,Jean Blaize,Eastern Africa_male_Pre-Greatest Generation,,1,26
+Q31736320,Eva Walter,Southern Africa_female_Pre-Greatest Generation,,0,16
+Q31736371,Marie Linde,Southern Africa_female_Pre-Greatest Generation,,1,21
+Q31738455,M.I. Murray,Southern Africa_female_Pre-Greatest Generation,,0,11
+Q3183401,Jonathan Krohn,Northern America_male_Generation Z,,0,19
+Q3257805,Lodrö Chökyi Nyima,Eastern Asia_male_Generation Z,,0,15
+Q327522,J. E. Casely Hayford,Western Africa_male_Pre-Greatest Generation,,1,53
+Q3280752,Makenzy Orcel,Caribbean_male_Millennials,,1,42
+Q3282080,Malika al-Fassi,Northern Africa_female_Greatest Generation,,0,17
+Q3284965,Mame Younousse Dieng,Western Africa_female_Silent Generation,,1,28
+Q3292267,Marie-Thérèse Humbert,Eastern Africa_female_Silent Generation,,1,50
+Q3371450,Paul Hazoumé,Western Africa_male_Pre-Greatest Generation,,1,54
+Q339760,Aniceti Kitereza,Eastern Africa_male_Pre-Greatest Generation,,1,34
+Q3427108,Renée Asgarally,Eastern Africa_female_Silent Generation,,0,20
+Q3445663,Salonme Ureñia,Caribbean_female_Pre-Greatest Generation,,1,52
+Q3458447,Révérien Rurangwa,Eastern Africa_male_Generation X,,1,27
+Q3475485,Scholastique Mukasonga,Eastern Africa_female_Baby Boomers,,1,73
+Q3502921,Aisha Abd al-Rahman,Northern Africa_female_Greatest Generation,,1,66
+Q3572494,Yolande Mukagasana,Eastern Africa_female_Baby Boomers,,1,41
+Q36844988,Abie Longstaff,Australia and New Zealand_female_Generation Z,,1,27
+Q379186,Katherine Scholes,Eastern Africa_female_Baby Boomers,,1,42
+Q3841903,Maaza Mengiste,Eastern Africa_female_Generation X,,1,60
+Q39387738,,Central Asia_female_Generation X,,0,10
+Q39934202,Bendik Vada,Northern Europe_male_Generation Z,,0,15
+Q40419515,Julia Weber,Eastern Africa_female_Millennials,,1,43
+Q4060831,Alex Kosh,Others_male_Millennials,,0,18
+Q4073249,Tursunoy Akhunova,Central Asia_female_Silent Generation,,1,30
+Q41208853,Annick Kayitesi-Jozan,Eastern Africa_female_Generation X,,1,30
+Q4149997,Aleksandr Grishchenko,Central Asia_male_Millennials,,1,34
+Q41532200,Adam Publicover,Northern America_male_Generation Z,,0,9
+Q4177760,Ramez Naam,Northern Africa_male_Generation Z,,1,83
+Q4179819,Inna Zhivetyeva,Central Asia_female_Generation X,,0,14
+Q4181285,Konstantin Zhuk,Others_male_Millennials,,0,19
+Q4200111,Sholpan Imanbayeva,Central Asia_female_Greatest Generation,,0,18
+Q42156205,Michèle Malivel,Eastern Africa_female_Silent Generation,,1,35
+Q42396578,Luís Germán Chavarría Bogarín,South America_male_Generation Z,,0,11
+Q4271905,Leya Davidovna Lubomirskaya,Central Asia_female_Generation X,,0,18
+Q4279318,Anna Malysheva,Central Asia_female_Generation X,,1,33
+Q43120447,Nikolay Nikulin,Others_male_Millennials,,0,20
+Q43549566,Wax Dey,Middle Africa_male_Millennials,,0,10
+Q4367611,,Central Asia_female_Generation X,,0,11
+Q4382032,Óscar Bento Ribas,Middle Africa_male_Greatest Generation,,1,32
+Q438662,Emily Ruete,Eastern Africa_female_Pre-Greatest Generation,,1,70
+Q443163,Tippi Degré,Southern Africa_female_Millennials,,1,28
+Q444067,Aminata Sow Fall,Western Africa_female_Silent Generation,,1,73
+Q449023,Esther Kamatari,Eastern Africa_female_Baby Boomers,,1,30
+Q450346,Edwidge Danticat,Caribbean_female_Generation X,,1,132
+Q450406,China Keitetsi,Eastern Africa_female_Generation X,,1,33
+Q460857,Helen Oyeyemi,Western Africa_female_Millennials,,1,77
+Q461675,Buchi Emecheta,Western Africa_female_Silent Generation,,1,122
+Q464382,Fadhma Aït Mansour,Northern Africa_female_Pre-Greatest Generation,,1,50
+Q464389,Mariama Bâ,Western Africa_female_Silent Generation,,1,95
+Q465373,Léonora Miano,Middle Africa_female_Generation X,,1,80
+Q469878,Jordan Romero,Northern America_male_Generation Z,,1,28
+Q4716178,Alephonsion Deng,Eastern Africa_male_Millennials,,0,18
+Q4725804,Alice Dalgliesh,Caribbean_female_Pre-Greatest Generation,,1,43
+Q4733397,Ally Blake,Australia and New Zealand_female_Generation Z,,1,42
+Q4739185,Amal Aden,Eastern Africa_female_Millennials,,1,32
+Q47527990,Matheus Ueta,South America_male_Generation Z,,0,12
+Q47673691,Gingle Wang,Eastern Asia_female_Generation Z,,1,28
+Q4831217,Ayeta Anne Wangusa,Eastern Africa_female_Generation X,,1,22
+Q48658419,Richard Fairgray,Australia and New Zealand_male_Millennials,,0,17
+Q48778190,Destinée Ermela Doukaga,Middle Africa_female_Millennials,,1,23
+Q4936361,Monica Arac de Nyeko,Eastern Africa_female_Generation X,,1,30
+Q4937658,Mildred Barya,Eastern Africa_female_Generation X,,1,29
+Q4947866,Maria Celestina Fernandes,Middle Africa_female_Silent Generation,,0,20
+Q5001974,Busingye Kabumba,Eastern Africa_male_Millennials,,0,15
+Q50948624,Myriam Ben Salah,Northern Africa_female_Millennials,,1,27
+Q5110901,Christine Adjahi Gnimagnon,Western Africa_female_Silent Generation,,0,20
+Q5203548,D. D. Guttenplan,Northern America_male_Generation Z,,1,38
+Q52122586,Roland Rugero,Eastern Africa_male_Millennials,,1,23
+Q52247378,Seratpal,Southern Asia_female_Generation Z,,0,9
+Q53411010,R.F. Kuang,Eastern Asia_female_Generation Z,,1,104
+Q540904,Pauline Smith,Southern Africa_female_Pre-Greatest Generation,,1,44
+Q542184,Malak Hifni Nasif,Northern Africa_female_Pre-Greatest Generation,,1,51
+Q5434722,Farah Damji,Eastern Africa_female_Generation X,,0,16
+Q5437942,Fatou Niang Siga,Western Africa_female_Silent Generation,,1,24
+Q547993,Out el-Kouloub,Northern Africa_female_Pre-Greatest Generation,,1,31
+Q55200256,Büşra Yılmaz,Western Asia_female_Generation Z,,0,17
+Q55217112,Coutechève Lavoie Aupont,Caribbean_male_Millennials,,0,15
+Q55217166,Jeanie Bogart,Caribbean_female_Generation X,,0,12
+Q55217189,Iléus Papillon,Caribbean_male_Millennials,,0,16
+Q55217262,Jeanne Gerval ARouff,Eastern Africa_female_Silent Generation,,0,10
+Q55393965,Minna Saarelma-Paukkala,Eastern Africa_female_Baby Boomers,,0,18
+Q5542294,George McCoy,Northern Europe_male_Generation Z,,0,11
+Q55433563,Laura Ikeji,Western Africa_female_Millennials,,1,29
+Q55838089,Amelia Francasci,Caribbean_female_Pre-Greatest Generation,,0,17
+Q56276612,Bisola Biya,Western Africa_female_Millennials,,0,17
+Q56308963,,Others_male_Millennials,,0,19
+Q56339440,Tarryn Fisher,Southern Africa_female_Millennials,,1,36
+Q56349707,Rosa Soares,Middle Africa_female_Generation Z,,0,8
+Q56355631,Nina Krivochein,South America_female_Generation Z,,0,13
+Q56394530,Ditta Amelia Saraswati,South-eastern Asia_female_Generation Z,,0,10
+Q5645343,Hamish Blake,Australia and New Zealand_male_Millennials,,1,40
+Q5646785,Hana Sadiq,Western Asia_female_Generation Z,,0,11
+Q56611026,Ndaba Mandela,Southern Africa_male_Millennials,,1,22
+Q56665526,Meta Davis Cumberbatch,Caribbean_female_Pre-Greatest Generation,,0,15
+Q5741967,Camila Henríquez Ureña,Caribbean_female_Pre-Greatest Generation,,1,38
+Q58811027,Harkin Deximire,South-eastern Asia_female_Generation Z,,0,17
+Q59531394,Rose Celli,Northern Africa_female_Pre-Greatest Generation,,1,46
+Q59572131,Victor Hugo Mendes,Middle Africa_male_Millennials,,0,10
+Q5971668,Laura Mestre Hevia,Caribbean_female_Pre-Greatest Generation,,1,22
+Q5984689,Luisa Pérez de Zambrana,Caribbean_female_Pre-Greatest Generation,,1,37
+Q60256889,Anoushka Sabnis,Southern Asia_female_Generation Z,,0,9
+Q6043874,Kadria Hussein,Northern Africa_female_Pre-Greatest Generation,,1,35
+Q60565257,Louay Hakimi,Northern Africa_female_Generation Z,,0,10
+Q60565393,,Western Asia_female_Generation Z,,0,6
+Q61000511,Kanguimbu Ananaz,Middle Africa_female_Baby Boomers,,0,10
+Q61082274,Sandra A. Mushi,Eastern Africa_female_Generation X,,0,12
+Q6133599,Staceyann Chin,Caribbean_female_Generation X,,1,24
+Q6142481,Teresa Medina Davo,Central America_female_Generation Z,,0,15
+Q61763525,Elena Miro K,Western Africa_female_Millennials,,0,11
+Q61796203,May Balisidya,Eastern Africa_female_Baby Boomers,,0,18
+Q61975201,Germaine Laoust-Chantréaux,Northern Africa_female_Greatest Generation,,1,21
+Q62019982,,Central Asia_female_Silent Generation,,0,17
+Q62566688,Nathan Trantraal,Southern Africa_male_Millennials,,0,17
+Q62577905,Cléante Valcin,Caribbean_female_Pre-Greatest Generation,,1,23
+Q63121611,aḥmd mfdī,Northern Africa_female_Millennials,,0,6
+Q64853069,Sonja Smith,Southern Africa_female_Millennials,,0,12
+Q65165924,Tobias Carvalho,South America_male_Generation Z,,1,25
+Q65174685,Lília da Fonseca,Middle Africa_female_Greatest Generation,,0,19
+Q65580970,Theresa Lola,Western Africa_female_Millennials,,1,25
+Q65954377,Adunni Oluwole,Western Africa_female_Greatest Generation,,0,14
+Q66360944,Antti Rönkä,Northern Europe_male_Generation Z,,1,25
+Q66692144,Portia Arthur,Western Africa_female_Millennials,,0,16
+Q66828826,Christ Kibeloh,Middle Africa_male_Generation Z,,0,16
+Q6712187,Maria Elizabeth Rothmann,Southern Africa_female_Pre-Greatest Generation,,1,39
+Q6774504,Martha Mvungi,Eastern Africa_female_Silent Generation,,1,27
+Q6779631,Meri Giatra Lemou,Northern Africa_female_Greatest Generation,,0,17
+Q6779980,Mary Karooro Okurut,Eastern Africa_female_Baby Boomers,,1,42
+Q6836719,Michèle Pearson Clarke,Caribbean_female_Generation X,,1,30
+Q6845494,Mik Duffy,Northern Europe_male_Generation Z,,1,23
+Q69048039,Emmanuel Michael,Western Africa_male_Generation Z,,0,7
+Q7027453,Nick Landau,Northern Europe_male_Generation Z,,0,11
+Q70880435,Sergio García Zamora,Caribbean_male_Millennials,,0,10
+Q7145797,Patricia Powell,Caribbean_female_Generation X,,1,26
+Q71751656,Yolande Welimoum,Middle Africa_female_Millennials,,0,14
+Q7262839,Pyabelo Chaold Kouly,Western Africa_female_Silent Generation,,0,15
+Q73409887,Rosa Smester,Caribbean_female_Pre-Greatest Generation,,0,19
+Q7387136,S.A. Partridge,Southern Africa_female_Millennials,,1,23
+Q7409770,Sammy J,Australia and New Zealand_male_Millennials,,0,17
+Q7648639,Susanna Al-Hassan,Western Africa_female_Silent Generation,,1,32
+Q76748095,Scott-Pien Picard,Northern America_male_Generation Z,,1,29
+Q79626044,Jeanne de Cavally,Western Africa_female_Silent Generation,,1,26
+Q7965633,Walter Mikac,Australia and New Zealand_male_Generation Z,,0,15
+Q79917156,Courtlynd Mallory,Northern America_male_Generation Z,,0,9
+Q80105481,Nicholas Buamah,Northern America_male_Generation Alpha,,0,10
+Q80132949,Kuukua Eshun,Western Africa_female_Millennials,,1,24
+Q8025411,Winifred May de Kok,Southern Africa_female_Pre-Greatest Generation,,1,33
+Q80640735,Kenneth Kimuli,Eastern Africa_male_Generation X,,0,11
+Q80877297,Ahmad Ali Karim,South-eastern Asia_male_Generation Z,,0,20
+Q813901,Bediako Asare,Western Africa_male_Generation Z,,1,36
+Q81476954,Wildan Fauzy,South-eastern Asia_male_Generation Z,,0,9
+Q84005033,Mohamed Abdulkarim Ali,Eastern Africa_male_Millennials,,0,10
+Q8404077,Hemley Boum,Middle Africa_female_Generation X,,1,56
+Q84358768,Michael Botur,Australia and New Zealand_male_Millennials,,0,20
+Q85708736,Ricarson Dorcé,Caribbean_male_Millennials,,0,20
+Q85708771,Amine Snoussi,Northern Africa_male_Generation Z,,0,15
+Q858495,Kazuma Kamachi,Eastern Asia_male_Generation Z,,1,73
+Q85871012,Davi Braga,South America_male_Generation Z,,0,8
+Q85959622,Tracey Baptiste,Caribbean_female_Generation X,,1,42
+Q85991014,Erisca Febriani,South-eastern Asia_female_Generation Z,,0,9
+Q86781440,Maryam Bukar Hassan,Western Africa_female_Generation Z,,1,27
+Q88977436,Lukáš Hanuš,Others_male_Millennials,,0,17
+Q89399683,Alfred Erny,Eastern Africa_male_Pre-Greatest Generation,,1,25
+Q89546105,Grigory Sluzhitel,Others_male_Millennials,,1,26
+Q90689374,Luka Kukhianidze,Western Asia_male_Generation Z,,0,13
+Q91977874,Ingrid Persaud,Caribbean_female_Generation X,,1,37
+Q9218920,,Eastern Asia_male_Generation Z,,0,9
+Q92434509,Fauziyya D Sulaiman,Western Africa_female_Millennials,,0,11
+Q94708821,Joan Sebastián Araujo Arenas,South America_male_Generation Z,,1,36
+Q94776490,Elisabeth Kessel,Northern Africa_female_Pre-Greatest Generation,,0,18
+Q95156899,Michaela Palaščáková,Others_female_Generation Z,,0,19
+Q95337176,Ojok Okello,Eastern Africa_male_Millennials,,0,16
+Q95953203,Louise Mekah,Middle Africa_female_Baby Boomers,,0,18
+Q9611595,Amélia da Lomba,Middle Africa_female_Baby Boomers,,0,19
+Q96213899,Tomás Litta,South America_male_Generation Z,,0,15
+Q96479575,,Central Asia_female_Millennials,,0,20
+Q96709700,Amir Fehri,Northern Africa_male_Generation Z,,0,20
+Q97158694,Moustafa Nouraldeen,Northern Africa_male_Generation Z,,0,16
+Q97212664,Sümeyye Koç,Western Asia_female_Generation Z,,0,18
+Q97242705,Rintik Sedu,South-eastern Asia_female_Generation Z,,0,18
+Q98807592,Filomena Embaló,Middle Africa_female_Baby Boomers,,0,20
+Q99301,Gabriele Reuter,Northern Africa_female_Pre-Greatest Generation,,1,92
+Q99385241,Eduard Kanevsky,Others_male_Millennials,,0,18
+Q99454635,Andrew Dismukes,Northern America_male_Generation Z,,1,22

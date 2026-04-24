@@ -1,20 +1,19 @@
 Variable,Coefficient
-birth_unm49_South-eastern Asia,-2.6699256206991224
-birth_unm49_Southern Asia,-1.9063023401903065
-birth_unm49_South America,-1.4545293451315082
-birth_unm49_Western Africa,-1.3659329644881426
-birth_unm49_Western Asia,-1.0562481352546074
-birth_unm49_Northern Africa,-1.027980870423778
-birth_unm49_Eastern Asia,-0.9795645119388114
-generation_Millennials,-0.7419406175046931
-birth_unm49_Eastern Europe,-0.6984223297269392
-birth_unm49_Central America,-0.6543985922618624
-birth_unm49_Southern Europe,-0.6311308435027071
-generation_Generation X,-0.4158516298069689
-birth_unm49_Northern America,-0.3551948242320854
-birth_unm49_Northern Europe,-0.09887689308152564
-gender_male,-0.02056204150144348
-birth_unm49_Western Europe,0.03141681732180702
-generation_Pre-Greatest Generation,0.2705257166014857
-generation_Greatest Generation,0.36304423113023776
-generation_Silent Generation,0.36494043216581495
+birth_unm49_South-eastern Asia,-2.33738178370783
+birth_unm49_Southern Asia,-1.7290254402987704
+birth_unm49_South America,-1.3089872985584379
+birth_unm49_Western Africa,-1.1192658327758735
+birth_unm49_Northern Africa,-0.9015661649785682
+birth_unm49_Western Asia,-0.8921671663476238
+birth_unm49_Eastern Asia,-0.816376464523744
+birth_unm49_Others,-0.7988785243645459
+generation_Millennials,-0.7670499023834122
+birth_unm49_Eastern Europe,-0.5316838698813429
+birth_unm49_Southern Europe,-0.48556772735965176
+birth_unm49_Central America,-0.4806603504278969
+generation_Generation X,-0.4313079705719879
+birth_unm49_Northern America,-0.21004768743375246
+birth_unm49_Western Europe,0.1711125259533234
+generation_Pre-Greatest Generation,0.2919596511267641
+generation_Silent Generation,0.4074309759758992
+generation_Greatest Generation,0.421040403998211

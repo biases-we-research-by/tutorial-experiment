@@ -5,12 +5,12 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 
 INPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"
-OUTPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Results/Intersectional Logistic Regression_bic"
+OUTPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Results/Intersectional Logistic Regression_bic1"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# --- Variabili iniziali ---
+
 CATEGORICAL_VARS = ["birth_unm49", "gender", "generation"]
-MIN_COUNT = 5   # alza un po' per evitare rumore
+MIN_COUNT = 5
 
 # --------------------------
 # AIC / BIC
@@ -89,7 +89,7 @@ def intersectional_logistic(file_path):
     df["pareto_claims"] = df["pareto_claims"].map({"head": 1, "long": 0})
 
     if df.empty:
-        print("⚠️ Dataset vuoto")
+        print("Dataset vuoto")
         return
 
     print("\nDistribuzione gender vs pareto_claims (percentuali):")
@@ -117,6 +117,41 @@ def intersectional_logistic(file_path):
     q1_threshold = counts.quantile(0.25)
 
     print(f"\nQuartile 1 (Q1) soglia: {q1_threshold}")
+
+    # --------------------------
+    # SALVA ENTITÀ NEL Q1
+    # --------------------------
+
+    # Intersezioni nel Q1 (le meno frequenti)
+    q1_intersections = counts[counts <= q1_threshold].index
+
+    df_q1 = df[df["intersection"].isin(q1_intersections)].copy()
+    df_q1["head_intersection"] = np.nan
+
+    print(f"Entità nel Q1: {len(df_q1)}")
+
+    # Seleziona colonne richieste
+    cols_q1 = [
+        "qid",
+        "label",
+        "intersection",
+        "head_intersection",
+        "pareto_claims",
+        "total_claims"
+    ]
+
+    cols_q1 = [c for c in cols_q1 if c in df_q1.columns]
+    df_q1 = df_q1[cols_q1]
+
+    # Salva CSV
+    q1_output_path = os.path.join(
+        OUTPUT_FOLDER,
+        f"{file_name}_Q1_entities.csv"
+    )
+
+    df_q1.to_csv(q1_output_path, index=False)
+
+    print(f"✔ Salvato Q1 CSV: {q1_output_path}")
 
     valid_intersections = counts[counts > q1_threshold].index
 

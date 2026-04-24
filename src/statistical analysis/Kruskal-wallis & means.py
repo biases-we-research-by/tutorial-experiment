@@ -5,7 +5,7 @@ from scipy.stats import kruskal, chi2_contingency
 import seaborn as sns
 import matplotlib.pyplot as plt
 import statsmodels.formula.api as smf
-from src.utils.mapping import label_maps
+from src.utils.utils import label_maps
 
 input_folder = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"
 output_folder = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Results/Kruskal-wallis & means"

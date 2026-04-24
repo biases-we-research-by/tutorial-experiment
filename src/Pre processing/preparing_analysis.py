@@ -1,7 +1,7 @@
 import os
 import json
 import pandas as pd
-from src.utils.mapping import unm49_mapping, generation_mapping, hdi_mapping
+from src.utils.utils import unm49_mapping, generation_mapping, hdi_mapping
 
 BASE_DIR = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/raw data"
 OUTPUT_DIR = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"

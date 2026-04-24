@@ -6,14 +6,12 @@ import matplotlib.cm as cm
 from sklearn.linear_model import LogisticRegression
 
 
-# Cartella input
 INPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Data/cleaned_data"
 
-# Cartella output
 OUTPUT_FOLDER = "/Users/liadraetta/Desktop/progetti/Projects/tutorial-experiment/Logistic Regression results"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# Variabili da usare
+# Variables
 CATEGORICAL_VARS = ["gender", "birth_unm49", "generation"]
 
 
@@ -28,9 +26,6 @@ def analyze_file(file_path):
 
     df = df.dropna()
 
-    # ============================
-    # FILTRO CATEGORIE RARE (Q1)
-    # ============================
 
     for var in CATEGORICAL_VARS:
         counts = df[var].value_counts()
@@ -160,9 +155,9 @@ def analyze_file(file_path):
         color=colors
     )
 
-    plt.xlabel("Effetto sulla probabilità di essere HEAD")
-    plt.ylabel("Variabili")
-    plt.title(f"Feature Impact - {file_name}")
+    plt.xlabel("Likelihood of being head")
+    plt.ylabel("Variables")
+    plt.title(f"{file_name}")
 
     # Linea verticale per zero (molto utile visivamente)
     plt.axvline(x=0)

@@ -1,0 +1,1001 @@
+qid,label,intersection,head_intersection,pareto_claims,total_claims
+Q2390882,Jamont Gordon,Northern America_male_Millennials,1,1,41
+Q27689117,Hikaru Phoebe Minato,Northern America_female_Millennials,1,0,7
+Q663790,Alessandro Romeo,Southern Europe_male_Millennials,1,1,37
+Q4724750,Ali Demić,Southern Europe_male_Millennials,1,1,18
+Q98710574,Rubén Díez Adán,Southern Europe_male_Millennials,1,1,22
+Q2479321,Tongo Doumbia,Western Europe_male_Millennials,1,1,45
+Q310022,Fernando Navarro,Southern Europe_male_Millennials,1,1,53
+Q2959477,Charles Jones,Northern America_male_Generation X,1,1,48
+Q52125967,Andrew Steinfeld,Northern America_male_Generation X,1,1,24
+Q18044261,Hal Jeter,Northern America_male_Silent Generation,1,1,21
+Q982836,Roald van Hout,Western Europe_male_Millennials,1,1,26
+Q6099056,Ivo Caput,Southern Europe_male_Millennials,1,1,19
+Q1280005,Kenny Anderson,Northern America_male_Generation X,1,1,64
+Q100959155,Art Wilmore,Northern America_male_Baby Boomers,1,1,23
+Q3940991,Ron Slay,Northern America_male_Millennials,1,1,42
+Q27756687,James Woodard,Northern America_male_Millennials,1,1,50
+Q2388913,Amick Ciani,Western Europe_male_Millennials,1,1,17
+Q1101626,Clint Mathis,Northern America_male_Generation X,1,1,56
+Q17521985,Christabel Oduro,Northern America_female_Millennials,1,1,24
+Q2218320,Kenny Arena,Northern America_male_Millennials,1,1,28
+Q12328618,Nickolaj Thomsen,Northern Europe_male_Millennials,1,1,27
+Q100772519,Steve Copp,Northern America_male_Baby Boomers,1,1,16
+Q10464801,Emilio Bottiglieri,Northern America_male_Generation X,1,1,20
+Q3838168,Luca Leggiero,Southern Europe_male_Millennials,1,1,19
+Q6991504,Nenad Višnjić,Southern Europe_male_Millennials,1,1,22
+Q16632847,Jesper Carlsson,Northern Europe_male_Millennials,1,1,23
+Q16348020,Niks Rubezis,Northern Europe_male_Millennials,1,0,13
+Q746616,Craig Brackins,Northern America_male_Millennials,1,1,52
+Q461427,Christian Gartner,Western Europe_male_Millennials,1,1,32
+Q495920,Mateas Delić,Southern Europe_male_Millennials,1,1,31
+Q524530,Thomas Kral,Western Europe_male_Millennials,1,1,26
+Q16091448,Tom Feamster,Northern America_male_Silent Generation,1,1,24
+Q187184,Joe Hart,Northern Europe_male_Millennials,1,1,80
+Q2749342,Johnny Placide,Western Europe_male_Millennials,1,1,48
+Q16204095,Alberto Cobo,Southern Europe_male_Millennials,1,1,21
+Q10314428,Kire Ristevski,Southern Europe_male_Millennials,1,1,41
+Q1405209,Dario Bergamelli,Southern Europe_male_Millennials,1,1,33
+Q106376996,Aedan Scipio,Northern Europe_male_Millennials,1,0,10
+Q561897,Dennis Diekmeier,Western Europe_male_Millennials,1,1,45
+Q20807338,Cristian Dell'Orco,Southern Europe_male_Millennials,1,1,30
+Q44821118,Willy Semedo,Western Europe_male_Millennials,1,1,29
+Q516161,Sascha Mölders,Western Europe_male_Millennials,1,1,40
+Q3888429,Pace Mannion,Northern America_male_Baby Boomers,1,1,45
+Q5108208,Chris Szanto,Northern America_male_Generation X,1,1,25
+Q8054436,Yohan Congio,Western Europe_male_Millennials,1,1,20
+Q44749671,Michael Mallory,Northern America_male_Millennials,1,1,21
+Q111109199,Jan-Peter Prasuhn,Western Europe_male_Millennials,1,0,8
+Q12268562,Unai Calbarro,Southern Europe_male_Millennials,1,1,15
+Q2359797,Soufiane Touzani,Southern Europe_male_Millennials,1,1,35
+Q7599507,Stanley C. Cox,Northern America_male_Pre-Greatest Generation,1,1,17
+Q21181161,Olivia Gonsalves,Northern America_female_Millennials,1,1,15
+Q5219263,Daniele Cilli,Southern Europe_male_Millennials,1,1,18
+Q6985607,Necmettin Imac,Western Europe_male_Millennials,1,0,14
+Q5105724,Chris Aloisi,Northern America_male_Millennials,1,1,34
+Q7131694,Pantelis Rizogiannis,Southern Europe_male_Millennials,1,1,22
+Q6286469,Joseph Ragusa,Northern America_male_Generation X,1,1,15
+Q311947,Dani Pacheco,Southern Europe_male_Millennials,1,1,63
+Q3973341,Steve Hamer,Northern America_male_Generation X,1,1,34
+Q16234913,Daniel Pinillos,Southern Europe_male_Millennials,1,1,33
+Q41884906,Spencer Parker,Northern America_male_Millennials,1,1,23
+Q3814847,Kevin Sheppard,Northern America_male_Generation X,1,1,47
+Q1371743,Atli Danielsen,Northern Europe_male_Millennials,1,1,40
+Q6968952,Nathan Cameron,Northern Europe_male_Millennials,1,1,33
+Q3186498,Rachid Ghezzal,Western Europe_male_Millennials,1,1,69
+Q128721,Steven Berghuis,Western Europe_male_Millennials,1,1,57
+Q29342,Klay Thompson,Northern America_male_Millennials,1,1,80
+Q664000,Jorge Sanz,Southern Europe_male_Millennials,1,1,40
+Q10462137,Joel Shanker,Northern America_male_Generation X,1,1,25
+Q979715,Ekene Ibekwe,Northern America_male_Millennials,1,1,67
+Q3641286,Bob Dille,Northern America_male_Greatest Generation,1,1,37
+Q525776,Kevin Fickentscher,Western Europe_male_Millennials,1,1,33
+Q26972617,Bill Durkee,Northern America_male_Greatest Generation,1,1,22
+Q3808381,Jim Spanarkel,Northern America_male_Baby Boomers,1,1,37
+Q18411508,Markus Ballmert,Western Europe_male_Millennials,1,1,24
+Q7800080,Tiago Rafael Maia Silva,Southern Europe_male_Millennials,1,1,38
+Q6266889,Johnny Herd,Northern Europe_male_Millennials,1,1,21
+Q13085273,Lazar Marjanović,Southern Europe_male_Millennials,1,1,28
+Q3758474,Gary Brokaw,Northern America_male_Baby Boomers,1,1,41
+Q5107485,Chris Moore,Northern Europe_male_Millennials,1,1,36
+Q71390,Deniz Yılmaz,Western Europe_male_Millennials,1,1,52
+Q1607188,George T. Johnson,Northern America_male_Baby Boomers,1,1,34
+Q433148,Christian Laettner,Northern America_male_Generation X,1,1,69
+Q65029240,John Smith,Northern America_male_Generation X,1,1,19
+Q19663987,Vladimir Stanojević,Southern Europe_male_Millennials,1,1,22
+Q64374407,Junior Saffer,Northern America_male_Greatest Generation,1,1,14
+Q16234095,Ollie Palmer,Northern Europe_male_Millennials,1,1,40
+Q7181866,Phil Edwards,Northern Europe_male_Millennials,1,1,32
+Q26271402,Rudy Camacho,Western Europe_male_Millennials,1,1,34
+Q7363160,Romero Hollingsworth,Western Europe_male_Millennials,1,0,13
+Q4007753,Valentino Maxwell,Southern Europe_male_Millennials,1,1,20
+Q994337,Timo Kern,Western Europe_male_Millennials,1,1,28
+Q6228502,John Danby,Northern Europe_male_Millennials,1,1,22
+Q2276432,Koen Garritsen,Western Europe_male_Millennials,1,0,13
+Q10543112,Alex Grant,Northern Europe_male_Millennials,1,1,39
+Q3836673,Lonnie Lynn,Northern America_male_Silent Generation,1,1,42
+Q16018576,Reggie Royals,Northern America_male_Baby Boomers,1,1,30
+Q3453783,Ryan Forehan-Kelly,Northern America_male_Generation X,1,1,36
+Q1955016,Joris Marveaux,Western Europe_male_Millennials,1,1,37
+Q6065753,Patrik Redo,Northern Europe_male_Millennials,1,1,23
+Q873089,Robert Paul,Western Europe_male_Millennials,1,1,31
+Q65088593,Ashley Edkins,Northern Europe_male_Millennials,1,0,10
+Q31863094,Šime Gregov,Southern Europe_male_Millennials,1,1,16
+Q4984295,Boris Nachamkin,Northern America_male_Silent Generation,1,1,34
+Q29452284,Nitin Dhiman,Northern America_male_Generation X,1,1,16
+Q4751931,Tasos Tsoumagas,Southern Europe_male_Millennials,1,1,28
+Q5132995,Clifford Lett,Northern America_male_Generation X,1,1,29
+Q312152,Ben Amos,Northern Europe_male_Millennials,1,1,53
+Q6791353,Matthew Uy,Northern America_male_Millennials,1,1,25
+Q18225033,Nick Celis,Western Europe_male_Millennials,1,1,24
+Q4801962,Artūras Valeika,Northern Europe_male_Millennials,1,1,43
+Q55238309,Pietro Pegollo,Southern Europe_male_Millennials,1,0,14
+Q10543841,Jim Fenlon,Northern Europe_male_Millennials,1,1,25
+Q544700,Ryan Wittman,Northern America_male_Millennials,1,1,33
+Q1779180,Norman Theuerkauf,Western Europe_male_Millennials,1,1,39
+Q3852095,Matteo Canavesi,Southern Europe_male_Millennials,1,1,27
+Q1875129,Édouard Butin,Western Europe_male_Millennials,1,1,55
+Q2087621,Carlo Evertz,Western Europe_male_Millennials,1,1,21
+Q5107950,Chris Russell,Northern Europe_male_Millennials,1,1,16
+Q538897,Ignasi Miquel,Southern Europe_male_Millennials,1,1,50
+Q17428192,Faycal Rherras,Western Europe_male_Millennials,1,1,26
+Q16223656,Ryan Harrison,Northern Europe_male_Millennials,1,1,34
+Q7366919,Rory McKeown,Northern Europe_male_Millennials,1,1,32
+Q3982511,Ted Kitchel,Northern America_male_Baby Boomers,1,1,30
+Q18387184,Paulo Markolaj,Southern Europe_male_Millennials,1,0,14
+Q722294,Dady,Southern Europe_male_Millennials,1,1,41
+Q1375957,Marko Perović,Southern Europe_male_Millennials,1,1,50
+Q1633821,André Muri,Northern Europe_male_Millennials,1,1,27
+Q27473659,Mikkel Rygaard Jensen,Northern Europe_male_Millennials,1,1,26
+Q4018618,Wayne Yates,Northern America_male_Silent Generation,1,1,44
+Q1281685,Enes Novinić,Southern Europe_male_Millennials,1,1,26
+Q16149755,Francesco Anacoura,Southern Europe_male_Millennials,1,1,24
+Q4817919,Oliver Peev,Southern Europe_male_Millennials,1,1,19
+Q7901088,Uroš Vitas,Southern Europe_male_Millennials,1,1,31
+Q3760423,George Ackles,Northern America_male_Generation X,1,1,48
+Q21005467,Eric Crookshank,Northern America_male_Generation X,1,1,23
+Q358699,Milan Smiljanić,Northern Europe_male_Millennials,1,1,56
+Q3717053,Džengis Čavušević,Southern Europe_male_Millennials,1,1,39
+Q16234253,Toni García,Southern Europe_male_Millennials,1,1,23
+Q710886,Mathieu Béda,Western Europe_male_Millennials,1,1,42
+Q17517086,Devin Gibson,Northern America_male_Millennials,1,1,37
+Q15119293,Marko Živković,Southern Europe_male_Millennials,1,1,29
+Q1577700,Velimir Radinović,Northern America_male_Millennials,1,1,42
+Q119552831,Jordan Murphree,Northern America_female_Millennials,1,1,17
+Q428603,Luís Neto,Southern Europe_male_Millennials,1,1,55
+Q5214757,Dana Jones,Northern America_male_Generation X,1,1,21
+Q21141513,Youssouf Ahamadi,Western Europe_male_Millennials,1,1,24
+Q17388524,Nikica Košutić,Southern Europe_male_Millennials,1,1,28
+Q17453260,Iris Ikangi,Southern Europe_male_Millennials,1,1,24
+Q7035574,Nikola Krčmarević,Southern Europe_male_Millennials,1,1,30
+Q5238774,David Quesada,Northern America_male_Generation X,1,1,34
+Q7149197,Paul Ballard,Northern America_male_Millennials,1,1,19
+Q5338093,Edin Ademović,Southern Europe_male_Millennials,1,1,28
+Q631125,Peter Whittingham,Northern Europe_male_Millennials,1,1,59
+Q16235949,Rafael Veloso,Southern Europe_male_Millennials,1,1,38
+Q10460653,Mile Božić,Western Europe_male_Millennials,1,1,25
+Q3313751,Mikkel Rask,Northern Europe_male_Millennials,1,1,27
+Q4761588,Aneesh Kapil,Northern Europe_male_Millennials,1,1,15
+Q6108809,Ridge McKeither,Northern America_male_Millennials,1,1,19
+Q16083510,Aleksandar Subić,Southern Europe_male_Millennials,1,1,21
+Q1244773,Radoš Bulatović,Southern Europe_male_Millennials,1,1,36
+Q5548772,Ger Rowe,Northern Europe_male_Millennials,1,1,23
+Q29456,Michael Johnson,Northern Europe_male_Millennials,1,1,47
+Q301689,Gunnar Nielsen,Northern Europe_male_Millennials,1,1,55
+Q6771223,Marko Pavićević,Southern Europe_male_Millennials,1,1,31
+Q13461111,Merritt Mathias,Northern America_female_Millennials,1,1,30
+Q552413,Nikola Drinčić,Southern Europe_male_Millennials,1,1,55
+Q12382615,Aitor Fernández López,Southern Europe_male_Millennials,1,1,45
+Q2964862,Chris Singleton,Northern America_male_Baby Boomers,1,1,24
+Q24450141,Jovan Blagojević,Southern Europe_male_Millennials,1,1,19
+Q3779906,Gustav Wikheim,Northern Europe_male_Millennials,1,1,37
+Q16890504,Aleksandar Bajić,Southern Europe_male_Millennials,1,1,26
+Q7048180,Nolan D. Archibald,Northern America_male_Silent Generation,1,1,21
+Q2279390,Nico Van Der Linden,Western Europe_male_Millennials,1,1,24
+Q5289726,Dom Dwyer,Northern Europe_male_Millennials,1,1,52
+Q19867006,Michele Dalton,Northern America_female_Millennials,1,1,25
+Q66011129,Christian Aas,Northern Europe_male_Millennials,1,1,25
+Q459988,Nicole Barnhart,Northern America_female_Millennials,1,1,46
+Q1101557,CC Harrison,Northern America_male_Generation X,1,1,34
+Q2144035,Jorge Ortí Gracia,Southern Europe_male_Millennials,1,1,33
+Q520526,Marlon Garnett,Northern America_male_Generation X,1,1,54
+Q898409,Lovre Vulin,Southern Europe_male_Millennials,1,1,39
+Q764582,Jimmy Smith,Northern Europe_male_Millennials,1,1,40
+Q5304838,Dragan Antanasijević,Southern Europe_male_Millennials,1,1,27
+Q962408,Vern Fleming,Northern America_male_Baby Boomers,1,1,46
+Q3714431,Dosa Júnior,Southern Europe_male_Millennials,1,1,47
+Q5651446,Jamal Blackman,Northern Europe_male_Millennials,1,1,67
+Q2679273,Borja Pérez,Southern Europe_male_Millennials,1,1,35
+Q63190376,Ryan Coulter,Northern Europe_male_Millennials,1,1,27
+Q7108535,Otey Cannon,Northern America_male_Baby Boomers,1,1,17
+Q359377,Hamer Bouazza,Western Europe_male_Millennials,1,1,66
+Q3858936,Mirsad Ramić,Southern Europe_male_Millennials,1,1,17
+Q29034560,Ralph Schon,Western Europe_male_Millennials,1,1,30
+Q23008111,Miloš Pavlović,Southern Europe_male_Millennials,1,1,22
+Q1383407,Exaucé Mayombo,Western Europe_male_Millennials,1,1,22
+Q6016123,Mikel Iribas,Southern Europe_male_Millennials,1,1,31
+Q110224121,Ryan Curran,Northern Europe_male_Millennials,1,0,12
+Q1277708,Boban Marjanović,Southern Europe_male_Millennials,1,1,81
+Q18630884,Terran Petteway,Northern America_male_Millennials,1,1,40
+Q16875956,Austin Hollins,Northern America_male_Millennials,1,1,48
+Q3615837,Andrea Marusic,Southern Europe_male_Millennials,1,1,24
+Q19519977,Radoslav Peković,Southern Europe_male_Millennials,1,1,27
+Q42211763,Jon Horst,Northern America_male_Millennials,1,1,11
+Q5274613,Diego Chávarri,Northern America_male_Generation X,1,1,39
+Q2841178,Amara Baby,Western Europe_male_Millennials,1,1,42
+Q1749674,Martin Dorner,Western Europe_male_Millennials,1,1,24
+Q27978938,Manuarii Hauata,Western Europe_male_Millennials,1,1,15
+Q29589067,Kostas Theodoropoulos,Southern Europe_male_Millennials,1,1,18
+Q433813,Nikos Galis,Northern America_male_Baby Boomers,1,1,60
+Q464812,Nico Herzig,Western Europe_male_Millennials,1,1,39
+Q4154114,George Ducker,Northern America_male_Pre-Greatest Generation,1,1,27
+Q2854955,Hamisi Amani-Dove,Northern America_male_Generation X,1,1,30
+Q800230,Bahattin Köse,Western Europe_male_Millennials,1,1,40
+Q80868546,Tarik Bengelloun,Western Europe_male_Millennials,1,0,12
+Q16233172,Edu Gil,Southern Europe_male_Millennials,1,1,23
+Q2501742,Zajko Zeba,Southern Europe_male_Millennials,1,1,42
+Q3067712,Fayçal Fajr,Western Europe_male_Millennials,1,1,50
+Q21622111,Joel Monteiro,Southern Europe_male_Millennials,1,1,21
+Q251799,Ángel Martínez,Southern Europe_male_Millennials,1,1,44
+Q1717444,Jürgen Mansberger,Western Europe_male_Millennials,1,1,18
+Q3041942,Dylan Page,Northern America_male_Millennials,1,1,43
+Q3133146,Michiel Hemmen,Western Europe_male_Millennials,1,1,27
+Q6740851,Malachy Bowes Daly,Northern America_male_Pre-Greatest Generation,1,1,42
+Q1626563,Ben Poquette,Northern America_male_Baby Boomers,1,1,40
+Q17490268,Abdul Gaddy,Northern America_male_Millennials,1,1,48
+Q107479246,Arnaud Faget,Western Europe_male_Millennials,1,0,12
+Q89204383,Giannis Pechlivanopoulos,Southern Europe_male_Millennials,1,0,11
+Q61874678,Jon Octeus,Northern America_male_Millennials,1,1,26
+Q100165907,Cristian Galas,Southern Europe_male_Millennials,1,1,17
+Q96103100,Karina Moore,Northern America_female_Millennials,1,1,22
+Q511304,Jonathan Richter,Northern Europe_male_Millennials,1,1,26
+Q137589017,Albert Manweiler,Northern America_male_Pre-Greatest Generation,1,1,17
+Q2440941,Dejan Musli,Southern Europe_male_Millennials,1,1,51
+Q3168023,Jean-Michel Fontaine,Western Europe_male_Millennials,1,1,35
+Q1032995,Ramel Curry,Northern America_male_Generation X,1,1,50
+Q6831223,Michael Holody,Northern America_male_Millennials,1,1,25
+Q16653363,Dejan Zarubica,Southern Europe_male_Millennials,1,1,24
+Q10991200,Vytenis Jasikevičius,Northern Europe_male_Millennials,1,1,26
+Q560103,Marcel Titsch-Rivero,Western Europe_male_Millennials,1,1,32
+Q9070165,Rod Mason,Northern America_male_Generation X,1,1,27
+Q25431380,Ole Kristian Lauvli,Northern Europe_male_Millennials,1,1,19
+Q6701813,Luke Blakely,Northern Europe_male_Millennials,1,1,21
+Q10556287,Miloš Budaković,Southern Europe_male_Millennials,1,1,23
+Q3874498,Nello Russo,Southern Europe_male_Millennials,1,1,34
+Q6420456,Klemen Prepelič,Southern Europe_male_Millennials,1,1,58
+Q2334585,John Johnson,Northern America_male_Baby Boomers,1,1,55
+Q299768,Eduardo Carvalho,Southern Europe_male_Millennials,1,1,64
+Q669446,Uroš Ćosić,Southern Europe_male_Millennials,1,1,46
+Q16236390,Edison Ndreca,Southern Europe_male_Millennials,1,1,23
+Q26209650,Trey Freeman,Northern America_male_Millennials,1,1,35
+Q2380411,Ferdinand Prenom,Western Europe_male_Millennials,1,1,27
+Q3807810,Jeffrey Christiaens,Western Europe_male_Millennials,1,1,24
+Q65030866,Edward Morse,Northern Europe_male_Millennials,1,1,13
+Q17490281,Sek Henry,Northern America_male_Millennials,1,1,47
+Q2083454,Adnan Barakat,Western Europe_male_Millennials,1,1,33
+Q5079172,David Alvarez Vazquez,Southern Europe_male_Millennials,1,0,14
+Q100884566,Ognjen Miljkovic,Southern Europe_male_Millennials,1,1,18
+Q5982405,Ian Miller,Northern Europe_male_Millennials,1,1,33
+Q50931886,Kelli Hubly,Northern America_female_Millennials,1,1,26
+Q3176445,Jeff Capel III,Northern America_male_Generation X,1,1,38
+Q6125561,Sergio Olmos,Southern Europe_male_Millennials,1,1,24
+Q15842753,Robert Youngblood,Northern America_male_Generation X,1,1,22
+Q17265743,Jamie Hopcutt,Northern Europe_male_Millennials,1,1,35
+Q24007142,Alejandro García,Northern America_male_Millennials,1,1,20
+Q56480296,Christopher Jakobsen,Northern Europe_male_Millennials,1,1,25
+Q3802207,Isaac Fontaine,Northern America_male_Generation X,1,1,42
+Q22276694,Link Abrams,Northern America_male_Generation X,1,1,21
+Q29888007,Shade Pratt,Northern America_female_Millennials,1,1,23
+Q3860168,Moisés San Nicolás,Southern Europe_male_Millennials,1,1,35
+Q6703076,Lumbardh Salihu,Southern Europe_male_Millennials,1,1,27
+Q296416,Jermaine Pennant,Northern Europe_male_Millennials,1,1,67
+Q3616172,Andreas Moen,Northern Europe_male_Millennials,1,1,22
+Q7586596,Srđan Dimitrov,Southern Europe_male_Millennials,1,1,25
+Q21523334,Patrick Schagerl,Western Europe_male_Millennials,1,1,21
+Q4801666,Artur Schneider,Western Europe_male_Millennials,1,1,21
+Q510462,Josip Iličić,Southern Europe_male_Millennials,1,1,50
+Q15822008,Julian Matiasovits,Western Europe_male_Millennials,1,1,18
+Q20492270,Mikel Abaroa,Southern Europe_male_Millennials,1,1,19
+Q6453707,Kévin Barré,Western Europe_male_Millennials,1,1,22
+Q16452721,Ignas Plūkas,Northern Europe_male_Millennials,1,1,17
+Q27662608,J. J. Avila,Northern America_male_Millennials,1,1,33
+Q120267577,Kaspar Kaldoja,Northern Europe_male_Millennials,1,1,17
+Q60724194,Zach Mason,Northern America_male_Millennials,1,0,14
+Q1891580,Manuel Kerhe,Western Europe_male_Millennials,1,1,29
+Q16236143,Aidan Fulton,Northern Europe_male_Millennials,1,1,17
+Q6771149,Marko Jovanović,Southern Europe_male_Millennials,1,1,30
+Q29031332,Colton Storm,Northern America_male_Millennials,1,1,22
+Q4757294,Andrew Herman,Northern America_male_Millennials,1,1,23
+Q797670,Carlo Corazzin,Northern America_male_Generation X,1,1,42
+Q5296858,Donovan Simmonds,Northern Europe_male_Millennials,1,1,33
+Q21621091,Gerritson Craane,Western Europe_male_Millennials,1,1,21
+Q15041594,Andre Young,Northern America_male_Millennials,1,1,30
+Q21284910,Ryan Dicker,Northern Europe_male_Millennials,1,1,27
+Q2292625,Jani Tapani Virtanen,Northern Europe_male_Millennials,1,1,38
+Q3530505,Jignesh Desai,Northern America_male_Generation X,1,0,11
+Q106852271,Malachy Duffy,Northern America_male_Silent Generation,1,1,17
+Q313488,Michael Redd,Northern America_male_Generation X,1,1,55
+Q7611987,Steve Boardman,Northern America_male_Baby Boomers,1,1,29
+Q7328352,Richard Peniket,Northern Europe_male_Millennials,1,1,30
+Q320515,Markus Neumayr,Western Europe_male_Millennials,1,1,47
+Q5885337,Gregorio Ciudad Real Linares,Southern Europe_male_Millennials,1,0,14
+Q3990697,Thomas Mobley,Northern America_male_Millennials,1,1,31
+Q35323780,Milton Doyle,Northern America_male_Millennials,1,1,40
+Q5557878,Giacomo Cotellessa,Southern Europe_male_Millennials,1,1,21
+Q38917020,Idris Dawud,Northern America_male_Millennials,1,1,28
+Q3275756,Adriana Leon,Northern America_female_Millennials,1,1,57
+Q4533700,Igor Jugović,Southern Europe_male_Millennials,1,1,30
+Q2555801,Jon Koncak,Northern America_male_Baby Boomers,1,1,43
+Q3002041,Craig Moses,Northern Europe_male_Millennials,1,1,21
+Q100769496,Kyle Chones,Northern America_male_Millennials,1,1,22
+Q16233206,Florent Hanin,Western Europe_male_Millennials,1,1,39
+Q21005446,Jonathan Correia Da Fonseca,Western Europe_male_Millennials,1,1,18
+Q7938374,Vladimir Ilić,Southern Europe_male_Millennials,1,1,19
+Q399473,Agustín Viana,Northern America_male_Millennials,1,1,44
+Q15042670,Eric Burks,Northern America_male_Generation X,1,1,32
+Q27286798,Niko Kata,Southern Europe_male_Millennials,1,1,33
+Q39072382,Alex Barnett,Northern America_male_Millennials,1,1,27
+Q706484,Marko Lomić,Southern Europe_male_Millennials,1,1,48
+Q4776367,Antonino Profeta,Southern Europe_male_Millennials,1,1,20
+Q584535,Ivan Paunić,Southern Europe_male_Millennials,1,1,46
+Q85995966,Marko Živkov,Southern Europe_male_Millennials,1,0,14
+Q2878898,Steven Robb,Northern Europe_male_Millennials,1,1,30
+Q13562779,Katy Freels,Northern America_female_Millennials,1,1,30
+Q6519648,Leigh Mills,Northern Europe_male_Millennials,1,1,28
+Q18015177,Jákup Johansen,Northern Europe_male_Millennials,1,1,26
+Q5053531,Catiana Vitanza,Northern America_female_Millennials,1,1,20
+Q28528670,Marco Frediani,Southern Europe_male_Millennials,1,1,20
+Q56250121,DeMario Mayfield,Northern America_male_Millennials,1,1,27
+Q553482,Bryan Warrick,Northern America_male_Baby Boomers,1,1,40
+Q4979250,Emilijus Zubas,Northern Europe_male_Millennials,1,1,42
+Q21063780,Caroline Stanley,Northern America_female_Millennials,1,1,24
+Q77044,Chris Kaman,Northern America_male_Millennials,1,1,51
+Q175520,Lukas Schmitz,Western Europe_male_Millennials,1,1,43
+Q63214294,Jay McAuley,Northern America_male_Millennials,1,1,21
+Q521943,Kelly Tripucka,Northern America_male_Baby Boomers,1,1,41
+Q5246462,Dean Sinclair,Northern Europe_male_Millennials,1,1,35
+Q2763379,Gilles Colin,Western Europe_male_Millennials,1,1,16
+Q450481,Alyssa Naeher,Northern America_female_Millennials,1,1,56
+Q558820,Gōtoku Sakai,Northern America_male_Millennials,1,1,65
+Q42269330,Vjačeslavs Isajevs,Northern Europe_male_Millennials,1,1,24
+Q16234793,Adam Marušić,Southern Europe_male_Millennials,1,1,40
+Q464495,Chris Birchall,Northern Europe_male_Millennials,1,1,46
+Q7280111,Radenko Kamberović,Southern Europe_male_Millennials,1,1,31
+Q5957655,Nicklas Lindqvist,Northern Europe_male_Millennials,1,1,22
+Q5274737,Diego Martins da Silva,Southern Europe_male_Millennials,1,1,27
+Q85999522,Stefan Marjanović,Southern Europe_male_Millennials,1,0,14
+Q930445,Eric Snow,Northern America_male_Generation X,1,1,49
+Q2340918,Diego Karg,Western Europe_male_Millennials,1,1,21
+Q6112226,Jack Dunn,Northern America_male_Silent Generation,1,1,20
+Q960594,Otto Graham,Northern America_male_Greatest Generation,1,1,91
+Q16193991,Joenal Castma,Northern America_male_Generation X,1,1,18
+Q3993203,Tony Brown,Northern America_male_Generation X,1,1,27
+Q25929963,Chub Watson,Northern America_male_Greatest Generation,1,1,24
+Q100897731,Bob Paxton,Northern America_male_Silent Generation,1,1,17
+Q578510,Álvaro Brachi,Southern Europe_male_Millennials,1,1,31
+Q456365,Alessio Cerci,Southern Europe_male_Millennials,1,1,60
+Q131138707,Oliver Winzeler,Western Europe_male_Millennials,1,1,17
+Q4265509,Igor Lozo,Southern Europe_male_Millennials,1,1,31
+Q60824125,Jurijs Ksenzovs,Northern Europe_male_Millennials,1,1,18
+Q2001591,Iván Cuéllar,Southern Europe_male_Millennials,1,1,41
+Q16234220,Abel Miguel Suárez,Southern Europe_male_Millennials,1,1,29
+Q6915673,Moses Ademola,Northern Europe_male_Millennials,1,1,29
+Q19788114,Red Malackany,Northern America_male_Greatest Generation,1,1,19
+Q205969,Christian Stuff,Western Europe_male_Millennials,1,1,33
+Q14324108,Páll Klettskarð,Northern Europe_male_Millennials,1,1,30
+Q14778564,Sebastian Mrowca,Western Europe_male_Millennials,1,1,31
+Q2388647,David Vaughn Jr.,Northern America_male_Baby Boomers,1,1,26
+Q1266112,Philipp Röppnack,Western Europe_male_Millennials,1,1,23
+Q25463,Mohamed Youssouf,Western Europe_male_Millennials,1,1,40
+Q113916,Stephen Ireland,Northern Europe_male_Millennials,1,1,52
+Q16218677,Lee Morrison,Northern America_male_Generation X,1,1,24
+Q6182370,Jermaine Walker,Northern America_male_Generation X,1,1,34
+Q38051006,Ívar DeCarsta Webster,Northern America_male_Baby Boomers,1,1,16
+Q28935619,Marshawn Powell,Northern America_male_Millennials,1,1,32
+Q378375,Christian Demirtaş,Western Europe_male_Millennials,1,1,33
+Q4935645,Bobby Traynor,Northern Europe_male_Millennials,1,1,24
+Q21079295,Mattijs Branderhorst,Western Europe_male_Millennials,1,1,23
+Q5722499,Henry Hallowell Farquhar,Northern America_male_Pre-Greatest Generation,1,1,16
+Q6397130,Kevin O'Connor,Northern Europe_male_Millennials,1,1,26
+Q16013710,Lyle Neat,Northern America_male_Greatest Generation,1,1,20
+Q16209481,Taylor Braun,Northern America_male_Millennials,1,1,47
+Q517962,Calum Davenport,Northern Europe_male_Millennials,1,1,50
+Q2735592,Samaki Walker,Northern America_male_Generation X,1,1,50
+Q2469707,Neil Mellor,Northern Europe_male_Millennials,1,1,46
+Q6175856,Pontus Silfver,Northern Europe_male_Millennials,1,1,24
+Q472508,Veli Kavlak,Western Europe_male_Millennials,1,1,48
+Q100924020,Dallas Smith,Northern America_male_Baby Boomers,1,1,18
+Q3052503,Paul Quinn,Northern Europe_male_Millennials,1,1,34
+Q6215862,Faton Trstena,Northern Europe_male_Millennials,1,1,15
+Q3869080,Myles McKay,Northern America_male_Millennials,1,1,31
+Q21039341,Hugo Eyre Bernat,Southern Europe_male_Millennials,1,1,22
+Q19281751,Flash Brown,Northern America_male_Millennials,1,1,36
+Q41777187,Víctor Manuel Pérez Ramos,Southern Europe_male_Millennials,1,1,19
+Q42305613,Nick Radosavljevic,Northern Europe_male_Millennials,1,1,20
+Q7812726,Todd Yeagley,Northern America_male_Generation X,1,1,26
+Q28819149,Hakan Gökcek,Western Europe_male_Millennials,1,1,25
+Q17305978,Lee Gregory,Northern Europe_male_Millennials,1,1,28
+Q28055439,Miloš Šaka,Southern Europe_male_Millennials,1,0,13
+Q555436,Danny Green,Northern America_male_Millennials,1,1,59
+Q7862283,Tó Barbosa,Southern Europe_male_Millennials,1,1,24
+Q16233601,Aleksandar Stojković,Southern Europe_male_Millennials,1,1,27
+Q61793955,Chris Skidmore,Northern Europe_male_Millennials,1,1,13
+Q5210607,Dale Roberts,Northern Europe_male_Millennials,1,1,29
+Q8250882,Borja Sánchez Gil,Southern Europe_male_Millennials,1,1,30
+Q33435863,Darryl Geurts,Western Europe_male_Millennials,1,1,19
+Q98201830,Nói Snaehólm Ólafsson,Northern Europe_male_Millennials,1,1,19
+Q21623024,Flavien Tait,Western Europe_male_Millennials,1,1,37
+Q3194939,Kelsey Griffin,Northern America_female_Millennials,1,1,51
+Q51702085,Chris Ogden,Northern America_male_Generation X,1,1,21
+Q19867802,Stefan Defregger,Northern America_male_Millennials,1,1,19
+Q7103777,Oronde Bascome,Northern Europe_male_Millennials,1,1,14
+Q13527923,Alessio Bruno,Southern Europe_male_Millennials,1,1,18
+Q5952509,Juan Sebastián Botero,Northern America_male_Millennials,1,1,29
+Q1237801,Dominik Hofbauer,Western Europe_male_Millennials,1,1,41
+Q17478652,Toni Datković,Southern Europe_male_Millennials,1,1,38
+Q535456,Alexis Kyritsis,Southern Europe_male_Millennials,1,1,36
+Q1948010,Moritz Moser,Western Europe_male_Millennials,1,1,24
+Q47504991,Malcolm Brooks,Northern America_male_Millennials,1,1,22
+Q5042512,Carlos Quesada,Southern Europe_male_Millennials,1,1,29
+Q107555914,Ambroise Félicitet,Western Europe_male_Millennials,1,0,13
+Q7704606,Terry Kennedy,Northern Europe_male_Millennials,1,1,20
+Q1071175,Omari Aldridge,Northern America_male_Millennials,1,1,17
+Q1173037,Josh Walker,Northern Europe_male_Millennials,1,1,44
+Q2927171,Bryan Pamba,Western Europe_male_Millennials,1,1,27
+Q29001127,Nicholas Siega,Southern Europe_male_Millennials,1,1,29
+Q6214413,Joey Hutchinson,Northern Europe_male_Millennials,1,1,35
+Q876827,Ernst Öbster,Western Europe_male_Millennials,1,1,38
+Q16235098,Jon-Helge Tveita,Northern Europe_male_Millennials,1,1,23
+Q16230071,Carlos Miguel Tavares Oliveira,Southern Europe_male_Millennials,1,1,28
+Q7454322,Sergio McClain,Northern America_male_Generation X,1,1,28
+Q195878,Emanuele Giaccherini,Southern Europe_male_Millennials,1,1,59
+Q3811381,,Southern Europe_male_Millennials,1,1,49
+Q16236329,Jack Marriott,Northern Europe_male_Millennials,1,1,33
+Q44740,Abel Khaled,Western Europe_male_Millennials,1,1,34
+Q1934161,Miladin Peković,Southern Europe_male_Millennials,1,1,22
+Q21620992,Saimir Çelhaka,Southern Europe_male_Millennials,1,0,14
+Q6928018,Mozzi Gyorio,Southern Europe_male_Millennials,1,1,26
+Q16762786,Bojan Spasojević,Southern Europe_male_Millennials,1,1,20
+Q43729,Andrés Iniesta,Southern Europe_male_Millennials,1,1,138
+Q3718962,Eddy Berdusco,Northern America_male_Generation X,1,1,32
+Q98539564,David González,Southern Europe_male_Millennials,1,1,16
+Q7610116,Stephen O'Donnell,Northern Europe_male_Millennials,1,1,42
+Q2896629,Benoît Poulain,Western Europe_male_Millennials,1,1,30
+Q123588435,,Southern Europe_male_Millennials,1,1,20
+Q3120247,Guillaume Yango,Western Europe_male_Millennials,1,1,33
+Q6137927,James Lee,Northern Europe_male_Millennials,1,1,33
+Q21039375,Néstor Salinas,Southern Europe_male_Millennials,1,1,33
+Q98603248,Josh Heath,Northern America_male_Millennials,1,1,18
+Q26838313,Harlan Wilson,Northern America_male_Greatest Generation,1,1,20
+Q100886571,Doug Moon,Northern America_male_Silent Generation,1,1,23
+Q6757615,Marco Martina Rini,Southern Europe_male_Millennials,1,1,25
+Q66342225,Little Moose Meyer,Northern America_male_Greatest Generation,1,1,14
+Q19867892,Zac Portillos,Northern America_male_Millennials,1,1,23
+Q3554195,Valère Germain,Western Europe_male_Millennials,1,1,61
+Q6845176,Mihailo Dobrašinović,Southern Europe_male_Millennials,1,1,30
+Q1255561,Samuel Sáiz,Southern Europe_male_Millennials,1,1,40
+Q55759612,Cody Cooke,Northern Europe_male_Millennials,1,1,21
+Q1526376,Giovanni Sio,Western Europe_male_Millennials,1,1,60
+Q6850575,Milan Jovanović,Southern Europe_male_Millennials,1,1,33
+Q123736,Yusuf Kasal,Western Europe_male_Millennials,1,1,32
+Q2332425,Carlos Clark,Northern America_male_Baby Boomers,1,1,40
+Q1976434,Henry Bakker,Western Europe_male_Millennials,1,1,16
+Q16235879,George Taft,Northern Europe_male_Millennials,1,1,37
+Q6277474,Jordi Mareñá,Southern Europe_male_Millennials,1,1,25
+Q2793052,Yohan Brouckaert,Western Europe_male_Millennials,1,1,22
+Q7699573,Tendayi Darikwa,Northern Europe_male_Millennials,1,1,44
+Q5108523,Chris Wright,Northern Europe_male_Millennials,1,1,20
+Q16730381,Phil Johnston,Northern Europe_male_Millennials,1,1,20
+Q114711415,Endika Galarza,Southern Europe_male_Millennials,1,1,25
+Q4008936,Vasja Šimčič,Southern Europe_male_Millennials,1,1,27
+Q7463312,Ryan Scicluna,Southern Europe_male_Millennials,1,1,24
+Q24005295,Ángel Rodríguez,Northern America_male_Millennials,1,1,44
+Q3190452,Justin Hawkins,Northern America_male_Millennials,1,1,34
+Q16676874,Simon Farre,Western Europe_male_Millennials,1,1,11
+Q45027751,Davide Raucci,Southern Europe_male_Millennials,1,1,20
+Q3779808,Gunnar Már Guðmundsson,Northern Europe_male_Millennials,1,1,24
+Q2854764,Timon van Leeuwen,Western Europe_male_Millennials,1,1,16
+Q16836970,Oscar Branzani,Southern Europe_male_Millennials,1,1,20
+Q17712339,Sean Maguire,Northern Europe_male_Millennials,1,1,40
+Q16086837,Nenad Stefanović,Southern Europe_male_Millennials,1,1,21
+Q7384416,Ryan Peters,Northern Europe_male_Millennials,1,1,28
+Q1321959,Tobias Mikaelsson,Northern Europe_male_Millennials,1,1,28
+Q5219532,Danijel Gašić,Southern Europe_male_Millennials,1,1,24
+Q4706403,Alan Connell,Northern Europe_male_Millennials,1,1,38
+Q7931647,Vincent Acapandié,Western Europe_male_Millennials,1,1,25
+Q880199,Maik Wagefeld,Western Europe_male_Millennials,1,1,29
+Q2581190,Mohamed Amine Dennoun,Western Europe_male_Millennials,1,1,27
+Q1613303,Randy Livingston,Northern America_male_Generation X,1,1,54
+Q12382499,Adrián Chapela,Southern Europe_male_Millennials,1,1,27
+Q533101,Lavor Postell,Northern America_male_Generation X,1,1,41
+Q4953062,Božidar Jelovac,Southern Europe_male_Millennials,1,1,27
+Q14516345,Chris Wolf,Western Europe_male_Millennials,1,1,25
+Q4678975,Adam Dodd,Northern Europe_male_Millennials,1,1,20
+Q55654209,Damir Muminovic,Southern Europe_male_Millennials,1,1,20
+Q2352493,Rick Weitzman,Northern America_male_Baby Boomers,1,1,31
+Q7036052,Nikolaos Georgiadis,Northern America_male_Millennials,1,1,25
+Q107502928,Gary O'Neill,Northern Europe_male_Millennials,1,1,22
+Q3508727,Marko Šimić,Southern Europe_male_Millennials,1,1,41
+Q44737222,Warren Niles,Northern America_male_Millennials,1,1,26
+Q17198151,Francesco Gazo,Southern Europe_male_Millennials,1,1,21
+Q1734445,Karsten Fischer,Western Europe_male_Millennials,1,1,33
+Q25470487,Arsyad Yusgiantoro,South-eastern Asia_male_Generation Z,0,0,14
+Q22004692,Sameen Gul,Southern Asia_male_Generation Z,0,0,10
+Q22342329,Mehmet Alper,Western Asia_male_Generation Z,0,1,18
+Q105970082,Abdelwahed Wahib,Northern Africa_male_Generation Z,0,1,15
+Q4776005,Anton Silva,Southern Asia_male_Baby Boomers,0,1,17
+Q136089781,Yiğit Evin,Western Asia_male_Generation Z,0,0,12
+Q4805769,Ashok Menaria,Southern Asia_male_Millennials,0,1,17
+Q601201,Steven Dias,Southern Asia_male_Millennials,0,1,34
+Q28549322,Divya Pratap Singh,Southern Asia_male_Millennials,0,0,10
+Q52886784,Yassin Yaqoub,Western Asia_male_Generation Z,0,1,16
+Q65665961,Jithin MS,Southern Asia_male_Generation Z,0,0,11
+Q59179432,Robiul Hoque,Southern Asia_male_Generation Z,0,0,8
+Q28784460,Abdullah Hassan Al-Noubi,Western Asia_male_Generation Z,0,0,12
+Q109406875,Teerasak Poeiphimai,South-eastern Asia_male_Generation Z,0,1,17
+Q24006342,Naveen Reddy,Southern Asia_male_Millennials,0,0,9
+Q123202663,Alperen Bekli,Western Asia_male_Generation Z,0,0,13
+Q108435184,Dwi Rafi Angga,South-eastern Asia_male_Generation Z,0,0,9
+Q107125571,Arman Nersesyan,Western Asia_male_Generation Z,0,1,22
+Q27909403,Jagannathan Kaushik,Southern Asia_male_Millennials,0,0,9
+Q123228644,Yiğithan Kır,Western Asia_male_Generation Z,0,1,17
+Q23682334,Nandu Chandravarkar,Southern Asia_male_Baby Boomers,0,0,9
+Q98198257,Yusuf Karagöz,Western Asia_male_Generation Z,0,1,20
+Q65760683,Jadid Ilias,South-eastern Asia_male_Generation Z,0,0,12
+Q60479067,Yusuf Habib,Western Asia_male_Generation Z,0,1,15
+Q111536453,Omar Faruk Babu,Southern Asia_male_Millennials,0,0,9
+Q88406833,Mobarak Al-Faneeni,Western Asia_male_Generation Z,0,0,13
+Q28777381,Ismael Khaled,Western Asia_male_Generation Z,0,0,13
+Q26829736,Safawi Rasid,South-eastern Asia_male_Generation Z,0,1,30
+Q106339830,Yasser Berbache,Northern Africa_male_Generation Z,0,0,11
+Q16221177,Joginder Singh,Southern Asia_male_Generation X,0,1,12
+Q130461800,Ronny Laufer,Western Asia_male_Generation Z,0,1,15
+Q126221051,Oğuzcan Çalışkan,Western Asia_male_Generation Z,0,1,16
+Q49582291,Tanay Thyagarajan,Southern Asia_male_Generation Z,0,0,9
+Q27970991,Viraj Bhosale,Southern Asia_male_Millennials,0,1,12
+Q5091142,Chencho,Southern Asia_male_Millennials,0,1,15
+Q7141333,Parvinder Awana,Southern Asia_male_Millennials,0,1,17
+Q27949784,Irosh Samarasooriya,Southern Asia_male_Millennials,0,1,12
+Q23418907,Jagath Nandakumar,Southern Asia_male_Generation X,0,0,10
+Q7492858,Shehzad Altaf,Southern Asia_male_Baby Boomers,0,1,13
+Q81942227,Qays Ganem,Western Asia_male_Generation Z,0,1,37
+Q6382526,Kedar Devdhar,Southern Asia_male_Millennials,0,1,14
+Q20744670,Sachith Pathirana,Southern Asia_male_Millennials,0,1,19
+Q29252170,Dimuthu Naveendra,Southern Asia_male_Millennials,0,0,9
+Q134302501,Muhammet Enes Artarslan,Western Asia_male_Generation Z,0,0,13
+Q81199510,Sumit Rathi,Southern Asia_male_Generation Z,0,0,10
+Q3531869,Dilip Doshi,Southern Asia_male_Baby Boomers,0,1,23
+Q64010522,Vinoo Balakrishnan,Southern Asia_male_Millennials,0,0,8
+Q96402406,Turan Valizada,Western Asia_male_Generation Z,0,1,20
+Q61996800,Karim El Deeb,Northern Africa_male_Generation Z,0,0,11
+Q134302444,Berzan Akkaya,Western Asia_male_Generation Z,0,0,13
+Q64167398,Hazim Al-Zahrani,Western Asia_male_Generation Z,0,1,17
+Q134302489,Mehmet Olgar Sağlam,Western Asia_male_Generation Z,0,0,14
+Q23664142,Arup Bhattacharya,Southern Asia_male_Baby Boomers,0,0,9
+Q21284547,Anwar Ahmed,Southern Asia_male_Millennials,0,1,12
+Q3345871,Manjural Islam Rana,Southern Asia_male_Millennials,0,1,19
+Q104146989,Charles McCalgan,Southern Africa_male_Baby Boomers,0,0,10
+Q108554124,Aashish Lama,Southern Asia_male_Generation Z,0,1,15
+Q99514057,Farid Yusifli,Western Asia_male_Generation Z,0,1,16
+Q41749542,Mohamed Mohsen Leila,Northern Africa_male_Generation Z,0,1,16
+Q126220781,Seçim Can Koç,Western Asia_male_Generation Z,0,0,13
+Q85202272,Mohammed Rahman,South-eastern Asia_male_Generation Z,0,0,13
+Q66764676,Bünyamin Balcı,Western Asia_male_Generation Z,0,1,33
+Q19561017,Chirag Khurana,Southern Asia_male_Millennials,0,1,12
+Q3535470,Rana Naved-ul-Hasan,Southern Asia_male_Generation X,0,1,20
+Q7420666,Santosh Sahukhala,Southern Asia_male_Millennials,0,1,22
+Q136089777,Mustafa Serhan Kök,Western Asia_male_Generation Z,0,0,12
+Q64498150,Khaled Mazeed,Western Asia_male_Generation Z,0,1,27
+Q50391375,Awn Al-Saluli,Western Asia_male_Generation Z,0,1,22
+Q36641637,Giorgi Chakvetadze,Western Asia_male_Generation Z,0,1,35
+Q27469916,Subhranshu Senapati,Southern Asia_male_Generation Z,0,0,9
+Q123203190,Oğulcan İnanç,Western Asia_male_Generation Z,0,1,17
+Q3530745,Gayan Wijekoon,Southern Asia_male_Generation X,0,1,17
+Q79351675,Khamis Al-Hammadi,Western Asia_male_Generation Z,0,0,11
+Q123202632,Efe Kaan Yıldız,Western Asia_male_Generation Z,0,0,14
+Q123202522,Onur Öztonga,Western Asia_male_Generation Z,0,0,12
+Q1062223,Ediri Bandanage Channa,Southern Asia_male_Generation X,0,1,26
+Q101096377,Amine Aboulfath,Northern Africa_male_Generation Z,0,1,20
+Q134302984,Osman Erol,Western Asia_male_Generation Z,0,1,15
+Q134302968,Mert Öztürk,Western Asia_male_Generation Z,0,0,13
+Q95264655,Jaruwan Chaiyarak,South-eastern Asia_female_Millennials,0,0,8
+Q65162963,Jaouad Erraji,Northern Africa_male_Generation Z,0,0,14
+Q28967868,Harith Maduwantha,Southern Asia_male_Millennials,0,0,9
+Q6143246,James Singh,Southern Asia_male_Millennials,0,1,16
+Q21621932,Deepak Manhas,Southern Asia_male_Millennials,0,1,12
+Q6473241,Lahiru Thirimanne,Southern Asia_male_Millennials,0,1,25
+Q99618708,Noa Zelivanski,Western Asia_male_Generation Z,0,1,13
+Q16232961,Nagen Tamang,Southern Asia_male_Millennials,0,1,16
+Q16897844,Anil Chaudhary,Southern Asia_male_Generation X,0,1,12
+Q110263365,Mizanur Rahman,Southern Asia_male_Generation X,0,1,32
+Q5651359,Hanuman Singh,Southern Asia_male_Baby Boomers,0,1,20
+Q66649518,Kevin Gomes de Oliveira,South-eastern Asia_male_Generation Z,0,0,11
+Q27049272,Jony Talukdar,Southern Asia_male_Millennials,0,0,10
+Q21620803,Aamir Aziz,Southern Asia_male_Millennials,0,1,13
+Q75224640,Fridolin Yoku,South-eastern Asia_male_Generation Z,0,0,12
+Q22006523,Anas Mahmood,Southern Asia_male_Millennials,0,0,9
+Q22007315,Amandeep Khare,Southern Asia_male_Generation Z,0,0,10
+Q5996249,Ikramullah Sheikh,Southern Asia_male_Generation X,0,1,14
+Q22276985,Milan Basumatary,Southern Asia_male_Generation Z,0,1,19
+Q123228831,Oğuzcan Kesgin,Western Asia_male_Generation Z,0,1,17
+Q21622847,Rohit Sharma,Southern Asia_male_Millennials,0,0,11
+Q21622311,Rishabh Pant,Southern Asia_male_Generation Z,0,1,28
+Q100260803,Mahmoud Gad,Northern Africa_male_Generation Z,0,1,16
+Q16116712,Banks Setlhodi,Southern Africa_male_Baby Boomers,0,0,14
+Q30026999,Dhanuka Pathirana,Southern Asia_male_Millennials,0,0,9
+Q22162710,Nicholas Fernandes,Southern Asia_male_Millennials,0,1,18
+Q134302598,Furkan Gedikli,Western Asia_male_Generation Z,0,1,17
+Q7911231,Valeriano Rebello,Southern Asia_male_Millennials,0,1,20
+Q7929349,Vijith Shetty,Southern Asia_male_Millennials,0,0,13
+Q23771843,Probir Chail,Southern Asia_male_Baby Boomers,0,0,9
+Q6653212,Litton Das,Southern Asia_male_Millennials,0,1,29
+Q61892600,Islam Gaber,Northern Africa_male_Generation Z,0,1,18
+Q39396117,Ahmed Yasser Rayyan,Northern Africa_male_Generation Z,0,1,30
+Q16225904,Kuldeep Yadav,Southern Asia_male_Millennials,0,1,28
+Q21623276,Mohammad Waqas,Southern Asia_male_Millennials,0,0,11
+Q134303002,Yusuf Kurt,Western Asia_male_Generation Z,0,0,13
+Q6008189,Imran Jamshed,Southern Asia_male_Generation X,0,1,12
+Q104413877,Russell Fensham,Southern Africa_male_Baby Boomers,0,0,9
+Q28086389,Promod Maduwantha,Southern Asia_male_Generation Z,0,0,9
+Q104780509,Abdul Hannan,Southern Asia_male_Generation Z,0,0,10
+Q21979438,Pranav Dhanawade,Southern Asia_male_Generation Z,0,0,10
+Q27107039,Sarayut Sompim,South-eastern Asia_male_Generation Z,0,1,16
+Q134302634,Yusuf Yardımcı,Western Asia_male_Generation Z,0,1,17
+Q103821497,Leslie Kets,Southern Africa_male_Baby Boomers,0,0,9
+Q86682308,Azri Suhaili,South-eastern Asia_male_Generation Z,0,0,14
+Q16872871,Ivan Wingreen,Southern Africa_male_Baby Boomers,0,1,14
+Q97735088,Samith de Silva,Southern Asia_male_Millennials,0,0,8
+Q105970434,Tia Darti Septiawati,South-eastern Asia_female_Millennials,0,0,10
+Q22004529,Adnan Ghaus,Southern Asia_male_Millennials,0,0,9
+Q136289800,Yunus Emre Kolay,Western Asia_male_Generation Z,0,0,11
+Q17489664,Nikolas Ioannou,Western Asia_male_Generation Z,0,1,40
+Q7505744,Shuvagata Hom,Southern Asia_male_Millennials,0,1,22
+Q56877000,Shubham Sarangi,Southern Asia_male_Generation Z,0,0,13
+Q76787625,Abdulrahman Saleh,Western Asia_male_Generation Z,0,1,17
+Q21621930,Sagar Mangalorkar,Southern Asia_male_Millennials,0,0,10
+Q79351723,Abdulqader Ali,Western Asia_male_Generation Z,0,0,11
+Q22006131,Ricky Lallawmawma,Southern Asia_male_Millennials,0,1,16
+Q97446719,Dinesh Seneviratne,Southern Asia_male_Generation X,0,0,8
+Q105675342,Jaycee Marcelino,South-eastern Asia_male_Generation Z,0,0,7
+Q21572739,Rauf Akbar,Southern Asia_male_Generation X,0,0,10
+Q53448125,Nuhayan Saeed,Western Asia_male_Generation Z,0,0,12
+Q60455333,Hamad Al-Yami,Western Asia_male_Generation Z,0,1,26
+Q109796214,Muhammed Emin Ergin,Western Asia_male_Generation Z,0,1,16
+Q33289626,Zarulizwan Mazlan,South-eastern Asia_male_Generation Z,0,0,12
+Q130480863,Efe Okutan,Western Asia_male_Generation Z,0,1,17
+Q98249139,Yusuf Türk,Western Asia_male_Generation Z,0,1,21
+Q96745600,Ilay Madmon,Western Asia_male_Generation Z,0,1,48
+Q125807354,Tunahan Akpınar,Western Asia_male_Generation Z,0,1,16
+Q55819170,Reungyos Janchaichit,South-eastern Asia_male_Generation Z,0,0,14
+Q5277807,Dimuth Karunaratne,Southern Asia_male_Millennials,0,1,25
+Q63824936,Fırat Alemdaroğlu,Western Asia_male_Generation Z,0,1,27
+Q23664261,Nasir Siddiqi,Southern Asia_male_Generation X,0,0,9
+Q24549788,Mohammad Farman,Southern Asia_male_Millennials,0,0,9
+Q110981583,Ifan Nanda Pratama,South-eastern Asia_male_Generation Z,0,0,9
+Q110451696,Alfons Migau,South-eastern Asia_male_Generation Z,0,0,10
+Q19571902,Monaem Khan Raju,Southern Asia_male_Millennials,0,1,23
+Q124308227,Arshin Kulkarni,Southern Asia_male_Generation Z,0,0,10
+Q64746274,Munna Kakoti,Southern Asia_male_Baby Boomers,0,0,9
+Q123203061,Alişan Durmuş,Western Asia_male_Generation Z,0,1,15
+Q87472444,Chanayut Jejue,South-eastern Asia_male_Generation Z,0,0,12
+Q2723699,Kiran More,Southern Asia_male_Baby Boomers,0,1,20
+Q17198305,Constantinos Louvaris,Western Asia_male_Generation Z,0,0,12
+Q22812486,Alaa Al Hejji,Western Asia_male_Generation Z,0,1,17
+Q29168814,Tharindu Siriwardene,Southern Asia_male_Millennials,0,0,9
+Q86682410,Harith Kanadi,South-eastern Asia_male_Generation Z,0,1,15
+Q69511028,Alâaddin Okumuş,Western Asia_male_Generation Z,0,1,22
+Q106862119,Alâattin Öner,Western Asia_male_Generation Z,0,1,19
+Q112304387,Styopa Mkrtchyan,Western Asia_male_Generation Z,0,1,20
+Q110851712,Ruy Arianto,South-eastern Asia_male_Generation Z,0,0,9
+Q27448056,Daniel Gadia,South-eastern Asia_male_Generation Z,0,1,24
+Q50405894,Bader Tareq,Western Asia_male_Generation Z,0,0,13
+Q3007571,Ravichandran Ashwin,Southern Asia_male_Millennials,0,1,32
+Q28377794,Michael Soosairaj,Southern Asia_male_Millennials,0,1,19
+Q6957777,Nadimuddin,Southern Asia_male_Millennials,0,0,11
+Q21285518,Alok Chandra Sahoo,Southern Asia_male_Millennials,0,0,11
+Q64746416,Or Dadia,Western Asia_male_Generation Z,0,1,37
+Q3527867,Harvinder Singh,Southern Asia_male_Generation X,0,1,16
+Q69511971,Talha Erdoğan,Western Asia_male_Generation Z,0,1,18
+Q123228382,Mansur Darende,Western Asia_male_Generation Z,0,0,12
+Q136277232,Gautam KC,Southern Asia_male_Generation Z,0,0,10
+Q25470333,Miftahul Hamdi,South-eastern Asia_male_Generation Z,0,0,14
+Q23883623,Praveen Thapur,Southern Asia_male_Generation X,0,0,9
+Q21663027,Zafar Jadoon,Southern Asia_male_Generation X,0,0,9
+Q130742511,Nishant Sindhu,Southern Asia_male_Generation Z,0,1,13
+Q16232428,Amandeep Singh,Southern Asia_male_Millennials,0,1,19
+Q44660455,Muhd Azizul Baharuddin,South-eastern Asia_male_Generation Z,0,0,11
+Q134320015,Batu Efe Akdağ,Western Asia_male_Generation Z,0,0,13
+Q136486067,Hakim Mesbahi,Northern Africa_male_Generation Z,0,0,14
+Q55200561,Berat Delihasan,Western Asia_male_Generation Z,0,0,13
+Q106966961,Mohab Abdalatif,Northern Africa_male_Generation Z,0,1,19
+Q21572737,Rizwan Ahmed,Southern Asia_male_Generation X,0,1,13
+Q50937565,Salman K,Southern Asia_male_Generation Z,0,0,11
+Q22162761,Soraisam Singh,Southern Asia_male_Generation Z,0,1,16
+Q134302966,Mert Aydın,Western Asia_male_Generation Z,0,0,14
+Q104521690,Pankaj Tamuli,Southern Asia_male_Millennials,0,0,8
+Q41104554,Sohail Akhtar,Southern Asia_male_Millennials,0,0,8
+Q126039386,Hasan Hüseyin Öztürk,Western Asia_male_Generation Z,0,0,14
+Q28870639,Akash Yadav,Southern Asia_male_Millennials,0,0,9
+Q7489774,Sharjeel Khan,Southern Asia_male_Millennials,0,1,19
+Q10556446,Lal Mohan Hansda,Southern Asia_male_Millennials,0,0,12
+Q24084668,Sultan Al-Shamsi,Western Asia_male_Generation Z,0,1,16
+Q21621372,Samit Gohel,Southern Asia_male_Millennials,0,1,13
+Q44079610,Aniket Jadhav,Southern Asia_male_Generation Z,0,0,14
+Q55955919,Abdelhafid Benamara,Northern Africa_male_Generation Z,0,1,15
+Q110281841,Arad bar,Western Asia_male_Generation Z,0,1,24
+Q22279780,Abhinav Puri,Southern Asia_male_Millennials,0,0,9
+Q27899124,Girinath Reddy,Southern Asia_male_Generation Z,0,0,9
+Q60494801,Jasim Al-Shaikh,Western Asia_male_Generation Z,0,1,22
+Q131747879,Tomer Litvinov,Western Asia_male_Generation Z,0,0,11
+Q104530417,Jaroensak Wonggorn,South-eastern Asia_male_Generation Z,0,1,26
+Q113652741,Anıl Emre Yılmaz,Western Asia_male_Generation Z,0,1,20
+Q136289792,Devrim Şahin,Western Asia_male_Generation Z,0,1,18
+Q48611371,Sayed Hashim Isa,Western Asia_male_Generation Z,0,1,15
+Q64681270,Nawaf Sharahili,Western Asia_male_Generation Z,0,1,15
+Q124040854,,South-eastern Asia_female_Generation Z,0,0,10
+Q126223951,Hasan Çelik,Western Asia_male_Generation Z,0,1,17
+Q65548531,Malik Risaldi,South-eastern Asia_male_Generation Z,0,0,13
+Q130484531,Derin Saran,Western Asia_male_Generation Z,0,1,19
+Q13122329,Harshad Khadiwale,Southern Asia_male_Millennials,0,1,15
+Q24006338,Sundeep Rajan,Southern Asia_male_Millennials,0,0,9
+Q100234691,Erkan Yılmaz,Western Asia_male_Generation Z,0,1,27
+Q128304746,Montader Abdul Amir,Western Asia_male_Generation Z,0,0,8
+Q62393067,Ken Chansopheak,South-eastern Asia_male_Generation Z,0,0,14
+Q21285567,Samrat Singha,Southern Asia_male_Millennials,0,0,10
+Q59656125,Hitova Ayemi,Southern Asia_male_Generation Z,0,0,11
+Q28549822,Joydeep Bhattacharjee,Southern Asia_male_Generation Z,0,0,9
+Q27049392,Amran El Krenawy,Western Asia_male_Generation Z,0,0,13
+Q62092978,Mohammed Al-Hammadi,Western Asia_male_Generation Z,0,0,10
+Q29052592,Hasan Azad,Southern Asia_male_Millennials,0,0,10
+Q24005560,Shakeel Ahmed,Southern Asia_male_Generation X,0,0,7
+Q106055217,Nasir Malik,Southern Asia_male_Millennials,0,0,9
+Q126221751,Yunus Emre Şentürk,Western Asia_male_Generation Z,0,0,14
+Q28540596,Pathum Madusanka,Southern Asia_male_Generation Z,0,0,9
+Q102308421,Ammar Al-Ibrahim,Western Asia_male_Generation Z,0,0,11
+Q22280226,Saifullah Bangash,Southern Asia_male_Generation Z,0,0,10
+Q23417010,Vajira Silva,Southern Asia_male_Generation X,0,0,11
+Q60564432,Saleh Al-Nabet,Western Asia_male_Generation Z,0,0,11
+Q134302510,Özdilek Yıldızhan,Western Asia_male_Generation Z,0,0,13
+Q28549295,Jagdish Zope,Southern Asia_male_Generation Z,0,0,9
+Q94997903,Phạm Thị Tươi,South-eastern Asia_female_Millennials,0,0,14
+Q27924924,Vikas Yadav,Southern Asia_male_Generation Z,0,0,9
+Q25441729,,Western Asia_male_Generation Z,0,0,13
+Q126039299,Tan Yavru,Western Asia_male_Generation Z,0,0,13
+Q106096060,Kyriakos Antoniou,Western Asia_male_Generation Z,0,0,9
+Q22681993,Samantha Dodanwela,Southern Asia_male_Generation X,0,1,12
+Q136089779,Ömer Yiğit Tiryakigil,Western Asia_male_Generation Z,0,0,13
+Q4018238,Dawa Gyeltshen,Southern Asia_male_Millennials,0,1,17
+Q25470267,Pandi Ahmad Lestaluhu,South-eastern Asia_male_Generation Z,0,0,14
+Q21170841,Syed Shahabuddin,Southern Asia_male_Generation X,0,0,11
+Q17627798,Maung Maung Soe,South-eastern Asia_male_Generation Z,0,1,20
+Q102258850,Ali Yavuz Kol,Western Asia_male_Generation Z,0,1,24
+Q63996181,Ekrem Sancaklı,Western Asia_male_Generation Z,0,1,27
+Q126221279,Burak Yamaç,Western Asia_male_Generation Z,0,1,17
+Q28595327,Malindu Maduranga,Southern Asia_male_Generation Z,0,0,9
+Q62929773,Assil Jaziri,Northern Africa_male_Generation Z,0,1,19
+Q28777352,Dulanjana Mendis,Southern Asia_male_Millennials,0,0,9
+Q5207884,Dada Nabeel,Southern Asia_male_Millennials,0,1,16
+Q28968056,Nishan Peiris,Southern Asia_male_Generation Z,0,0,9
+Q107719223,Syahir Bashah,South-eastern Asia_male_Generation Z,0,0,10
+Q106249695,Benali Benamar,Northern Africa_male_Generation Z,0,0,9
+Q94647813,Seiminmang Manchong,Southern Asia_male_Generation Z,0,0,10
+Q24088899,Parvez Aziz,Southern Asia_male_Millennials,0,1,12
+Q50947310,George Prince Karki,Southern Asia_male_Generation Z,0,0,10
+Q3522120,Ashish Nehra,Southern Asia_male_Generation X,0,1,29
+Q5657124,Hari Gurung,Southern Asia_male_Millennials,0,1,17
+Q120645895,Rachid Ghanimi,Northern Africa_male_Generation Z,0,1,18
+Q23418616,Sunil Subramaniam,Southern Asia_male_Generation X,0,1,13
+Q79060931,Surya Tirkey,Southern Asia_male_Generation Z,0,0,11
+Q111974843,Rayane Yesli,Northern Africa_male_Generation Z,0,1,15
+Q7397500,Sadaf Hussain,Southern Asia_male_Millennials,0,0,11
+Q19898331,Manan Sharma,Southern Asia_male_Millennials,0,1,16
+Q26207454,Mohamad Faris Shah Rosli,South-eastern Asia_male_Generation Z,0,1,16
+Q127417992,Khayal Aliyev,Western Asia_male_Generation Z,0,1,15
+Q37531282,Muhannad Shenqeeti,Western Asia_male_Generation Z,0,1,26
+Q103911672,Zoubir Motrani,Northern Africa_male_Generation Z,0,0,13
+Q112895272,Beka Gvaradze,Western Asia_male_Generation Z,0,1,22
+Q21284552,Naved Ahmed,Southern Asia_male_Millennials,0,1,15
+Q126039497,Soner Ulusoy,Western Asia_male_Generation Z,0,1,17
+Q106513341,Aimen Bouguerra,Northern Africa_male_Generation Z,0,0,14
+Q38586909,Tamoor Sajjad,Southern Asia_male_Millennials,0,0,9
+Q18348666,Hassan Ghulam,Southern Asia_male_Millennials,0,1,12
+Q106873543,Metin Emre Karaal,Western Asia_male_Generation Z,0,1,18
+Q97924223,Heshan Perera,Southern Asia_male_Millennials,0,0,8
+Q6937294,Muralidharen Gautam,Southern Asia_male_Millennials,0,1,16
+Q109939109,I Nyoman Ansanay,South-eastern Asia_male_Generation Z,0,0,9
+Q16223872,Swapnil Patil,Southern Asia_male_Millennials,0,1,16
+Q19594194,Nattawut Sombatyotha,South-eastern Asia_male_Generation Z,0,1,22
+Q28037521,Rajeev Nayyar,Southern Asia_male_Generation X,0,0,11
+Q126220991,Halil İbrahim Keleş,Western Asia_male_Generation Z,0,0,14
+Q28940977,Vidura Adikari,Southern Asia_male_Millennials,0,0,9
+Q116003975,Hamza Hannouri,Northern Africa_male_Generation Z,0,1,23
+Q107659116,Farid Khazali,South-eastern Asia_male_Generation Z,0,0,12
+Q136297649,Emirhan Küçüksolak,Western Asia_male_Generation Z,0,0,11
+Q123229018,Burak Can Alakuş,Western Asia_male_Generation Z,0,0,12
+Q21663012,Faisal Irfan,Southern Asia_male_Generation X,0,0,11
+Q27909517,Suraj Dongre,Southern Asia_male_Millennials,0,0,9
+Q104177272,Richard Kent,Southern Africa_male_Baby Boomers,0,0,10
+Q6733714,Mahela Udawatte,Southern Asia_male_Millennials,0,1,16
+Q90799171,Reda Slim,Northern Africa_male_Generation Z,0,1,27
+Q6373654,Karun Jethi,Southern Asia_male_Millennials,0,1,12
+Q123203017,Yusuf Kocatürk,Western Asia_male_Generation Z,0,1,16
+Q137212231,Stavros Charalampous,Western Asia_male_Generation Z,0,1,37
+Q56175063,Bertuğ Bayar,Western Asia_male_Generation Z,0,1,20
+Q21622845,Rohit Sharma,Southern Asia_male_Millennials,0,1,12
+Q23761527,Sagar Trivedi,Southern Asia_male_Millennials,0,0,10
+Q25485303,Muhammad Syafiq Bin Ahmad,South-eastern Asia_male_Generation Z,0,1,19
+Q138348060,Noam Cohen,Western Asia_male_Generation Z,0,1,20
+Q5247811,Debabrata Roy,Southern Asia_male_Millennials,0,1,25
+Q110999110,Jhonny Tagi,South-eastern Asia_male_Generation Z,0,0,9
+Q59306423,Nassim Mekideche,Northern Africa_male_Generation Z,0,1,16
+Q134302457,Emir Mustafa Vuruşaner,Western Asia_male_Generation Z,0,0,12
+Q126221880,Arda Yumurtacı,Western Asia_male_Generation Z,0,0,13
+Q16914080,Karl Hurter,Southern Africa_male_Baby Boomers,0,1,14
+Q28147580,Nikhil Poojari,Southern Asia_male_Generation Z,0,1,19
+Q65029570,Muhammad Hammad,Southern Asia_male_Generation Z,0,0,11
+Q111039887,Mohammed Hindy,Western Asia_male_Generation Z,0,1,17
+Q87743472,Jenphob Phokhi,South-eastern Asia_male_Generation Z,0,0,14
+Q13187076,Sujal Shrestha,Southern Asia_male_Millennials,0,1,24
+Q123182238,Demir Sarıcalı,Western Asia_male_Generation Z,0,0,12
+Q16232250,Niroshan Mani,Southern Asia_male_Millennials,0,1,15
+Q15983380,Riazuddin,Southern Asia_male_Baby Boomers,0,1,14
+Q4739815,Amandeep Singh,Southern Asia_male_Millennials,0,1,12
+Q7599929,Stanley Rozario,Southern Asia_male_Baby Boomers,0,0,11
+Q88890797,Satid Sri-Uthai,South-eastern Asia_male_Generation Z,0,0,11
+Q108314184,Brian Fatari,South-eastern Asia_male_Generation Z,0,0,9
+Q28549300,Sairaj Patil,Southern Asia_male_Generation Z,0,0,9
+Q70141141,Ali Sulieman,Western Asia_male_Generation Z,0,1,21
+Q119306963,Abdelhamid Maali,Northern Africa_male_Generation Z,0,1,16
+Q100944493,Fahad Al-Dossari,Western Asia_male_Generation Z,0,0,9
+Q134319722,Emirhan Boz,Western Asia_male_Generation Z,0,1,17
+Q118198690,Lior Gliklich,Western Asia_male_Generation Z,0,1,15
+Q5268857,Dhammika Sudarshana,Southern Asia_male_Generation X,0,0,9
+Q16224888,Chama Milind,Southern Asia_male_Millennials,0,1,15
+Q137639374,Shavit Mazal,Western Asia_male_Generation Z,0,0,12
+Q71824812,Efe Beşok,Western Asia_male_Generation Z,0,1,27
+Q62140867,Youcef Laouafi,Northern Africa_male_Generation Z,0,0,14
+Q60734421,Muhammad Musa,Southern Asia_male_Generation Z,0,0,11
+Q85328227,Nilesh Patel,Southern Asia_male_Generation Z,0,1,12
+Q31773999,Ahmad Birrul Walidain,South-eastern Asia_male_Generation Z,0,0,12
+Q108315338,Abdulaziz Dhafir,Western Asia_male_Generation Z,0,0,9
+Q110332659,Rezaul Karim Rehan,Southern Asia_male_Generation X,0,0,9
+Q107046623,Rakibul Islam,Southern Asia_male_Generation Z,0,0,8
+Q106687210,Saleh Aboulshamat,Western Asia_male_Generation Z,0,1,17
+Q17523853,Evangelos Georgiou,Western Asia_male_Generation Z,0,1,15
+Q105092781,Varun Thokchom,Southern Asia_male_Generation Z,0,0,9
+Q24005683,Anirudh Singh,Southern Asia_male_Generation X,0,0,10
+Q41188010,Amine Benchaib,Northern Africa_male_Generation Z,0,1,24
+Q122574761,Karen Nalbandyan,Western Asia_male_Generation Z,0,1,16
+Q4857774,Baqar Rizvi,Southern Asia_male_Generation X,0,1,12
+Q21663111,Naseer Khan,Southern Asia_male_Generation X,0,0,11
+Q124633423,Lior Kasa,Western Asia_male_Generation Z,0,1,19
+Q136260019,Enes Çinemre,Western Asia_male_Generation Z,0,0,11
+Q3701788,Nazmul Hossain Milon,Southern Asia_male_Millennials,0,1,16
+Q134302632,Yusuf Mutlu,Western Asia_male_Generation Z,0,0,12
+Q27583774,Ahmed Youssef,Northern Africa_male_Generation Z,0,1,19
+Q23883285,Giannis Gerolemou,Western Asia_male_Generation Z,0,1,16
+Q2564848,Misbah-ul-Haq,Southern Asia_male_Generation X,0,1,29
+Q62020944,Waleed Al-Ahmed,Western Asia_male_Generation Z,0,1,26
+Q109909384,Oussama Mahrous,Northern Africa_male_Generation Z,0,0,9
+Q5236300,David Lalrinmuana,Southern Asia_male_Millennials,0,1,19
+Q101579788,Ravinder Pandit,Southern Asia_male_Baby Boomers,0,0,8
+Q123202899,Eran Şenol,Western Asia_male_Generation Z,0,0,13
+Q22277573,Mrunal Devdhar,Southern Asia_male_Millennials,0,0,9
+Q54861653,Atef Mohammed Al Mouldi,Northern Africa_male_Generation Z,0,1,15
+Q7678939,Talat Ali,Southern Asia_male_Baby Boomers,0,1,13
+Q45042934,Giorgos Malekkides,Western Asia_male_Generation Z,0,0,12
+Q127257419,İbrahim Demir,Western Asia_male_Generation Z,0,0,13
+Q18049744,Lục Xuân Hưng,South-eastern Asia_male_Generation Z,0,1,20
+Q126220786,Emircan Ataş,Western Asia_male_Generation Z,0,1,17
+Q23664654,Abhishek Das,Southern Asia_male_Millennials,0,0,9
+Q4831599,Ayoub Kalantari,Southern Asia_male_Millennials,0,1,18
+Q24007419,Chhangte Lalhriatpuia,Southern Asia_male_Generation Z,0,0,13
+Q104177233,Richard Schultz,Southern Africa_male_Baby Boomers,0,0,10
+Q97323201,Yarden Cohen,Western Asia_male_Generation Z,0,1,16
+Q5133111,Cliffton Gonsalves,Southern Asia_male_Millennials,0,1,17
+Q23304599,Ijaz Ahmed,Southern Asia_male_Baby Boomers,0,0,8
+Q87359125,Nonthawat Rak-ok,South-eastern Asia_male_Generation Z,0,0,11
+Q27107018,Sahibzada Farhan,Southern Asia_male_Generation Z,0,1,15
+Q108159340,Arda Güler,Western Asia_male_Generation Z,0,1,55
+Q22342548,Salim İyik,Western Asia_male_Generation Z,0,1,19
+Q109553878,Troy Selim Şav,Western Asia_male_Generation Z,0,1,19
+Q5433628,Fanai Lalmuanpuia,Southern Asia_male_Millennials,0,0,11
+Q7902063,Usman Shuja,Southern Asia_male_Generation X,0,1,13
+Q27831147,Mohammad Aslam,Southern Asia_male_Generation X,0,0,9
+Q125807343,Hüseyin Maldar,Western Asia_male_Generation Z,0,0,14
+Q98393976,Dolev Azulay,Western Asia_male_Generation Z,0,1,15
+Q110820434,Obidur Rahman Nawbab,Southern Asia_male_Generation Z,0,0,12
+Q123202473,Batuhan Karadaş,Western Asia_male_Generation Z,0,1,17
+Q21285472,Ramaswamy Prasanna,Southern Asia_male_Millennials,0,0,10
+Q120379082,Itay Zada,Western Asia_male_Generation Z,0,1,16
+Q4805865,Ashraf Ali,Southern Asia_male_Baby Boomers,0,1,12
+Q96002118,Bùi Thị Thúy,South-eastern Asia_female_Generation Z,0,0,9
+Q27662793,Tenzin Dorji,Southern Asia_male_Generation Z,0,1,15
+Q134302496,Mevlüt Can Kaynak,Western Asia_male_Generation Z,0,0,12
+Q134302899,Ahmet Kandemir,Western Asia_male_Generation Z,0,1,15
+Q7114445,Owen Da Gama,Southern Africa_male_Baby Boomers,0,1,25
+Q131632465,Ibrahim Al-Dawoud,Western Asia_male_Generation Z,0,0,11
+Q4772059,Anthony Barbosa,Southern Asia_male_Millennials,0,1,17
+Q26131932,Fitri Rosdiana,South-eastern Asia_female_Millennials,0,0,12
+Q19893769,Glan Martins,Southern Asia_male_Millennials,0,1,19
+Q27825322,Berk Demir,Western Asia_male_Generation Z,0,1,47
+Q20736581,Taj Mohammad Khan,Southern Asia_male_Generation X,0,1,12
+Q4704750,Al Sahariar,Southern Asia_male_Generation X,0,1,15
+Q23880469,Suvojit Banerjee,Southern Asia_male_Millennials,0,0,10
+Q19664779,Pratyush Singh,Southern Asia_male_Millennials,0,1,13
+Q126220835,Anıl Özçelik,Western Asia_male_Generation Z,0,0,14
+Q24006661,Ayoub Mashhor,Western Asia_male_Generation Z,0,0,13
+Q7648900,Sushanth Mathew,Southern Asia_male_Millennials,0,1,23
+Q100260352,Khalid Ghuloom,Western Asia_male_Generation Z,0,0,8
+Q87740190,Nonthawat Klinchampasri,South-eastern Asia_male_Generation Z,0,0,12
+Q126221542,Ali Timurcioğlu,Western Asia_male_Generation Z,0,0,13
+Q85765464,Haider Ali,Southern Asia_male_Generation Z,0,0,11
+Q21642282,Nasir Awais,Southern Asia_male_Millennials,0,0,10
+Q24150742,Ahmed Rabee,Western Asia_male_Generation Z,0,1,16
+Q18057258,Bashar Rasan,Western Asia_male_Generation Z,0,1,32
+Q78150421,Saurabh Meher,Southern Asia_male_Generation Z,0,0,9
+Q21620954,Luqman Butt,Southern Asia_male_Millennials,0,0,9
+Q99315794,Manish Raj Pandey,Southern Asia_male_Generation X,0,0,11
+Q23880208,Shakeel Haq,Southern Asia_male_Millennials,0,0,11
+Q87736570,Rachata Moraksa,South-eastern Asia_male_Generation Z,0,0,12
+Q107282311,Abderrahmane Medjadel,Northern Africa_male_Generation Z,0,0,11
+Q60050574,Burak Albayrak,Western Asia_male_Generation Z,0,1,19
+Q28968092,Andawaththa Tyronne,Southern Asia_male_Generation Z,0,0,9
+Q1068225,Chathura Maduranga Weerasinghe,Southern Asia_male_Millennials,0,1,16
+Q19577936,Rattanai Songsangchan,South-eastern Asia_male_Generation Z,0,1,21
+Q27657117,Ramakrishnan Ramkumar,Southern Asia_male_Generation X,0,0,10
+Q123228533,Kutsuay Emir Türen,Western Asia_male_Generation Z,0,0,13
+Q42287938,Rahul Singh,Southern Asia_male_Generation Z,0,1,12
+Q112599020,Aman Thapa,Southern Asia_male_Generation Z,0,0,8
+Q28856066,Meldon D'Silva,Southern Asia_male_Millennials,0,0,13
+Q16189514,Sajjan Singh Cheema,Southern Asia_male_Baby Boomers,0,1,12
+Q125807422,Arda Kılıç,Western Asia_male_Generation Z,0,0,13
+Q89206732,Lefteris Hadjiconstanti,Western Asia_male_Generation Z,0,1,15
+Q3528415,Rajinder Ghai,Southern Asia_male_Baby Boomers,0,1,15
+Q22162725,F Lalrinpuia,Southern Asia_male_Millennials,0,0,14
+Q85202421,Mansour Al-Shammari,Western Asia_male_Generation Z,0,0,13
+Q15974434,Junaid Siddiqui,Southern Asia_male_Millennials,0,1,14
+Q27783551,Fahad-ul-Haq,Southern Asia_male_Millennials,0,0,8
+Q13405142,Robin Smith,Southern Africa_male_Baby Boomers,0,1,26
+Q17430599,Murat Demir,Western Asia_male_Generation Z,0,1,25
+Q7931387,Vinay Singh,Southern Asia_male_Generation X,0,1,20
+Q123182488,Batuhan Arıcı,Western Asia_male_Generation Z,0,1,17
+Q16228274,Shreyas Gopal,Southern Asia_male_Millennials,0,1,18
+Q126868880,Mclaude Guadaña,South-eastern Asia_male_Generation Z,0,1,15
+Q7916225,Varun Sood,Southern Asia_male_Millennials,0,0,10
+Q16234456,Prashant Chopra,Southern Asia_male_Millennials,0,1,13
+Q21623271,Taj Wali,Southern Asia_male_Millennials,0,1,14
+Q21451072,Naeem-ur-Rehman,Southern Asia_male_Millennials,0,0,9
+Q23664423,Saliya Saman,Southern Asia_male_Millennials,0,0,9
+Q107465904,Ramesh Borde,Southern Asia_male_Baby Boomers,0,0,9
+Q110495977,Li On Mizrahi,Western Asia_male_Generation Z,0,1,15
+Q21471145,Asif Iqbal,Southern Asia_male_Millennials,0,0,11
+Q123202963,Emre Keskin,Western Asia_male_Generation Z,0,0,14
+Q24006367,Santosh Yadav,Southern Asia_male_Generation X,0,0,9
+Q130478096,Yesukan Onar,Western Asia_male_Generation Z,0,1,19
+Q4708841,Alauddin Babu,Southern Asia_male_Millennials,0,0,11
+Q27736590,Abdullah Imran,Southern Asia_male_Generation Z,0,0,7
+Q24007467,Chirag Gandhi,Southern Asia_male_Millennials,0,1,12
+Q95306490,Dimple Bhagat,Southern Asia_male_Generation Z,0,0,12
+Q100944508,Masoud Al-Rubaie,Western Asia_male_Generation Z,0,0,11
+Q134320112,Yunus Emre Ertürk,Western Asia_male_Generation Z,0,0,14
+Q126180926,Burhan Ersoy,Western Asia_male_Generation Z,0,1,18
+Q29917556,Essam Ayashi,Western Asia_male_Generation Z,0,0,12
+Q7660430,Syed Sabir Pasha,Southern Asia_male_Generation X,0,1,18
+Q27663544,Siddiq Patni,Southern Asia_male_Baby Boomers,0,0,9
+Q110878671,Riski Fajar Saputra,South-eastern Asia_male_Generation Z,0,0,9
+Q102197345,Edik Kirakosyan,Western Asia_male_Generation Z,0,1,21
+Q25470370,Riki Pambudi,South-eastern Asia_male_Generation Z,0,0,14
+Q134302468,Eren Arda Şan,Western Asia_male_Generation Z,0,0,13
+Q136089824,Tahsin Bülbül,Western Asia_male_Generation Z,0,0,14
+Q126221306,Tahsin Hacımustafaoğlu,Western Asia_male_Generation Z,0,0,13
+Q86834122,Khairin Nadim,South-eastern Asia_male_Generation Z,0,0,13
+Q4866856,Bashir Shah,Southern Asia_male_Millennials,0,1,13
+Q106497650,Saad Al Nasser,Western Asia_male_Generation Z,0,1,26
+Q56678475,Ashish Sinha,Southern Asia_male_Millennials,0,0,8
+Q84152270,Derry Herlangga,South-eastern Asia_male_Generation Z,0,0,10
+Q21055585,Sary Matnorotin,South-eastern Asia_male_Generation Z,0,1,20
+Q7902058,Usman Qadir,Southern Asia_male_Millennials,0,1,18
+Q62503352,Vansh Bajaj,Southern Asia_male_Generation Z,0,0,10
+Q90726623,Sultan Mabkhout,Western Asia_male_Generation Z,0,0,10
+Q6553582,Lineker Machado,Southern Asia_male_Millennials,0,0,12
+Q28967808,Akila Jayasundera,Southern Asia_male_Millennials,0,0,9
+Q104869135,Brijesh Giri,Southern Asia_male_Generation Z,0,0,9
+Q104845993,Yacine Aliane,Northern Africa_male_Generation Z,0,0,11
+Q54365891,Abhishek Kaushik,Southern Asia_male_Millennials,0,0,8
+Q256532,Jamaluddin Ahmed,Southern Asia_male_Generation X,0,1,14
+Q29206054,Ruwantha Ekanayake,Southern Asia_male_Millennials,0,0,9
+Q108751420,Buyung Ismu Lessy,South-eastern Asia_male_Generation Z,0,0,11
+Q66124304,Turgay Mokhbaliyev,Western Asia_male_Generation Z,0,1,16
+Q28131380,Hemant Talwalkar,Southern Asia_male_Baby Boomers,0,1,12
+Q21620848,Shaik Basha,Southern Asia_male_Millennials,0,0,9
+Q19898380,Amitpal Singh,Southern Asia_male_Millennials,0,1,19
+Q4746482,Aminul Hoque,Southern Asia_male_Generation X,0,1,18
+Q23883912,Nishu Kumar,Southern Asia_male_Generation Z,0,1,20
+Q17198729,Andreas Sofokleous,Western Asia_male_Generation Z,0,1,15
+Q101245867,Karimuttathu Rakesh,Southern Asia_male_Millennials,0,0,7
+Q85873788,Alaeddine Gmach,Northern Africa_male_Generation Z,0,1,16
+Q28793949,Farrukh Bari,Southern Asia_male_Baby Boomers,0,0,9
+Q20641226,Nguyễn Thị Nguyệt,South-eastern Asia_female_Millennials,0,0,14
+Q107426684,Maor Levi,Western Asia_male_Generation Z,0,1,23
+Q60455373,Muteb Mansour,Western Asia_male_Generation Z,0,0,13
