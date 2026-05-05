@@ -29,9 +29,7 @@ def process_category(cat_path, cat_name):
     countries = load_json(countries_path)
     entities = load_json(entity_json_path)
 
-    # -----------------------
-    # FILTER isMain
-    # -----------------------
+# FILTER DATA Where "IsMain" == True (The target occupation is the first)
     entities = [e for e in entities if e.get("isMain") is True]
 
     # -----------------------

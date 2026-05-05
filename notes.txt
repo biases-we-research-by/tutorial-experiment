@@ -14,3 +14,10 @@ TO DO:
 LInk utile per suddivsioni demografiche ONU: https://population.un.org/wpp/definition-of-regions
 
 
+
+Documentazione cartelle:
+
+Data/cleaned_data -> csv creati a partire dai json in rawwì data, mantengo solo le info utili e sono già filtrati per occupazione (mantengo solo quelli che hanno occupazione target come prima)
+
+
+

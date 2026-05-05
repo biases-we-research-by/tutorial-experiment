@@ -40,7 +40,6 @@ def analyze_file(file_path):
         df = df[df[var].isin(valid_categories)]
 
     if "date_of_birth" in df.columns:
-        # Rimuove il "+" iniziale (formato Wikidata)
         df["date_of_birth"] = df["date_of_birth"].astype(str).str.replace("+", "", regex=False)
 
         # Parsing esplicito (molto più veloce e sicuro)
@@ -67,16 +66,10 @@ def analyze_file(file_path):
         drop_first=True  # evita multicollinearità
     )
 
-    # ============================
-    # 5. DEFINIZIONE X e y
-    # ============================
 
     X = df_encoded.drop(columns=["pareto_claims"])
     y = df_encoded["pareto_claims"]
 
-    # ============================
-    # 6. MODELLO LOGISTICO
-    # ============================
 
     model = LogisticRegression(
         max_iter=1000,
@@ -85,10 +78,6 @@ def analyze_file(file_path):
         C=0.1
     )
     model.fit(X, y)
-
-    # ============================
-    # 7. COEFFICIENTI
-    # ============================
 
     coefficients = pd.DataFrame({
         "Variable": X.columns,
@@ -159,7 +148,6 @@ def analyze_file(file_path):
     plt.ylabel("Variables")
     plt.title(f"{file_name}")
 
-    # Linea verticale per zero (molto utile visivamente)
     plt.axvline(x=0)
 
 

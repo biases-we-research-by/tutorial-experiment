@@ -164,7 +164,7 @@ def intersectional_logistic(file_path):
         print("Nessuna intersezione valida")
         return
     if df["intersection"].nunique() < 2:
-        print("⚠️ Una sola intersezione dopo filtro → skip categoria")
+        print("Una sola intersezione dopo filtro → skip categoria")
         return
     # --------------------------
     # STEP 3: regressione intersezionale
