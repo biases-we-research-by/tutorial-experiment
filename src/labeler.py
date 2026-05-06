@@ -26,7 +26,7 @@ class Labeler:
 
         return filtered 
     
-    def _js_divergence(self,p,q):
+    def js_divergence(self,p,q):
 
         p = self._remove_low_frequent(p)
         q = self._remove_low_frequent(q)
@@ -47,7 +47,9 @@ class Labeler:
             
             # Jensen-Shannon divergence (scipy returns sqrt of divergence by default)
             js_distance = jensenshannon([f1, 1-f1], [f2, 1-f2], base=2)
-            js_dict[word] = js_distance**2  # squared distance = actual divergence
+            direction = f1 - f2  # signed difference
+
+            js_dict[word] = js_distance * (1 if direction >= 0 else -1)
 
         return js_dict
             

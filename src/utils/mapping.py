@@ -601,5 +601,39 @@ hdi_mapping = {
     "Monaco": "Others"
 }
 
+def generation_mapping(dob_string):
+    """
+    Mappa una stringa data di nascita (formato Wikidata/ISO) in una generazione.
+    Esempio input: "+1968-08-26T00:00:00Z"
+    """
+    if not dob_string or not isinstance(dob_string, str) or dob_string == "":
+        return ""
+
+    try:
+        year = int(dob_string[:5])
+
+        if 2025 <= year <= 2039:
+            return "Generation Beta"
+        elif 2010 <= year <= 2024:
+            return "Generation Alpha"
+        elif 1995 <= year <= 2009:
+            return "Generation Z"
+        elif 1981 <= year <= 1994:
+            return "Millennials"
+        elif 1965 <= year <= 1980:
+            return "Generation X"
+        elif 1946 <= year <= 1964:
+            return "Baby Boomers"
+        elif 1925 <= year <= 1945:
+            return "Silent Generation"
+        elif 1901 <= year <= 1924:
+            return "Greatest Generation"
+        elif year < 1901:
+            return "Pre-Greatest Generation"
+        else:
+            return ""
+
+    except (ValueError, IndexError):
+        return ""
 
 map_labels = {"Q664": "New Zealand", "Q403": "Serbia", "Q43": "Turkey", "Q236": "Montenegro", "Q214": "Slovakia", "Q28": "Hungary", "Q212": "Ukraine", "Q29": "Spain", "Q230": "Georgia", "Q334": "Singapore", "Q33": "Finland", "Q30": "United States", "Q155": "Brazil", "Q145": "United Kingdom", "Q215": "Slovenia", "Q711": "Mongolia", "Q211": "Latvia", "Q224": "Croatia", "Q34": "Sweden", "Q37": "Lithuania", "Q35": "Denmark", "Q213": "Czech Republic", "Q20": "Norway", "Q39": "Switzerland", "Q252": "Indonesia", "Q218": "Romania", "Q408": "Australia", "Q184": "Belarus", "Q189": "Iceland", "Q219": "Bulgaria", "Q17": "Japan", "Q695": "Palau", "Q258": "South Africa", "Q31": "Belgium", "Q38": "Italy", "Q142": "France", "Q79": "Egypt", "Q217": "Moldova", "Q232": "Kazakhstan", "Q183": "Germany", "Q241": "Cuba", "Q96": "Mexico", "Q191": "Estonia", "Q27": "Ireland", "Q733": "Paraguay", "Q16": "Canada", "Q235": "Monaco", "Q55": "Netherlands", "Q40": "Austria", "Q36": "Poland", "Q32": "Luxembourg", "Q225": "Bosnia and Herzegovina", "Q414": "Argentina", "Q223": "Greenland", "Q159": "Russia", "Q227": "Azerbaijan", "Q228": "Andorra", "Q697": "Nauru", "Q574": "Timor-Leste", "Q668": "India", "Q265": "Uzbekistan", "Q398": "Bahrain", "Q736": "Ecuador", "Q717": "Venezuela", "Q45": "Portugal", "Q423": "North Korea", "Q77": "Uruguay", "Q222": "Albania", "Q115": "Ethiopia", "Q739": "Colombia", "Q709": "Marshall Islands", "Q117": "Ghana", "Q657": "Chad", "Q229": "Cyprus", "Q399": "Armenia", "Q262": "Algeria", "Q298": "Chile", "Q347": "Liechtenstein", "Q424": "Cambodia", "Q419": "Peru", "Q702": "Federated States of Micronesia", "Q712": "Fiji", "Q691": "Papua New Guinea", "Q710": "Kiribati", "Q683": "Samoa", "Q734": "Guyana", "Q672": "Tuvalu", "Q678": "Tonga", "Q685": "Solomon Islands", "Q686": "Vanuatu", "Q730": "Suriname", "Q41": "Greece", "Q114": "Kenya", "Q242": "Belize", "Q244": "Barbados", "Q221": "North Macedonia", "Q233": "Malta", "Q238": "San Marino", "Q237": "Vatican City", "Q148": "People's Republic of China", "Q111650663": "Pasai", "Q188736": "Bosnia", "Q219060": "Palestine", "Q200262": "Kingdom of Navarre", "Q1147441": "British North Borneo", "Q3112053": "Melayu", "Q165763": "Principality of Waldeck", "Q2480041": "Italy in the Middle Ages", "Q126282254": "Joseon Cybernation", "Q825489": "County Pyrmont", "Q131588685": "Emirate of  Al Qawasim", "Q977566": "sub-Roman Britain", "Q42345769": "Catalan Republic", "Q137386301": "British Colony of Jamaica", "Q3284315": "Samudra Pasai", "Q26988": "Cook Islands", "Q26273": "Sint Maarten", "Q29999": "Kingdom of the Netherlands", "Q34020": "Niue", "Q12191529": "Emirate of Lengeh", "Q34754": "Somaliland", "Q107258515": "Pahlavi Iran", "Q1019": "Madagascar", "Q1013": "Lesotho", "Q1011": "Cape Verde", "Q1014": "Liberia", "Q874": "Turkmenistan", "Q843": "Pakistan", "Q974": "Democratic Republic of the Congo", "Q1029": "Mozambique", "Q963": "Botswana", "Q928": "Philippines", "Q912": "Mali", "Q801": "Israel", "Q813": "Kyrgyzstan", "Q1028": "Morocco", "Q869": "Thailand", "Q983": "Equatorial Guinea", "Q750": "Bolivia", "Q817": "Kuwait", "Q958": "South Sudan", "Q1033": "Nigeria", "Q794": "Iran", "Q822": "Lebanon", "Q916": "Angola", "Q945": "Togo", "Q962": "Benin", "Q881": "Vietnam", "Q766": "Jamaica", "Q796": "Iraq", "Q842": "Oman", "Q851": "Saudi Arabia", "Q854": "Sri Lanka", "Q865": "Taiwan", "Q917": "Bhutan", "Q924": "Tanzania", "Q1009": "Cameroon", "Q1000": "Gabon", "Q1041": "Senegal", "Q805": "Yemen", "Q846": "Qatar", "Q1045": "Somalia", "Q948": "Tunisia", "Q784": "Dominica", "Q889": "Afghanistan", "Q878": "United Arab Emirates", "Q1049": "Sudan", "Q800": "Costa Rica", "Q929": "Central African Republic", "Q858": "Syria", "Q1016": "Libya", "Q1246": "Kosovo", "Q836": "Myanmar", "Q810": "Jordan", "Q1044": "Sierra Leone", "Q1020": "Malawi", "Q863": "Tajikistan", "Q781": "Antigua and Barbuda", "Q769": "Grenada", "Q774": "Guatemala", "Q786": "Dominican Republic", "Q783": "Honduras", "Q792": "El Salvador", "Q790": "Haiti", "Q757": "Saint Vincent and the Grenadines", "Q763": "Saint Kitts and Nevis", "Q760": "Saint Lucia", "Q754": "Trinidad and Tobago", "Q819": "Laos", "Q811": "Nicaragua", "Q804": "Panama", "Q826": "Maldives", "Q833": "Malaysia", "Q837": "Nepal", "Q902": "Bangladesh", "Q921": "Brunei", "Q884": "South Korea", "Q967": "Burundi", "Q965": "Burkina Faso", "Q970": "Comoros", "Q977": "Djibouti", "Q986": "Eritrea", "Q1006": "Guinea", "Q1007": "Guinea-Bissau", "Q971": "Republic of the Congo", "Q1008": "Ivory Coast", "Q954": "Zimbabwe", "Q953": "Zambia", "Q1027": "Mauritius", "Q1025": "Mauritania", "Q1050": "Eswatini", "Q1030": "Namibia", "Q1032": "Niger", "Q1039": "S\u00e3o Tom\u00e9 and Pr\u00edncipe", "Q1037": "Rwanda", "Q1042": "Seychelles", "Q1036": "Uganda", "Q21203": "Aruba", "Q25279": "Cura\u00e7ao", "Q1005": "The Gambia", "Q778": "The Bahamas", "Q23681": "Northern Cyprus"}

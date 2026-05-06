@@ -9,14 +9,13 @@ import pandas as pd
 import glob
 import regex as re
 import os
-from utils.mapping import country_to_continent,cultural_mapping,country_labels,hdi_mapping
 
 
-targetInfo = "Q6625963"
-'''
-os.mkdir(f"output/{targetInfo}")
+targetInfo = "Q4610556"
 
-myfile = f'output/{targetInfo}.json'
+os.makedirs(f"output/{targetInfo}", exist_ok=True)
+
+myfile = f'output/{targetInfo}/{targetInfo}.json'
 
 log.basicConfig(
     level=log.INFO,
@@ -34,8 +33,7 @@ props = ['P19','P21','P27','P69','P108','P106','P569']
 
 people = wd.extract_entities(
     'P106',
-    'Q6625963',
-    limit=5_000
+    targetInfo
 )
 
 myentities = wd.extract_all_entities(
@@ -57,12 +55,12 @@ thr_ext = lab.pareto_threshold(ext_ids)
 pareto = list()
 for myent in myentities:
     d = dict()
-    d['entity'] = myent
+    d['entity'] = myent['entity']
     if myent['total_claims']>thr_cl:
         d['pareto_claims'] = 'head'
         
     else:
-        d['pareto_claims'] = 'head'
+        d['pareto_claims'] = 'long'
 
     if myent['external_ids']>thr_ext:
         d['pareto_ext'] = 'head'
@@ -130,15 +128,3 @@ for doc in glob.glob(f"output/{targetInfo}/*"):
         df = df.merge(countries,left_on=list(df)[-1],right_on='temp_id')
         df = df.drop(columns=['temp_id'])
         df.to_csv(doc,index=False)
-
-'''
-
-
-toMap = ['P19','P69','P108']
-
-places = list()
-for doc in glob.glob(f"output/{targetInfo}/*.csv"):
-    if re.search('|'.join(toMap),doc):
-        df = pd.read_csv(doc)
-
-        

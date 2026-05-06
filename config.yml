@@ -1,0 +1,17 @@
+uncertainty:
+  models:
+    mistral: brier_scores_mistral.csv
+    llama: brier_scores_llama.csv
+    qwen: brier_scores_qwen.csv
+  axes:
+    wikidata:
+      P19: P19
+      P21: P21
+      P27: P27
+      P69: P69
+      P106: P106
+      P108: P108
+      P569: P569
+  
+  paths:
+    entities: 'wd_entities/'

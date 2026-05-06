@@ -6,6 +6,9 @@ from typing import Dict,List
 import pandas as pd
 from tqdm import tqdm
 import logging as log
+from datasets import load_dataset
+import csv
+from tqdm import tqdm
 
 log.basicConfig(
     level=log.INFO,
@@ -187,30 +190,54 @@ class WikidataExtractor:
             if ents is not None:
                 log.info(f"processing {len(ents['entities'])} entities")
                 for ent in ents['entities']:
-                    d = dict()
-                    d['entity'] = ent
-                    all_claims = ents['entities'][ent]['claims']
-                    tot,ext = self._count_claims(all_claims)
-                    ent_claims = self._get_claims(all_claims,target_claims)
+                    try:
+                        d = dict()
+                        d['entity'] = ent
+                        all_claims = ents['entities'][ent]['claims']
+                        tot,ext = self._count_claims(all_claims)
+                        ent_claims = self._get_claims(all_claims,target_claims)
 
-                    labels = self._get_labels(ents['entities'][ent],langs)
-                    sites = self._get_wpages(ents['entities'][ent],editions)
-                    
-                    d['total_claims'] = tot
-                    d['external_ids'] = ext
-                    d['entity_claims'] = ent_claims
-                    d['labels'] = labels
-                    d['wpages'] = sites
+                        labels = self._get_labels(ents['entities'][ent],langs)
+                        sites = self._get_wpages(ents['entities'][ent],editions)
+                        
+                        d['total_claims'] = tot
+                        d['external_ids'] = ext
+                        d['entity_claims'] = ent_claims
+                        d['labels'] = labels
+                        d['wpages'] = sites
 
-                    log.info(f"finished processing entity {ent}. Appending...")
-                    
-                    tmp.append(d)
+                        log.info(f"finished processing entity {ent}. Appending...")
+                        
+                        tmp.append(d)
+                    except Exception as e:
+                        log.info(f"Error: {e}")
             extracted_entities.extend(tmp)
 
         if path:
             self.save_file(extracted_entities,path,format)
                 
         return extracted_entities
+
+
+class HuggingGatherer:
+
+    def __init__(self):
+        pass
+    
+    def gater_dataset(self, dataset, lang, titles_list, output_csv):
+        ds = load_dataset(dataset, f"latest.{lang}", split="train", streaming=True)
+
+        with open(output_csv, mode='w', newline='', encoding='utf-8') as csvfile:
+            fieldnames = ['title', 'text']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+
+            for entry in tqdm(ds):
+                if entry['title'] in titles_list:
+                    writer.writerow({'title': entry['title'], 'text': entry['text']})
+                    log.info(f"found page: {entry['title']}")
+
+
 
 
 
