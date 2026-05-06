@@ -31,7 +31,7 @@ def analyze_file(file_path):
         counts = df[var].value_counts()
 
         # soglia Q1
-        q1 = counts.quantile(0.25)
+        q1 = counts.quantile(0.0)
 
         # categorie da mantenere
         valid_categories = counts[counts >= q1].index

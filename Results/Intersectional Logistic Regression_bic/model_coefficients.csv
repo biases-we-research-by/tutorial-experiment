@@ -1,16 +1,16 @@
 Intersection,Coefficient,Count
-Central America_Millennials,-0.44849617084363574,79
-South-eastern Asia_Millennials,-0.3604564811977759,304
-Southern Europe_Generation Z,-0.30391494223708926,80
-Northern Europe_Generation Z,-0.2938646063835779,106
-Eastern Europe_Millennials,-0.2838389856644322,424
-South America_Millennials,-0.2663066623199409,607
-South-eastern Asia_Generation Z,-0.2300176958960309,186
-Southern Asia_Generation Z,-0.18255408510851745,52
-Eastern Europe_Generation Z,-0.1444872051965656,92
-Southern Europe_Millennials,-0.1067468772255788,270
-Eastern Asia_Generation X,-0.08077139092286806,189
-Eastern Asia_Millennials,-0.05385805000737617,887
+Central America_Millennials,-0.448490677196954,79
+South-eastern Asia_Millennials,-0.36047535339016035,304
+Southern Europe_Generation Z,-0.303923183904528,80
+Northern Europe_Generation Z,-0.2938728480544843,106
+Eastern Europe_Millennials,-0.283847227338765,424
+South America_Millennials,-0.2663149040003855,607
+South-eastern Asia_Generation Z,-0.23001220225816377,186
+Southern Asia_Generation Z,-0.1825623269425801,52
+Eastern Europe_Generation Z,-0.14449544703223002,92
+Southern Europe_Millennials,-0.1067413835928911,270
+Eastern Asia_Generation X,-0.08076589719894095,189
+Eastern Asia_Millennials,-0.05385255637695052,887
 South America_Generation Z,0.0,113
 South America_Generation X,0.0,229
 Southern Africa_Generation Z,0.0,10
@@ -75,14 +75,14 @@ Northern Africa_Generation Z,0.0,7
 Northern Africa_Millennials,0.0,18
 Northern America_Baby Boomers,0.0,235
 Northern America_Pre-Greatest Generation,0.0,10
-Western Europe_Silent Generation,0.0021162689488520917,49
-Southern Europe_Generation X,0.021988343094493688,141
-Western Europe_Millennials,0.10425652750198487,312
-Western Europe_Generation X,0.11510313227576938,109
-Northern America_Generation Z,0.1619592936811683,178
-Northern Europe_Baby Boomers,0.20691068152890105,64
-Northern America_Greatest Generation,0.26406909536884743,35
-Northern America_Millennials,0.44729603920031796,627
-Northern Europe_Generation X,0.47201843185697095,129
-Southern Asia_Generation X,0.481347527230658,88
-Northern America_Generation X,0.6730004113055315,332
+Western Europe_Silent Generation,0.002121762576897652,49
+Southern Europe_Generation X,0.021993836721685606,141
+Western Europe_Millennials,0.10426202112560548,312
+Western Europe_Generation X,0.1150948904586426,109
+Northern America_Generation Z,0.16196478730228553,178
+Northern Europe_Baby Boomers,0.20691617514807645,64
+Northern America_Greatest Generation,0.26406085349712255,35
+Northern America_Millennials,0.4473015328090886,627
+Northern Europe_Generation X,0.47202392546468325,129
+Southern Asia_Generation X,0.48135302074983866,88
+Northern America_Generation X,0.6730059049047925,332

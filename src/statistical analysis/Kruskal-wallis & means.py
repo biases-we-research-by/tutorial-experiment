@@ -175,12 +175,12 @@ for file in os.listdir(input_folder):
         data["log_claims"] = np.log1p(data["total_claims"])
 
         # filtro minimo numerosità
-        data = data[data[var].map(data[var].value_counts()) >= 5]
+        data = data[data[var].map(data[var].value_counts()) >= 1]
         if data.empty:
             continue
 
         # --- 1. Filtro Q1 su summary ---
-        threshold = summary["count"].quantile(0.25)
+        threshold = summary["count"].quantile(0.0)
         filtered = summary[summary["count"] >= threshold].copy()
 
         # categorie valide (coerenza tra grafici)

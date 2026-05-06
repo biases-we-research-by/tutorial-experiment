@@ -1,51 +1,51 @@
 Intersection,Coefficient,Count
-South-eastern Asia_Generation Z,-5.150573705969656,881
-South-eastern Asia_Millennials,-3.789161295277228,2437
-South-eastern Asia_Generation X,-2.6970957696649713,5279
-Southern Asia_Generation X,-1.9377366661521884,1598
-Southern Asia_Millennials,-1.853062496838079,292
-Western Africa_Millennials,-1.5785585919953777,119
-South-eastern Asia_Baby Boomers,-1.5372815377509714,3355
-South America_Generation X,-1.532744620499053,3359
-Southern Asia_Baby Boomers,-1.3258661151291171,2791
-Central Asia_Generation X,-1.319114455651224,154
-South America_Millennials,-1.3036252786087525,1063
-South America_Baby Boomers,-0.9318735583742789,4294
-Western Africa_Generation X,-0.8667509887180124,571
-Western Asia_Millennials,-0.7998743332842182,329
-Northern Europe_Generation Z,-0.6696342217437722,150
-Western Asia_Generation X,-0.669066160588332,1396
-Central Asia_Baby Boomers,-0.621351752382693,321
-Northern Africa_Generation X,-0.6150963457841546,204
-Southern Asia_Greatest Generation,-0.6146035164409545,897
-Western Asia_Baby Boomers,-0.5707095213237914,2575
-Western Africa_Baby Boomers,-0.5464171053814771,992
-Southern Africa_Generation X,-0.5274329728484228,117
-Northern Africa_Baby Boomers,-0.5157654044070857,647
-Southern Europe_Millennials,-0.5137602981718458,1147
-Middle Africa_Baby Boomers,-0.4601436760310827,188
-Central America_Millennials,-0.44514238113256427,261
-South-eastern Asia_Silent Generation,-0.41818520396064435,706
-Southern Asia_Silent Generation,-0.38836886395261,1390
-South-eastern Asia_Greatest Generation,-0.31891016332606925,519
-Eastern Africa_Generation X,-0.315391386365095,230
-Southern Europe_Generation X,-0.3087346587030714,4315
-Central America_Greatest Generation,-0.30638155067386275,372
-Eastern Asia_Baby Boomers,-0.2584769449882479,3479
-Eastern Europe_Baby Boomers,-0.1656460002161114,8483
-Central Asia_Silent Generation,-0.16327669400222752,117
-Central America_Silent Generation,-0.15898544827445743,601
-Eastern Europe_Millennials,-0.15054640843537007,1329
-Eastern Asia_Generation X,-0.1491260839611377,1442
-South America_Greatest Generation,-0.12805680267874556,1674
-Eastern Africa_Baby Boomers,-0.09224783145944167,278
-Others_Pre-Greatest Generation,-0.07941275865315592,969
-Caribbean_Baby Boomers,-0.04960930601278718,167
-Eastern Europe_Generation X,-0.0427813412749746,4658
-South America_Silent Generation,-0.03694462521673126,2172
-Western Europe_Generation Z,-0.03467120685724788,223
-South America_Pre-Greatest Generation,-0.03257988521487154,2812
-Middle Africa_Silent Generation,-0.02906371950459275,170
+South-eastern Asia_Generation Z,-5.150508026467138,881
+South-eastern Asia_Millennials,-3.7890994605781256,2437
+South-eastern Asia_Generation X,-2.697033922706083,5279
+Southern Asia_Generation X,-1.937674831452448,1598
+Southern Asia_Millennials,-1.85293360460777,292
+Western Africa_Millennials,-1.578496757295608,119
+South-eastern Asia_Baby Boomers,-1.5371526515936158,3355
+South America_Generation X,-1.5326827857992051,3359
+Southern Asia_Baby Boomers,-1.3258042804293757,2791
+Central Asia_Generation X,-1.3189855734927782,154
+South America_Millennials,-1.3034963847680376,1063
+South America_Baby Boomers,-0.9318117417961677,4294
+Western Africa_Generation X,-0.8666891540182442,571
+Western Asia_Millennials,-0.7997454595309114,329
+Northern Europe_Generation Z,-0.6695015191765682,150
+Western Asia_Generation X,-0.6690043258885855,1396
+Central Asia_Baby Boomers,-0.6212899402196557,321
+Northern Africa_Generation X,-0.6149674745625658,204
+Southern Asia_Greatest Generation,-0.6144746452258029,897
+Western Asia_Baby Boomers,-0.5705806274830504,2575
+Western Africa_Baby Boomers,-0.5463552706817626,992
+Southern Africa_Generation X,-0.5273711348934836,117
+Northern Africa_Baby Boomers,-0.5157035903057988,647
+Southern Europe_Millennials,-0.5136314249515259,1147
+Middle Africa_Baby Boomers,-0.46008184133130964,188
+Central America_Millennials,-0.4450805464328141,261
+South-eastern Asia_Silent Generation,-0.41805631011995165,706
+Southern Asia_Silent Generation,-0.3883070546280175,1390
+South-eastern Asia_Greatest Generation,-0.31878129562962787,519
+Eastern Africa_Generation X,-0.3152625151152275,230
+Southern Europe_Generation X,-0.3086728240033155,4315
+Central America_Greatest Generation,-0.30625265322841566,372
+Eastern Asia_Baby Boomers,-0.25834804747146034,3479
+Eastern Europe_Baby Boomers,-0.1655171302907811,8483
+Central Asia_Silent Generation,-0.1632148593024711,117
+Central America_Silent Generation,-0.1588565544337517,601
+Eastern Europe_Millennials,-0.15041751459470495,1329
+Eastern Asia_Generation X,-0.1490642733141584,1442
+South America_Greatest Generation,-0.12799499605656445,1674
+Eastern Africa_Baby Boomers,-0.09211896602812443,278
+Others_Pre-Greatest Generation,-0.07935095248366245,969
+Caribbean_Baby Boomers,-0.04948041217208166,167
+Eastern Europe_Generation X,-0.04265244743436206,4658
+South America_Silent Generation,-0.03681576028914662,2172
+Western Europe_Generation Z,-0.03460556343098428,223
+South America_Pre-Greatest Generation,-0.032450991374173156,2812
+Middle Africa_Silent Generation,-0.02900188082853987,170
 Southern Africa_Baby Boomers,0.0,256
 Australia and New Zealand_Millennials,0.0,121
 Others_Generation X,0.0,266
@@ -65,41 +65,41 @@ Eastern Europe_Silent Generation,0.0,4591
 Southern Europe_Baby Boomers,0.0,7041
 Eastern Asia_Pre-Greatest Generation,0.0,1855
 Eastern Asia_Millennials,0.0,365
-Western Asia_Silent Generation,0.037889176646107865,1188
-Northern Africa_Silent Generation,0.08943051440348103,463
-Eastern Europe_Greatest Generation,0.14440914680373326,4195
-Northern Africa_Pre-Greatest Generation,0.16104275740739735,201
-Western Europe_Millennials,0.1665802993052892,2029
-Northern Europe_Millennials,0.20619926042308037,1170
-Others_Greatest Generation,0.21885154874148194,481
-Northern Africa_Greatest Generation,0.234685586447904,322
-Central America_Generation X,0.2783848468714973,1228
-Southern Europe_Silent Generation,0.28198551385779863,4969
-Central America_Baby Boomers,0.3775176741990663,1943
-Western Asia_Pre-Greatest Generation,0.4021064031129751,931
-Eastern Asia_Silent Generation,0.40489174542782064,1901
-Northern America_Millennials,0.4226142312990956,1018
-Southern Europe_Greatest Generation,0.4383032930321586,3990
-Western Europe_Generation X,0.4669777242828909,5735
-Eastern Asia_Greatest Generation,0.5527457747176452,1382
-Eastern Europe_Pre-Greatest Generation,0.6082002189788115,7960
-Northern America_Generation X,0.6103900726002637,3383
-Northern Europe_Baby Boomers,0.6561563338908424,4520
-Northern Europe_Generation X,0.6585683236855553,2790
-Northern America_Pre-Greatest Generation,0.6607720835400424,17465
-Australia and New Zealand_Greatest Generation,0.712645677300382,726
-Western Europe_Baby Boomers,0.7432082508327797,11299
-Northern Europe_Pre-Greatest Generation,0.7582251594266869,11238
-Northern Europe_Silent Generation,0.7742905047863604,3621
-Northern America_Greatest Generation,0.7767754616606826,5043
-Northern America_Baby Boomers,0.8163017723883745,8750
-Australia and New Zealand_Pre-Greatest Generation,0.8471404236077416,1733
-Western Asia_Greatest Generation,0.8878859949528691,731
-Western Europe_Silent Generation,0.9066123263531142,9727
-Northern America_Silent Generation,0.9380736493254491,7796
-Southern Europe_Pre-Greatest Generation,0.966870509275193,9587
-Western Europe_Greatest Generation,1.0207788450770396,10697
-Western Europe_Pre-Greatest Generation,1.0803669359754633,25596
-Northern Europe_Greatest Generation,1.2850978794973134,2734
-Australia and New Zealand_Generation X,1.3912488526260327,548
-Australia and New Zealand_Silent Generation,1.5011649254245742,834
+Western Asia_Silent Generation,0.03795098178839842,1188
+Northern Africa_Silent Generation,0.08955940824419469,463
+Eastern Europe_Greatest Generation,0.14453804481889407,4195
+Northern Africa_Pre-Greatest Generation,0.161171620705249,201
+Western Europe_Millennials,0.16664213819997675,2029
+Northern Europe_Millennials,0.20632815426379877,1170
+Others_Greatest Generation,0.2189133834412526,481
+Northern Africa_Greatest Generation,0.23474742541160715,322
+Central America_Generation X,0.2784466858775837,1228
+Southern Europe_Silent Generation,0.28211437627665525,4969
+Central America_Baby Boomers,0.3776465359810004,1943
+Western Asia_Pre-Greatest Generation,0.4021682378127722,931
+Eastern Asia_Silent Generation,0.4050206436893789,1901
+Northern America_Millennials,0.4226760704347593,1018
+Southern Europe_Greatest Generation,0.4383651277319469,3990
+Western Europe_Generation X,0.46710661812363136,5735
+Eastern Asia_Greatest Generation,0.5528746685583268,1382
+Eastern Europe_Pre-Greatest Generation,0.6083291128197331,7960
+Northern America_Generation X,0.6105189710238826,3383
+Northern Europe_Baby Boomers,0.6562852323471401,4520
+Northern Europe_Generation X,0.6586972175262901,2790
+Northern America_Pre-Greatest Generation,0.6608339182399698,17465
+Australia and New Zealand_Greatest Generation,0.7127745418665441,726
+Western Europe_Baby Boomers,0.7433371105961429,11299
+Northern Europe_Pre-Greatest Generation,0.7583540532674068,11238
+Northern Europe_Silent Generation,0.7743523394861141,3621
+Northern America_Greatest Generation,0.7769043555011412,5043
+Northern America_Baby Boomers,0.8163636118076939,8750
+Australia and New Zealand_Pre-Greatest Generation,0.8472693174484595,1733
+Western Asia_Greatest Generation,0.8879478296526652,731
+Western Europe_Silent Generation,0.9066741610530845,9727
+Northern America_Silent Generation,0.9381354491061934,7796
+Southern Europe_Pre-Greatest Generation,0.9669323439751367,9587
+Western Europe_Greatest Generation,1.0208406797764489,10697
+Western Europe_Pre-Greatest Generation,1.0804287755371118,25596
+Northern Europe_Greatest Generation,1.2852267372395072,2734
+Australia and New Zealand_Generation X,1.3913777514575114,548
+Australia and New Zealand_Silent Generation,1.501293782601421,834
